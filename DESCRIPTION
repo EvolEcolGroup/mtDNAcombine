@@ -1,0 +1,51 @@
+Package: mtDNAcombine
+Type: Package
+Title: R package to download, combine, and curate sequences from public databases
+Version: 1.0.0
+Authors@R: c(
+  person("Eleanor","Miller",email = "miller.eleanor.f@gmail.com", role = c("aut", "cre")),
+  person("Andrea", "Manica", role= c("ctb")))
+Maintainer: The package maintainer <miller.eleanor.f@gmail.com>
+Description: This package is desingned to download, combine, and curate genetic 
+    sequence data from publicly accessible databases such as GenBank.  It is 
+    aimed at preparing mtDNA data for Bayesian Skyline Plot analysis in BEAST2.
+License: GPL (>=2)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.0.0
+Imports:
+  msa,
+  mauricer,
+  phytools,
+  ips,
+  ape,
+  plyr,
+  pegas,
+  beastier,
+  beautier,
+  tracerer,
+  babette,
+  stringr,
+  XML,
+  curl,
+  reshape2,
+  MASS,
+  seqinr,
+  BiocGenerics,
+  Biostrings,
+  grDevices,
+  graphics,
+  utils
+Suggests: testthat,
+  knitr,
+  rmarkdown
+VignetteBuilder: knitr
+Remotes: bioc::msa,
+  bioc::BiocGenerics,
+  bioc::Biostrings,
+  ropensci/mauricer,
+  ropensci/tracerer,
+  ropensci/beautier,
+  ropensci/beastier,
+  ropensci/babette
+  

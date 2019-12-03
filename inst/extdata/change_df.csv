@@ -1,0 +1,2 @@
+sci_nam,time_of_dec,popsize_at_dec,dec_mag,time_of_inc,popsize_at_inc,inc_mag,initial_popsize,present_popsize,overall_popsize_change,history_depth,file_path,gene
+Calidris maritima,NA,NA,NA,6787.493467,216726.6813,141698.0844,216726.6813,358424.7657,141698.0844,6787.493467,ND2_Calidris_maritima_TracerOut.txt,ND2

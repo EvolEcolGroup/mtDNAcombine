@@ -1,0 +1,29 @@
+cytb,COI,COII,COIII,ND1,ND2,ND3,ND4,ND5,ND6,ATP8,ATP6,rRNA16s,rRNA12s,CR,CR1,CR2,DLoop
+cytbB,"cytochrome oxidase, subunit 1","cytochrome oxidase, subunit 2","cytochrome oxidase, subunit 3",NADH subunit I,NADH dehydrognase subunit II,NADH subunit III,NADh dehydrogenase subunit IV,NADH subunit V,NADH deyhdrogenase subunit 6,atp8,atp6,16S ribosomal RNA,12S ribosomal RNA,Region: Control region,Control region CRI,Control region CRII,D-loop region
+cytbl,cytochrome oxidiase subunit I,cytochrome oxidiase subunit II,cytochrome oxidiase subunit III,NADH subunit 1,NND2,NADH subunit 3,NADH subunit IV,NADH subunit 5,NADH subunit VI,adenosine triphosphatase 8,adenosine triphosphatase 6,16SrRNA,12SrRNA,"Control region, left-domain",Control region; CR1,Control region; CR2,Control region (D-loop)
+mitochondrial cytb,cytochrome c oxidase I,cytochrome c oxidase II,cytochrome c oxidase III,NADH 1,NADH dehdyrogenase subunit 2,NADH 3,NADH subunit 4,NADH 5,NADH subunit 6,adenine triphosphatase subunit 8,adenine triphosphatase subunit 6,16s ribosomal RNA,12s ribosomal RNA,"Control region, right-domain",Control region; Control region I,control region; CR2,D loop 2
+cytochrome B,cytochrome c oxidase 1,cytochrome c oxidase 2,cytochrome c oxidase 3,NADH-subunit 1,NADH dehydorgenase subunit 2,NADH-subunit 3,NADH 4,NADH-subunit 5,NADH 6,F0-ATP synthase subunit 8,F0-ATP synthase subunit 6,,,mitochondrial control region,Control region; domain I,control region 2,D loop 1
+CytB,CoxI,CoxII,CoxIII,nad1,NADH dehydrogenate subunit 2,nad3,NADH-subunit 4,nad5,NADH-subunit 6,ATP synthase subunit 8,ATP synthase subunit 6,,,control region,control region; CR1,Control region 2,
+Cyt b,Cox1,Cox2,Cox3,NADH dehydrogenase 1,NADH subunit II,NADH dehyrogenase subunit 3,nad4,NADH dehydrogenase 5,nad6,ATP synthase F0 subunit 8,ATP synthase F0 subunit 6,,,Control region; domains I and II,control region 1,control region II,
+cyt b,COX-1,COX-2,COX-3,nd1,NADH subunit 2,NADH3,NADH dehydrogenase 4,nd5,NADH dehydrogenase 6,ATPase8,ATPase6,,,Control region domains I and II,Control region 1,control region II,
+CYTB,cox1,cox2,cox3,NADH1,NADH 2,NADH dehydrogenase 3,nd4,NADH5,nd6,atpase8,atpase6,,,Control region domain III,Control region; domain I,CR2,
+cytocrome b,coxI,coxII,coxIII,NADH dehydrogenase subunit 1,NADH-subunit 2,nd3,NADH4,NADH dehydrogenase subunit 5,NADH6,ATPase subunit 8,ATPase subunit 6,,,Control region II/III,Control region domain 1,"Control region, copy 2",
+cytB,cox 1,cox 2,cox 3,NADH dehydrogenase subunit I,nad2,NADH dehydrogenase subunit 3,NADH dehydrogenase subunit 4,NADH dehydrogenase subunit V,NADH dehydrogenase subunit 6,ATP synthase 8,ATP synthase 6,,,Control region; domains II and II,control region I,Region: domain II,
+Cytb,cox I,cox II,cox III,NAD1,NADH dehydrogenase 2,NADH dehydrogenase subunit III,NADH dehydrogenase subunit IV,ND1IIII,NADH dehydrogenase subunit VI,ATPase 8,ATPase 6,,,"Control region, domain III",Control region; CR1,,
+Cyt-b,COX1,COX2,COX3,nicotinamide adenine dinucleotide dehydrogenase subunit 1,nd2,ND1II,ND1III,NADH dehydrogenase subumit 5,NADH dehydrogenase subumit 6,ATP synthetase subunit 8,ATP synthetase subunit 6,,,Control region III,"Control region, copy 1",,
+cyt-b,COX 1,COX 2,COX 3,,NADH2,NADH dehydrogenase subumit 3,ND4L,,,ATP syntase subunit 8,ATP syntase subunit 6,,,Control region; domains II and III,Control region; domain 1,,
+cyt-B,COXI,COXII,COXIII,,NADH dehydrogenase subunit 2,,NADH dehydrogenase subumit 4,,,,ATPase synthase 6,,,Control region III,Region: domain I,,
+cytochrome-B,COX I,COX II,COX III,,NADH dehydrogenase subunit II,,nicotinamide adenine dinucleotide dehydrogenase subunit 4L,,,,,,,Control region; CR,,,
+cytochrome b,Cytochrome oxidase subunit I,Co2,Co3,,nicotinamide dehydrogenase subunit 2,,nicotinamide adenine dinucleotide dehydrogenase subunit 4,,,,,,,Region: domain II and domain III,,,
+cytochrome-b,cytochrome oxidase sununit I,CO2,CO3,,ND1I,,,,,,,,,,,,
+Cytochrome b,cytochrome C Oxidase subunit 1,cytochrome oxidase subunit 2,cytochrome oxidase subunit 3,,NAD2,,,,,,,,,,,,
+CYB,cytochome oxidase subunit I,cytochrome oxidase subunit II,cytochrome oxidase subunit III,,NADH dehydrogenase subumit 1,,,,,,,,,,,,
+cytoghrome b|Cytochrome-B,cytochrome oxidase subunit 1,Cytochrome oxidase subunit II,Cytochrome oxidase subunit III,,NADH dehydrogenase subumit 2,,,,,,,,,,,,
+,CO1,cytochrome c oxidase subunit II,cytochrome c oxidase subunit III,,mitochondrial ND2,,,,,,,,,,,,
+,cytochrome oxidase subunit I,cytochrome oxidase II,cytochrome oxidase III,,NADH dehydrogenase subunit2,,,,,,,,,,,,
+,cytochrome c oxidase subunit I,cytochrome-c oxidase subunit II,cytochrome-c oxidase subunit III,,ND2 gene,,,,,,,,,,,,
+,cytochrome oxidase I,cytochrome C oxidase subunit 2,cytochrome C oxidase subunit 3,,,,,,,,,,,,,,
+,cytochrome C oxidase subunit 1,cytochrome c oxidase subunit 2,cytochrome c oxidase subunit 3,,,,,,,,,,,,,,
+,cytochrome c oxidase subunit 1,Cytochrome oxidase subunit II,Cytochrome oxidase subunit III,,,,,,,,,,,,,,
+,Cytochrome c oxidase subunit I,cytochrome oxidase sununit II,CO III,,,,,,,,,,,,,,
+,CO I,CO II,,,,,,,,,,,,,,,

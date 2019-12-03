@@ -1,0 +1,97 @@
+---
+# Configuration file for mtDNAcombine and CircleCI
+#
+# It uses the docker built by https://github.com/EvolEcolGroup/EEG_Docker and available on docker.com:
+# https://cloud.docker.com/repository/docker/manicaeeg/eeg-mt-dna-combine/general
+
+version: 2.1
+
+###################################
+executors:
+   use-docker-eeg-mt-dna-combine:
+    docker:
+      - image: manicaeeg/eeg-mt-dna-combine:latest
+    environment:
+      - R_LIBS:  /root/project/ci_dependencies          # Use this folder to cache r-packages
+      - R_LIBS_USER: /root/project/ci_dependencies # Use this folder to cache r-packages
+
+###################################
+refernces:
+  create_dir_cache_key: &create_dir_cache_key
+    run:
+      name: Create md5sum for the directory that cache the devtools r-packages
+      command: |
+        mkdir -p ci_dependencies
+        ls -laR ci_dependencies > deps_checksum
+
+  save_cache_devtools_pkg_dir: &save_cache_devtools_pkg_dir # Save the cache for r packages
+    save_cache:
+      key: cache-v1-{{ .Branch }}-{{ checksum "deps_checksum" }}
+      paths:
+        - /root/project/ci_dependencies
+
+  restore_cache_devtools_pkg_dir: &restore_cache_devtools_pkg_dir
+    restore_cache:
+      keys:
+        - cache-v1-{{ .Branch }}-{{ checksum "deps_checksum" }} # change version number to manually flush the cache
+        - cache-v1-{{ .Branch }}  # Fallback if previous cache is not found
+        - cache-v1
+
+
+###################################
+jobs:
+  mtDNAcombine-ubuntu:
+    executor: use-docker-eeg-mt-dna-combine
+    steps:
+      - checkout
+      - *create_dir_cache_key
+      - *restore_cache_devtools_pkg_dir
+
+
+      - run:
+          command: |
+                sudo apt-get update -qq && \
+                sudo apt-get install -y -qq --no-install-recommends \
+                libmagick++-dev \
+                libudunits2-dev \
+                libgdal-dev \
+                qpdf
+
+
+
+#      - run: true | Rscript -e 'devtools::install_deps(upgrade="always", quiet = TRUE)'
+      - run: true | Rscript -e 'devtools::install_deps(upgrade="always")'
+
+
+      - *create_dir_cache_key
+      - *save_cache_devtools_pkg_dir
+
+      - run: Rscript -e 'devtools::load_all()'
+#      - run: Rscript -e 'devtools::install_github("EvolEcolGroup/mtDNAcombine_private")'
+
+      - *create_dir_cache_key
+      - *save_cache_devtools_pkg_dir
+
+      - run:
+          name: Build package
+          command: R CMD build
+
+      - run:
+          name: Check package
+          command: Rscript -e 'devtools::check()'
+
+      - *create_dir_cache_key
+      - *save_cache_devtools_pkg_dir
+      - run: rm deps_checksum  # Delete the temp file with the dir checksum
+
+###################################
+workflows:
+  version: 2.1
+  mtDNAcombine-ci:
+    jobs:
+      - mtDNAcombine-ubuntu
+      #     filters:  # execute on all open PR (but not on ignored branches)
+      #       branches:
+      #         ignore:
+...
+

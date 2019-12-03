@@ -1,0 +1,72 @@
+```{r info_on_this_file, eval=FALSE,echo=FALSE,message=FALSE}
+
+##this file is used to update the README.md from the package vignette
+
+##(credit for the idea and implementation in this packages goes to Thibuat Jombart)
+
+##to update README.md, simply run:
+
+##knitr::knit("README.Rmd")
+
+```
+
+
+
+
+
+```{r compileVignette, results="hide",echo=FALSE,message=FALSE}
+
+##delete old figures
+
+file.remove(dir("vignettes/figure",full.names = T))
+
+## recompile vignette
+
+setwd("vignettes")
+
+knitr::knit("mtDNAcombine.Rmd")
+
+setwd("../")
+
+```
+
+
+
+```{r include, results="asis", echo=FALSE, warning=FALSE}
+
+## read md of the vignette
+
+mdInput <- readLines("vignettes/mtDNAcombine.md")
+
+
+
+## remove vignette-specific headers
+
+toRemove <- 1:12
+
+mdInput <- mdInput[-toRemove]
+
+
+## add badges 
+
+circleci_img <- '[![CircleCI](https://img.shields.io/circleci/build/github/EvolEcolGroup/mtDNAcombine_private/master?label=build%20%28master%29&logo=circleci&style=plastic&token=dbf19e075582baa257024cdbe7a75edf96f93517)](https://circleci.com/gh/EvolEcolGroup/mtDNAcombine_private/tree/master)'
+## Add badge for Circleci 
+mdInput[2] <- paste(circleci_img)
+
+
+## restore right path for figures
+
+## pick wd path depending on operating system
+## LINUX
+foo <- '/home/eleanor/'
+## Windows
+#foo <- 'C:/Users/mille/'
+
+mdInput <- gsub(paste0(foo,"Documents/Projects/mtDNAcombine_private/inst/extdata/mtDNAcombine_flow.jpg"), "./inst/extdata/mtDNAcombine_flow.jpg", mdInput)
+mdInput <- gsub(paste0(foo,"Documents/Projects/mtDNAcombine_private/inst/extdata/hist_Pinicola_enucleator.png"), "./inst/extdata/hist_Pinicola_enucleator.png", mdInput)
+mdInput <- gsub(paste0(foo,"Documents/Projects/mtDNAcombine_private/inst/extdata/hist_Calidris_maritima.png"), "./inst/extdata/hist_Calidris_maritima.png", mdInput)
+mdInput <- gsub(paste0(foo,"Documents/Projects/mtDNAcombine_private/inst/extdata/Net_Picoides_tridactylus.png"), "./inst/extdata/Net_Picoides_tridactylus.png", mdInput)
+mdInput <- gsub("figure/plotting median-1.png", "./inst/extdata/plotting_median-1.png", mdInput)
+
+cat(paste(mdInput,collapse="\n"))
+```
