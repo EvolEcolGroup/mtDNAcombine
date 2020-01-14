@@ -284,7 +284,7 @@ align_and_summarise(alignment_files = alignment_files,
 ```
 
 
-## Diagnositc plots
+## Diagnostic plots
 
 
 ### Histogram
