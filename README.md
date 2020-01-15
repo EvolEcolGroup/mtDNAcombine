@@ -9,7 +9,7 @@
 
 
 ---
-[![CircleCI](https://img.shields.io/circleci/build/github/EvolEcolGroup/mtDNAcombine_private/master?label=build%20%28master%29&logo=circleci&style=plastic&token=dbf19e075582baa257024cdbe7a75edf96f93517)](https://circleci.com/gh/EvolEcolGroup/mtDNAcombine_private/tree/master)
+[![CircleCI](https://img.shields.io/circleci/build/github/EvolEcolGroup/mtDNAcombine/master?label=build%20%28master%29&logo=circleci&style=plastic&token=dbf19e075582baa257024cdbe7a75edf96f93517)](https://circleci.com/gh/EvolEcolGroup/mtDNAcombine/tree/master)
 
 
 
@@ -22,7 +22,7 @@ This vignette describes the `mtDNAcombine` package, an `R` library designed to s
 
 Below is a flow diagram of the processes and steps in the `mtDNAcombine` pipeline.
 
-![plot of chunk unnamed-chunk-1](./inst/extdata/mtDNAcombine_flow.jpg)
+![plot of chunk unnamed-chunk-1](/home/eleanor/Documents/Projects/mtDNAcombine/inst/extdata/mtDNAcombine_flow.jpg)
 
 
 If you are running a LINUX operating system you will need to have the following system dependancies installed before attempting to install `mtDNAcombine`. In Ubuntu 18.04, run the below code in your bash shell: 
@@ -293,11 +293,11 @@ Depending on the quality/consistency of the raw sequence data, this step can res
 
 The impact of the alignment/trimming process is summarised in a diagnostic histogram plot, offering a visual way to identify cases where it would be advantageous to look at the raw data in more detail. The histogram bars show frequency and sequence length of raw, unaligned data and the red line shows the length of the aligned sequences after cropping to the longest section common to all samples. 
 
-![plot of chunk unnamed-chunk-9](./inst/extdata/hist_Pinicola_enucleator.png)
+![plot of chunk unnamed-chunk-9](/home/eleanor/Documents/Projects/mtDNAcombine/inst/extdata/hist_Pinicola_enucleator.png)
 
 Here we see that, in the *Pinicola enucleator* dataset, the majority of samples have been heavily cropped due to the inclusion of one, shorter, sequence. In this instance, it may be worth reviewing the decision to include the single, much shorter, 450 base pair sample. 
 
-![plot of chunk unnamed-chunk-10](./inst/extdata/hist_Calidris_maritima.png)
+![plot of chunk unnamed-chunk-10](/home/eleanor/Documents/Projects/mtDNAcombine/inst/extdata/hist_Calidris_maritima.png)
 
 Alternatively, the *Calidris maritima* histogram shows that, whilst a few longer sequences have been trimmed by a couple hundered base bairs, the majority of the sequences are being used at nearly full length. This alignment and crop seems good. 
 
@@ -308,7 +308,7 @@ Alternatively, the *Calidris maritima* histogram shows that, whilst a few longer
 The `align_and_summarise` function also produces a haplotype network diagram which helps visuliase the level of structure in a population/sample set.  
 
 
-![plot of chunk unnamed-chunk-11](./inst/extdata/Net_Picoides_tridactylus.png)
+![plot of chunk unnamed-chunk-11](/home/eleanor/Documents/Projects/mtDNAcombine/inst/extdata/Net_Picoides_tridactylus.png)
 Here is an example of a network diagram for data from *Picoides tridactylus*. Plots like these help to quickly flag if there are any extreme outliers in the dataset or if the population is heavily structured. 
 
 
