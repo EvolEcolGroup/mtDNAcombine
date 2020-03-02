@@ -22,7 +22,7 @@ This vignette describes the `mtDNAcombine` package, an `R` library designed to s
 
 Below is a flow diagram of the processes and steps in the `mtDNAcombine` pipeline.
 
-![plot of chunk unnamed-chunk-1](./inst/extdata/mtDNAcombine_flow.jpg)
+![plot of chunk unnamed-chunk-5](./inst/extdata/mtDNAcombine_flow.jpg)
 
 
 If you are running a LINUX operating system you will need to have the following system dependencies installed before attempting to install `mtDNAcombine`. In Ubuntu 18.04, run the below code in your bash shell: 
@@ -77,20 +77,53 @@ The output produced by GenBank is likely to be a '.seq' file, or, if using a lis
 
 For this vignette we will work with a fixed set of 335 accessions in the file "vignette_accessions.csv" from the package. This file can be accessed from the extdata directory through the 'system.file' command (see below for an example of its usage).
 
+```r
+path_to_file <- system.file("extdata","vignette_accessions.csv", 
+                            package="mtDNAcombine")
+
+knitr::kable(head(read.csv(path_to_file, header = F)))
+```
+
+
+
+|V1         |
+|:----------|
+|AY681627.1 |
+|AY681608.1 |
+|AY681620.1 |
+|AY681514.1 |
+|AY681560.1 |
+|AY681501.1 |
 
 
 ## An initial sweep of available information 
 
 
-Firstly, we build a dataframe that contains information on all the genes / sequences associated with each accession numbers to explore what information is available.
+Firstly, we build a dataframe that contains information on all the genes / sequences associated with each accession number to explore what information is available.
+
+A quick example using the first five accession numbers from `vignette_accessions.csv` would look like this.
 
 ```r
-path_to_file <- system.file("extdata","vignette_accessions.csv", 
+path_to_file <- system.file("extdata","min_examp_accno.csv", 
                             package="mtDNAcombine")
 GB_data <- build_genbank_df(accession_file_name = path_to_file)
+
+head(GB_data, n=4)
 ```
 
+```
+##          sci_nam                     gene_nam position_start position_end accession_version create_date download_date
+## 1 Motacilla alba NADH dehydrogenase subunit 2              1         1041        AY681627.1 09-JUL-2005    2020-03-02
+## 2 Motacilla alba                          ND2              1         1041        AY681627.1 09-JUL-2005    2020-03-02
+## 3 Motacilla alba NADH dehydrogenase subunit 2              1         1041        AY681608.1 09-JUL-2005    2020-03-02
+## 4 Motacilla alba                          ND2              1         1041        AY681608.1 09-JUL-2005    2020-03-02
+```
 
+To collect all the information available for the accessions in `vignette_accessions.csv` takes a little longer however, so, for the sake of speed and efficency, we will load a pre-created output from this function.
+
+```r
+GB_data <- read.csv(system.file("extdata","GB_data.csv", package="mtDNAcombine"))
+```
 
 Within GenBank, the same single sequence is often associated to multiple features (e.g. 'source', 'gene', and 'CDS'). This is visible on the website, where the same sequence is found under multiple 'Feature' tabs. This means that the same sequence will also be grabbed multiple times when scraping data from GenBank, hence GB_data has 860 observations when it was given 335 accession numbers to search.  
 
@@ -293,11 +326,11 @@ Depending on the quality/consistency of the raw sequence data, this step can res
 
 The impact of the alignment/trimming process is summarised in a diagnostic histogram plot, offering a visual way to identify cases where it would be advantageous to look at the raw data in more detail. The histogram bars show frequency and sequence length of raw, unaligned data and the red line shows the length of the aligned sequences after cropping to the longest section common to all samples. 
 
-![plot of chunk unnamed-chunk-9](./inst/extdata/hist_Pinicola_enucleator.png)
+![plot of chunk unnamed-chunk-14](./inst/extdata/hist_Pinicola_enucleator.png)
 
 Here we see that, in the *Pinicola enucleator* dataset, the majority of samples have been heavily cropped due to the inclusion of one, shorter, sequence. In this instance, it may be worth reviewing the decision to include the single, much shorter, 450 base pair sample. 
 
-![plot of chunk unnamed-chunk-10](./inst/extdata/hist_Calidris_maritima.png)
+![plot of chunk unnamed-chunk-15](./inst/extdata/hist_Calidris_maritima.png)
 
 Alternatively, the *Calidris maritima* histogram shows that, whilst a few longer sequences have been trimmed by a couple hundred base pairs, the majority of the sequences are being used at nearly full length. This alignment and crop seems good. 
 
@@ -308,7 +341,7 @@ Alternatively, the *Calidris maritima* histogram shows that, whilst a few longer
 The `align_and_summarise` function also produces a haplotype network diagram which helps visualise the level of structure in a population/sample set.  
 
 
-![plot of chunk unnamed-chunk-11](./inst/extdata/Net_Picoides_tridactylus.png)
+![plot of chunk unnamed-chunk-16](./inst/extdata/Net_Picoides_tridactylus.png)
 Here is an example of a network diagram for data from *Picoides tridactylus*. Plots like these help to quickly flag if there are any extreme outliers in the dataset or if the population is heavily structured. 
 
 
