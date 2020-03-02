@@ -1,4 +1,4 @@
-#' Identifies orignial accession number of given haplotype index number
+#' Identifies original accession number of given haplotype index number
 #'
 #' \code{outliers_dropped}
 #'
@@ -7,12 +7,12 @@
 #' considered to be an outlier.  Haplotype networks are plotted and outlier
 #' sequences are dropped from fasta files.
 #'
-#' Function identifies populations that have samples seperated by a number of
+#' Function identifies populations that have samples separated by a number of
 #' mutations greater than a user defined value for being considered an outlier.
-#' Outlier sequences are dropped from fasta files, haplotype networks repolotted
+#' Outlier sequences are dropped from fasta files, haplotype networks replotted
 #' and new files written out with prefix `new_`.
 #'
-#' @param max_mutations user defined value for number of mutatiosn allowed before
+#' @param max_mutations user defined value for number of mutations allowed before
 #' haplotype/sample considered an outlier
 #' @param info_df expected to be info_df or structured as info_df built from
 #' earlier functions. Either read in file or use object of correct format.

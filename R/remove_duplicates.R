@@ -3,10 +3,10 @@
 #' \code{remove_duplicates}
 #'
 #' Any instances of one gene being recorded multiple times for a single accession
-#' number are found and reduced to a unique occourance.
+#' number are found and reduced to a unique occurance.
 #'
 #' Due to the structure of NCBI xml tree, after \code{standardise_gene_names} has
-#' been used, there are likely to be multiple occourances of one gene associated
+#' been used, there are likely to be multiple occurances of one gene associated
 #' with a single accession number, these need to be removed.
 #'
 #' @param df_to_update data frame with a column name `$gene_name`. Expected to be

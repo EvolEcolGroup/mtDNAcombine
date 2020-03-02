@@ -8,7 +8,7 @@
 #'
 #' Sequence data can be uploaded to GenBank with scientific names that may be
 #' non-standard/of different taxonomic rank, filtering based on species name will
-#' therefore not work unless names are standadised. This function takes any
+#' therefore not work unless names are standardised. This function takes any
 #' instances of names longer than 2 words, outputs the result as an object and a
 #' .csv which can then be edited by the user.
 #'

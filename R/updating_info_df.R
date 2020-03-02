@@ -1,4 +1,4 @@
-#' Mutiplies sequence data up to sampled frequency, aligns and summarises data
+#' Multiplies sequence data up to sampled frequency, aligns and summarises data
 #'
 #' \code{updating_info_df}
 #'
@@ -28,7 +28,7 @@ updating_info_df <- function(original_df, new_df) {
         if (inherits(original_df, "data.frame")) {
             df_in <- original_df
         } else {
-            stop("original_df needs to be an exisiting
+            stop("original_df needs to be an existing
                  object or full .csv file name")
         }
     }

@@ -22,7 +22,7 @@ knitr::opts_chunk$set(echo = TRUE, cache = FALSE)
 
 This vignette describes the `mtDNAcombine` package, an `R` library designed to support comparative analyses of Bayesian Skyline Plot (BSP) population histories based on mtDNA sequence data from multiple studies. 
 
-`mtDNAcombine` includes functions to retrieve, align, summarise, and maniplulate seuquences downloaded from GenBank, as well as generating basic BEAST2 input files.  There are also accessory functions to analyse and plot the outputs of BEAST2 runs.
+`mtDNAcombine` includes functions to retrieve, align, summarise, and maniplulate sequences downloaded from GenBank, as well as generating basic BEAST2 input files.  There are also accessory functions to analyse and plot the outputs of BEAST2 runs.
 
 Below is a flow diagram of the processes and steps in the `mtDNAcombine` pipeline.
 
@@ -32,7 +32,7 @@ knitr::include_graphics(system.file("extdata", "/mtDNAcombine_flow.jpg",
 ```
 
 
-If you are running a LINUX operating system you will need to have the following system dependancies installed before attempting to install `mtDNAcombine`. In Ubuntu 18.04, run the below code in your bash shell: 
+If you are running a LINUX operating system you will need to have the following system dependencies installed before attempting to install `mtDNAcombine`. In Ubuntu 18.04, run the below code in your bash shell: 
 
 ```{r eval=FALSE}
 sudo apt-get update 
@@ -82,7 +82,7 @@ Then click the 'Send to:' drop down, check the 'Complete Record' radio button, t
 The output produced by GenBank is likely to be a '.seq' file, or, if using a list of accessions gathered in a different way (e.g. compiled by hand), a list of accessions saved in a .csv format is okay as long as there are no headers or row names. 
 
 
-For this vignette we will work with a fixed set of 335 accessions in the file "vignette_accessions.csv" from the pacakge. This file can be accessed from the extdata directory through the 'system.file' command (see below for an example of its usage).
+For this vignette we will work with a fixed set of 335 accessions in the file "vignette_accessions.csv" from the package. This file can be accessed from the extdata directory through the 'system.file' command (see below for an example of its usage).
 
 
 
@@ -104,7 +104,7 @@ GB_data <- read.csv(system.file("extdata","GB_data.csv", package="mtDNAcombine")
 
 Within GenBank, the same single sequence is often associated to multiple features (e.g. 'source', 'gene', and 'CDS'). This is visible on the website, where the same sequence is found under multiple 'Feature' tabs. This means that the same sequence will also be grabbed multiple times when scraping data from GenBank, hence GB_data has 860 observations when it was given 335 accession numbers to search.  
 
-It should also be noted at this stage that `GB_data` only has data for 333 unique accession numbers, two less that the number included in the `vignette_accessions.csv`.  A key feature of the `build_genbank_df` function is that it will silently remove any RefSeq accessions included in the list of accession numbers it is given, if they are idenitified as duplicates.  The RefSeq collection aims to provide a collated and stable set of standard reference sequences for studies from all disciplines to build on.  Drawn from genomes already available in GenBank and other community databases, they may duplicate existing accessions and, for our purposes, need to be removed.  The `load_accessions_list` function, called within `build_genbank_df` silently removes these accesions having first checked that the 'original' accessions they duplicate are already included in the dataset. 
+It should also be noted at this stage that `GB_data` only has data for 333 unique accession numbers, two less that the number included in the `vignette_accessions.csv`.  A key feature of the `build_genbank_df` function is that it will silently remove any RefSeq accessions included in the list of accession numbers it is given, if they are identified as duplicates.  The RefSeq collection aims to provide a collated and stable set of standard reference sequences for studies from all disciplines to build on.  Drawn from genomes already available in GenBank and other community databases, they may duplicate existing accessions and, for our purposes, need to be removed.  The `load_accessions_list` function, called within `build_genbank_df` silently removes these accessions having first checked that the 'original' accessions they duplicate are already included in the dataset. 
 
 
 ## Tidying up raw information 
@@ -112,9 +112,9 @@ It should also be noted at this stage that `GB_data` only has data for 333 uniqu
 
 To clean the dataset for later analysis, we must remove duplicated entries caused by a single sequence being associated with multiple 'Feature' tabs. 
 
-We must also control for the bredth of possible names used to describe a single gene as individual studies/groups/projects upload data to GenBank using a range of possible synonyms, abreviations, and misspellings. The first step is to standadise nomenclture across the dataframe by converting gene names to a user defined set of 'standard' nomenclatures. 
+We must also control for the breadth of possible names used to describe a single gene as individual studies/groups/projects upload data to GenBank using a range of possible synonyms, abbreviations, and misspellings. The first step is to standardise nomenclature across the dataframe by converting gene names to a user defined set of 'standard' nomenclatures. 
 
-By default, the `standardise_gene_names` function loads a file containing alternate abreviations, common misspellings, and other frequent errors for 18 commonly sequenced mitochondrial genes.  The user can upload a custom file by specifying the different file as the second variable in the function: `standardise_gene_names(df_to_update, names_to_replace)`
+By default, the `standardise_gene_names` function loads a file containing alternate abbreviations, common misspellings, and other frequent errors for 18 commonly sequenced mitochondrial genes.  The user can upload a custom file by specifying the different file as the second variable in the function: `standardise_gene_names(df_to_update, names_to_replace)`
  
 
 ```{r clean up gene names in GB_data}
@@ -128,7 +128,7 @@ GB_data <- remove_duplicates(df_to_update = GB_data)
 nrow(GB_data)
 ```
 
-We do not expect the number of accessions we're exploring and number of observations to match at this stage. Indeed, in this example we see that, from the orignal 335 accession numbers in "vignette_accessions.csv", the GB_data data frame now has 500 observations.  This is because the script captures ALL genes associated with each given accession.  Every submission to GenBank recieves a unique accession number but these individual submissions can contain data for anything from a single gene through to whole genome data.  
+We do not expect the number of accessions we're exploring and number of observations to match at this stage. Indeed, in this example we see that, from the original 335 accession numbers in "vignette_accessions.csv", the GB_data data frame now has 500 observations.  This is because the script captures ALL genes associated with each given accession.  Every submission to GenBank receives a unique accession number but these individual submissions can contain data for anything from a single gene through to whole genome data.  
 
 
 
@@ -189,7 +189,7 @@ print(GB_species, row.names=FALSE)
 ## Clean up the species names
 
 
-As stated previously, the amount of freedom in the formating of descriptive information associated with GenBank submissions means that individual submissions can vary the chosen species name, inlcuding using different levels of detail for taxonomic rank. For example, some studies may use subspecies names where others choose not to. Subspecies recognition is frequently debated and sometimes we may want to group together samples with names that aren't an exact match. A 3 word name, not a 2 word scientific name, is a simple pattern to recognise subspecies and we exploit that here. 
+As stated previously, the amount of freedom in the formatting of descriptive information associated with GenBank submissions means that individual submissions can vary the chosen species name, including using different levels of detail for taxonomic rank. For example, some studies may use subspecies names where others choose not to. Subspecies recognition is frequently debated and sometimes we may want to group together samples with names that aren't an exact match. A 3 word name, not a 2 word scientific name, is a simple pattern to recognise subspecies and we exploit that here. 
 
 
 The `check_poss_synyms` function returns a list of scientific names that are longer than 2 words and these names will be outputted as a .csv file; "poss_synyms.csv"
@@ -282,7 +282,7 @@ alignment_files <- list.files(pattern="FOR_ALIGNMENT")
 ```
 
 
-For each species, the sequence data needs to be aligned so that we can capture comparable regions of the genome common to each sample.  This is done within the `align_and_summarise` function using the ClustalW algorithm, removing any columns with blanks or ambiguos calls.
+For each species, the sequence data needs to be aligned so that we can capture comparable regions of the genome common to each sample.  This is done within the `align_and_summarise` function using the ClustalW algorithm, removing any columns with blanks or ambiguous calls.
 
 ```{r align and summarise the sequence data, eval=FALSE}
 align_and_summarise(alignment_files = alignment_files, 
@@ -311,13 +311,13 @@ knitr::include_graphics(system.file("extdata", "/hist_Calidris_maritima.png",
                                      package="mtDNAcombine"))
 ```
 
-Alternatively, the *Calidris maritima* histogram shows that, whilst a few longer sequences have been trimmed by a couple hundered base bairs, the majority of the sequences are being used at nearly full length. This alignment and crop seems good. 
+Alternatively, the *Calidris maritima* histogram shows that, whilst a few longer sequences have been trimmed by a couple hundred base pairs, the majority of the sequences are being used at nearly full length. This alignment and crop seems good. 
 
 
 
 ### Network diagram
 
-The `align_and_summarise` function also produces a haplotype network diagram which helps visuliase the level of structure in a population/sample set.  
+The `align_and_summarise` function also produces a haplotype network diagram which helps visualise the level of structure in a population/sample set.  
 
 
 ```{r echo=FALSE}
@@ -331,7 +331,7 @@ Here is an example of a network diagram for data from *Picoides tridactylus*. Pl
 
 In datasets that include samples from studies which have uploaded a single representative haplotype, instead of creating a new accession for every sample, an aligned sequence output file is not generated.  Instead, the papers associated with the unique haplotypes are listed in a .csv file along with the species name; the file is is written out as "More_info_df.csv". 
 
-For each of the populations recorded in "More_info_df.csv", the `align_and_summarise` function also creates a file containing each accession number and a frequency column.  These files all have the regular pattern "MAGNIFY"" in the file name.  Orignal published papers must be tracked down to confirm details of sampling frequency, new values can then be recorded in the "freq" column.  Once updated the file needs to be saved in the same format. In cases where sampling frequency data is not available samples must be excluded.
+For each of the populations recorded in "More_info_df.csv", the `align_and_summarise` function also creates a file containing each accession number and a frequency column.  These files all have the regular pattern "MAGNIFY"" in the file name.  Original published papers must be tracked down to confirm details of sampling frequency, new values can then be recorded in the "freq" column.  Once updated the file needs to be saved in the same format. In cases where sampling frequency data is not available samples must be excluded.
 
 
 
@@ -339,7 +339,7 @@ In this vignette-dataset accessions for *Calidris maritima* and *Motacilla alba*
 
 However, exploration of the paper *'A review of the subspecies status of the Icelandic Purple Sandpiper Calidris maritima littoralis'* shows that only unique haplotype sequences were uploaded, rather than a new accession being created for every sample.  Therefore, this dataset needs to be manipulated to get to the original sampled frequency. 
 
-For the puruposes of this vignette we have created an updated "MAGNIFY_Calidris_maritima.csv" file (found in ../extdata/) which already contains the values for the number of times each haplotype was sampled in the population.
+For the purposes of this vignette we have created an updated "MAGNIFY_Calidris_maritima.csv" file (found in ../extdata/) which already contains the values for the number of times each haplotype was sampled in the population.
 
 
 ```{r eval=FALSE}
@@ -351,7 +351,7 @@ mag_df <- magnify_to_sampled_freq(magnify_file_list = magnify_file_list)
 After updating the frequency information the sequences are processed as before - haplotype networks are drawn and .fasta files of the aligned sequence data written out.
 
 
-To keep accurate summary information of the datasets avalible, we now need to combine the original `info_df` and the newly created `mag_df`.  This will give an updated .csv file that contains information on all the data sets we are working with.
+To keep accurate summary information of the datasets available, we now need to combine the original `info_df` and the newly created `mag_df`.  This will give an updated .csv file that contains information on all the data sets we are working with.
 
 ```{r, eval=FALSE}
 info_df <- updating_info_df(original_df = "Info_df.csv", new_df = mag_df)
@@ -364,11 +364,11 @@ info_df <- read.csv(system.file("extdata","Inf_df.csv", package="mtDNAcombine"))
 ## Filtering by rules
 
 
-Data inclusion criteria will vary between studies; there will never be a "one-size-fits-all" set up.  Factors such as species life history, species population history, data availablity, data quality, and even broadly the project aims will influence what data are informative.
+Data inclusion criteria will vary between studies; there will never be a "one-size-fits-all" set up.  Factors such as species life history, species population history, data availability, data quality, and even broadly the project aims will influence what data are informative.
 
-The following filtering steps are based on a series of rules built around avain mtDNA.
+The following filtering steps are based on a series of rules built around avian mtDNA.
 
-Firstly, we want to drop populations with insufficent sequence data. This includes data with insufficent number of bases, low numbers of haplotypes, low sample size.
+Firstly, we want to drop populations with insufficient sequence data. This includes data with insufficient number of bases, low numbers of haplotypes, low sample size.
 
 ```{r}
 info_df <- drop_low_sample_size(info_df = info_df, min_sample = 7)
@@ -398,7 +398,7 @@ what_gets_dropped
 
 At this point:
 
-* all the orignal accessions from the accession list have been processed, 
+* all the original accessions from the accession list have been processed, 
 * raw sequence data from relevant sections of the genome have been captured,
 * sequences have been aligned, 
 * low resolution/low quality data have been rejected, 
@@ -443,15 +443,15 @@ Once BEAST runs are completed we need to explore convergence, ESS values, and ot
 
 Here we present a pipeline for handling outputs from the software package Tracer.
 
-An example BEAST .xml input file can be found in ./extdata/ND2_Carpodacus_erythrinus_BEASTinput.xml . After running this file in BEAST v2 4.6 we used Tracerv1 to format output data for export.  The resulting file is stored as ./extdata/ND2_Carpodacus_erythrinus_TracerOut.txt
+An example BEAST .xml input file can be found in ./extdata/ND2_Carpodacus_erythrinus_BEASTinput.xml . After running this file in BEAST v2 4.6 we used Tracer v1 to format output data for export.  The resulting file is stored as ./extdata/ND2_Carpodacus_erythrinus_TracerOut.txt
 
-We will use this output file to explore simple plotting/visulisation.
+We will use this output file to explore simple plotting/visualisation.
 
 
 ## Plotting
 
 
-A quick look at the structure of the output from Tracer taking only complete rows (NAs can occour at the end of the file but cause issues in later processing).
+A quick look at the structure of the output from Tracer taking only complete rows (NAs can occur at the end of the file but cause issues in later processing).
 
 ```{r}
 data <-read.table(system.file("extdata","ND2_Carpodacus_erythrinus_TracerOut.txt", 

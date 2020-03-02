@@ -6,8 +6,8 @@
 #' Remove populations that, after alignment, only have sequence data of length
 #' less than a threshold value.
 #'
-#' Find and drop from master list populations that have insufficent bp to be
-#' valuable for further downstream analsysis - value set by user.
+#' Find and drop from master list populations that have insufficient bp to be
+#' valuable for further downstream analysis - value set by user.
 #'
 #' @param info_df expected to be data frame of same structure as info_df built
 #' under earlier functions. Expected column names are `spp_name`, `haplo_number`,

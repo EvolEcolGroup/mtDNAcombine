@@ -6,8 +6,8 @@
 #' Remove populations that, after alignment, have only haplotype count of less
 #' than a threshold value.
 #'
-#' Find and drop from master list populations that have insufficent numbers of
-#' haplotypes to be valuable for further downstream analsysis - value set by user.
+#' Find and drop from master list populations that have insufficient numbers of
+#' haplotypes to be valuable for further downstream analysis - value set by user.
 #'
 #' @param info_df expected to be data frame of same structure as info_df built
 #' under earlier functions. Expected column names are `spp_name`, `haplo_number`,

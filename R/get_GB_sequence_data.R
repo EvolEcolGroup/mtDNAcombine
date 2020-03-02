@@ -18,7 +18,7 @@
 #' @param gene gene of interest written as character string.
 #' @param new_names_file csv file of species names that have been flagged as
 #' problematic and the replacement name to be used, needed for
-#' `standadises_spp_name` function
+#' `standardise_spp_name` function
 #'
 #' @export
 

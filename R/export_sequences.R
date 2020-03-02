@@ -2,11 +2,11 @@
 #'
 #' \code{export_sequences}
 #'
-#' Function takes data frame with column `$sci_nam` and splits acording to species
+#' Function takes data frame with column `$sci_nam` and splits according to species
 #' name before exporting sequence data from each species as seperate .fasta files.
 #'
-#' Input data frame is split by species (acording to `$sci_nam` column). For each
-#' species a seperate .fasta file is then written out containing the raw sequence
+#' Input data frame is split by species (according to `$sci_nam` column). For each
+#' species a separate .fasta file is then written out containing the raw sequence
 #' data downloaded from each accession.
 #'
 #' @param data data frame with `$sci_nam`, `$sequence`, and `$accession_version`

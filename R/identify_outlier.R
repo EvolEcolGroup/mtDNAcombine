@@ -1,13 +1,13 @@
-#' Identifies orignial accession number of given haplotype index number
+#' Identifies original accession number of given haplotype index number
 #'
 #' \code{identify_outlier}
 #'
 #' Uses fasta format sequence data, associated list of haplotypes, and index
-#' number of interest to extract orignal acession number of outlying sample.
+#' number of interest to extract original accession number of outlying sample.
 #'
 #' Function uses fasta format sequence data, associated list of haplotypes
 #' created by pegas \code{haplotype}, and a given index number of interest to
-#' extract orignal acession number of outlying sample.
+#' extract original accession number of outlying sample.
 #'
 #' @param haplotypes list of haplotypes created by pegas \code{haplotype}
 #' @param fasta_data fasta format sequence data as read in by \code{read.fas}

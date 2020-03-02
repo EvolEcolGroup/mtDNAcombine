@@ -11,7 +11,7 @@
 #' \code{load_accession_list}, \code{get_sample_details}, and
 #' \code{get_gene_details} to extract information from NCBI website. Output will
 #' need downstream processing to remove duplicated pieces of information and to
-#' clarify any nomlencature issues for example.
+#' clarify any nomlenclature issues for example.
 #'
 #' @param accession_file_name user provided file name which lists accession
 #' numbers. Should be a .csv or .txt file without a header.
