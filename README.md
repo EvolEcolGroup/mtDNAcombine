@@ -22,7 +22,7 @@ This vignette describes the `mtDNAcombine` package, an `R` library designed to s
 
 Below is a flow diagram of the processes and steps in the `mtDNAcombine` pipeline.
 
-![plot of chunk unnamed-chunk-5](./inst/extdata/mtDNAcombine_flow.jpg)
+![plot of chunk unnamed-chunk-2](./inst/extdata/mtDNAcombine_flow.jpg)
 
 
 If you are running a LINUX operating system you will need to have the following system dependencies installed before attempting to install `mtDNAcombine`. In Ubuntu 18.04, run the below code in your bash shell: 
@@ -101,14 +101,14 @@ knitr::kable(head(read.csv(path_to_file, header = F)))
 
 Firstly, we build a dataframe that contains information on all the genes / sequences associated with each accession number to explore what information is available.
 
-A quick example using the first five accession numbers from `vignette_accessions.csv` would look like this.
+A quick example using the first three accession numbers from `vignette_accessions.csv` would look like this.
 
 ```r
 path_to_file <- system.file("extdata","min_examp_accno.csv", 
                             package="mtDNAcombine")
 GB_data <- build_genbank_df(accession_file_name = path_to_file)
 
-head(GB_data, n=4)
+GB_data
 ```
 
 ```
@@ -117,9 +117,11 @@ head(GB_data, n=4)
 ## 2 Motacilla alba                          ND2              1         1041        AY681627.1 09-JUL-2005    2020-03-02
 ## 3 Motacilla alba NADH dehydrogenase subunit 2              1         1041        AY681608.1 09-JUL-2005    2020-03-02
 ## 4 Motacilla alba                          ND2              1         1041        AY681608.1 09-JUL-2005    2020-03-02
+## 5 Motacilla alba NADH dehydrogenase subunit 2              1         1041        AY681620.1 09-JUL-2005    2020-03-02
+## 6 Motacilla alba                          ND2              1         1041        AY681620.1 09-JUL-2005    2020-03-02
 ```
 
-To collect all the information available for the accessions in `vignette_accessions.csv` takes a little longer however, so, for the sake of speed and efficency, we will load a pre-created output from this function.
+However, it takes a little longer to collect all the information available for >300 accessions, so, for the sake of speed and efficency, we will load a pre-created output from the `build_genbank_df` function using `vignette_accessions.csv`. 
 
 ```r
 GB_data <- read.csv(system.file("extdata","GB_data.csv", package="mtDNAcombine"))
@@ -326,11 +328,11 @@ Depending on the quality/consistency of the raw sequence data, this step can res
 
 The impact of the alignment/trimming process is summarised in a diagnostic histogram plot, offering a visual way to identify cases where it would be advantageous to look at the raw data in more detail. The histogram bars show frequency and sequence length of raw, unaligned data and the red line shows the length of the aligned sequences after cropping to the longest section common to all samples. 
 
-![plot of chunk unnamed-chunk-14](./inst/extdata/hist_Pinicola_enucleator.png)
+![plot of chunk unnamed-chunk-11](./inst/extdata/hist_Pinicola_enucleator.png)
 
 Here we see that, in the *Pinicola enucleator* dataset, the majority of samples have been heavily cropped due to the inclusion of one, shorter, sequence. In this instance, it may be worth reviewing the decision to include the single, much shorter, 450 base pair sample. 
 
-![plot of chunk unnamed-chunk-15](./inst/extdata/hist_Calidris_maritima.png)
+![plot of chunk unnamed-chunk-12](./inst/extdata/hist_Calidris_maritima.png)
 
 Alternatively, the *Calidris maritima* histogram shows that, whilst a few longer sequences have been trimmed by a couple hundred base pairs, the majority of the sequences are being used at nearly full length. This alignment and crop seems good. 
 
@@ -341,7 +343,7 @@ Alternatively, the *Calidris maritima* histogram shows that, whilst a few longer
 The `align_and_summarise` function also produces a haplotype network diagram which helps visualise the level of structure in a population/sample set.  
 
 
-![plot of chunk unnamed-chunk-16](./inst/extdata/Net_Picoides_tridactylus.png)
+![plot of chunk unnamed-chunk-13](./inst/extdata/Net_Picoides_tridactylus.png)
 Here is an example of a network diagram for data from *Picoides tridactylus*. Plots like these help to quickly flag if there are any extreme outliers in the dataset or if the population is heavily structured. 
 
 
