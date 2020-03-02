@@ -22,6 +22,6 @@ be uninformative}
 Remove populations that, after alignment, only have sequence data of length
 less than a threshold value.
 
-Find and drop from master list populations that have insufficent bp to be
-valuable for further downstream analsysis - value set by user.
+Find and drop from master list populations that have insufficient bp to be
+valuable for further downstream analysis - value set by user.
 }

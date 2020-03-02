@@ -8,19 +8,19 @@ standardise_gene_names(df_to_update, names_to_replace)
 }
 \arguments{
 \item{df_to_update}{data frame with a column name $gene_name. Any instances of
-multiple names for what is a single gene within this column will be standadised}
+multiple names for what is a single gene within this column will be standardised}
 
 \item{names_to_replace}{user provided .csv file or default .csv file
 ("gene_nomenclature_correction.csv") which lists alternative names for each
-gene. One gene for each column, header is new standadised gene name option,
-rest of column is filled with erronious versions of the gene name.}
+gene. One gene for each column, header is new standardised gene name option,
+rest of column is filled with erroneous versions of the gene name.}
 }
 \description{
 \code{standardise_gene_names}
 }
 \details{
-This function turns an extensive but not exhasutive list of possible gene
-name synonyms/miss-spellings/alternative abreviations into standardised format.
+This function turns an extensive but not exhaustive list of possible gene
+name synonyms/miss-spellings/alternative abbreviations into standardised format.
 
 Function loads either user provided .csv file or default .csv file
 ("gene_nomenclature_correction.csv") and uses gsub to replace all alternative

@@ -23,15 +23,15 @@ data set}
 }
 \details{
 Function aligns sequence data, plots two types of diagnostic plots (haplotype
-networks and sequence size histogragms), and summarises the data. Two directories
+networks and sequence size histograms), and summarises the data. Two directories
 for storing these outputs created automatically,"./network_diagrams" and
 "./histograms". Where only representative haplotypes uploaded, rather than
 individual samples, populations recorded for later inspection.
 
 Unaligned sequence files are read in, aligned sequences are written out as
-files.  Histogrmas of the orignal sequence length range and new aligned
+files.  Histograms of the original sequence length range and new aligned
 sequence length is drawn and stored out.  Haplotype networks are also drawn
-and writen out.  Summary data are recorded. If only one version of each
+and written out.  Summary data are recorded. If only one version of each
 haplotype ever found, assumed that accessions might represent haplotypes
 not sample frequency, populations flagged for further inspection.
 }

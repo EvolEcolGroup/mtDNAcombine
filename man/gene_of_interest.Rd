@@ -8,7 +8,7 @@ gene_of_interest(gene, data)
 }
 \arguments{
 \item{gene}{gene of interest written as character string. Must be in
-"standadised" format used to simplify data in \code{standardise_gene_names}
+"standardised" format used to simplify data in \code{standardise_gene_names}
 function.}
 
 \item{data}{data frame (expected to be `GB_data`, the data frame result of
@@ -22,7 +22,7 @@ Function takes data frame, likely built from all available data associated
 with the original input accession numbers, and returns only data relevant to
 specified gene of interest.
 
-This function filters all data collected and curtated so far from the original
+This function filters all data collected and curated so far from the original
 accession list down to just information associated with a nominated gene of
 interest.
 }

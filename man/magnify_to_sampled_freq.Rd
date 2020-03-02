@@ -2,7 +2,7 @@
 % Please edit documentation in R/magnify_to_sampled_freq.R
 \name{magnify_to_sampled_freq}
 \alias{magnify_to_sampled_freq}
-\title{Mutiplies sequence data up to sampled frequency, aligns and summarises data}
+\title{Multiplies sequence data up to sampled frequency, aligns and summarises data}
 \usage{
 magnify_to_sampled_freq(magnify_file_list)
 }
@@ -18,7 +18,7 @@ haplotype was found at when sampled.}
 Function multiplies data to sampled frequency, aligns sequences, writes
 aligned fasta files, plots haplotype network and extracts summary data.
 
-Unaligned sequence files are read in and accessions (idividual haplotypes)
+Unaligned sequence files are read in and accessions (individual haplotypes)
 are multiplied by given values in relevant .csv file.   Also, haplotype
 networks are drawn, and summary data recorded.
 }

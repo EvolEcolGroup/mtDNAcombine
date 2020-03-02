@@ -22,7 +22,7 @@ have submitted ever sample rather than unique haplotypes.}
 \code{hapfreq_from_paper}
 }
 \details{
-This function finds the assocatied paper in instances where every accession
+This function finds the associated paper in instances where every accession
 from one study represents a novel haplotype, likely indicating data is not at
 sampled frequency.
 

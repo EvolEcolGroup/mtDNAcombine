@@ -15,7 +15,7 @@ Should be a .csv or .txt file without a header.}
 
 \item{new_names_file}{csv file of species names that have been flagged as
 problematic and the replacement name to be used, needed for
-`standadises_spp_name` function}
+`standardise_spp_name` function}
 }
 \description{
 \code{get_GB_sequence_data}

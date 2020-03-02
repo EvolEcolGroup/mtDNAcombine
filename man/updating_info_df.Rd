@@ -2,7 +2,7 @@
 % Please edit documentation in R/updating_info_df.R
 \name{updating_info_df}
 \alias{updating_info_df}
-\title{Mutiplies sequence data up to sampled frequency, aligns and summarises data}
+\title{Multiplies sequence data up to sampled frequency, aligns and summarises data}
 \usage{
 updating_info_df(original_df, new_df)
 }

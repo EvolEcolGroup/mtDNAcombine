@@ -14,10 +14,10 @@ the data frame result of the pipeline so far).}
 \code{export_details}
 }
 \details{
-Function takes data frame with column $sci_nam and splits acording to species
+Function takes data frame with column $sci_nam and splits according to species
 name before exporting sample details as individual .csv files.
 
-Main input data frame is split by species (acording to $sci_nam column). For
-each species a seperate .csv file is then written out containing all the
+Main input data frame is split by species (according to $sci_nam column). For
+each species a separate .csv file is then written out containing all the
 information downloaded and stored about each accession.
 }
