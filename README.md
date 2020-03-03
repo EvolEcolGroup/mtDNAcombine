@@ -22,7 +22,7 @@ This vignette describes the `mtDNAcombine` package, an `R` library designed to s
 
 Below is a flow diagram of the processes and steps in the `mtDNAcombine` pipeline.
 
-![plot of chunk unnamed-chunk-2](./inst/extdata/mtDNAcombine_flow.jpg)
+![plot of chunk unnamed-chunk-1](./inst/extdata/mtDNAcombine_flow.jpg)
 
 
 If you are running a LINUX operating system you will need to have the following system dependencies installed before attempting to install `mtDNAcombine`. In Ubuntu 18.04, run the below code in your bash shell: 
@@ -106,19 +106,27 @@ A quick example using the first three accession numbers from `vignette_accession
 ```r
 path_to_file <- system.file("extdata","min_examp_accno.csv", 
                             package="mtDNAcombine")
+
 GB_data <- build_genbank_df(accession_file_name = path_to_file)
 
 GB_data
 ```
 
 ```
-##          sci_nam                     gene_nam position_start position_end accession_version create_date download_date
-## 1 Motacilla alba NADH dehydrogenase subunit 2              1         1041        AY681627.1 09-JUL-2005    2020-03-02
-## 2 Motacilla alba                          ND2              1         1041        AY681627.1 09-JUL-2005    2020-03-02
-## 3 Motacilla alba NADH dehydrogenase subunit 2              1         1041        AY681608.1 09-JUL-2005    2020-03-02
-## 4 Motacilla alba                          ND2              1         1041        AY681608.1 09-JUL-2005    2020-03-02
-## 5 Motacilla alba NADH dehydrogenase subunit 2              1         1041        AY681620.1 09-JUL-2005    2020-03-02
-## 6 Motacilla alba                          ND2              1         1041        AY681620.1 09-JUL-2005    2020-03-02
+##          sci_nam                     gene_nam position_start position_end accession_version create_date
+## 1 Motacilla alba NADH dehydrogenase subunit 2              1         1041        AY681627.1 09-JUL-2005
+## 2 Motacilla alba                          ND2              1         1041        AY681627.1 09-JUL-2005
+## 3 Motacilla alba NADH dehydrogenase subunit 2              1         1041        AY681608.1 09-JUL-2005
+## 4 Motacilla alba                          ND2              1         1041        AY681608.1 09-JUL-2005
+## 5 Motacilla alba NADH dehydrogenase subunit 2              1         1041        AY681620.1 09-JUL-2005
+## 6 Motacilla alba                          ND2              1         1041        AY681620.1 09-JUL-2005
+##   download_date
+## 1    2020-03-03
+## 2    2020-03-03
+## 3    2020-03-03
+## 4    2020-03-03
+## 5    2020-03-03
+## 6    2020-03-03
 ```
 
 However, it takes a little longer to collect all the information available for >300 accessions, so, for the sake of speed and efficency, we will load a pre-created output from the `build_genbank_df` function using `vignette_accessions.csv`. 
@@ -180,7 +188,7 @@ GB_genes <- as.data.frame(GB_genes[grep("[[:alpha:]]",
 
 colnames(GB_genes) <- "gene_name"
 
-GB_genes <- as.data.frame(GB_genes[!nchar(as.character(GB_genes$gene_name)) > 20, ])
+GB_genes <- as.data.frame(GB_genes[!nchar(as.character(GB_genes$gene_name)) >20, ])
 
 patt <- c("RNA|unknown|trn|ATP|similar|central|duplicated|tandem|repeated|other|myoglobin")
 
@@ -266,16 +274,28 @@ GB_by_gene <- gene_of_interest(gene = "ND2", data = GB_data)
 ## Extract the available raw sequence data
 
 
-By simply using the `get_GB_sequence_data` function and the curated accession list, we can now download raw sequence data associated with the specific gene of interest.  
+By simply using the `get_GB_sequence_data` function and the curated accession list, we can download raw sequence data associated with the specific gene of interest.  
+
+Below is a small, 'live', working example of three accessions
 
 ```r
-GB_with_SeqDat <- get_GB_sequence_data(accessions_of_interest = GB_by_gene, 
-                      gene = "ND2", new_names_file = "poss_synyms_updated.csv")
+min_examp <- GB_by_gene[1:3,]
+
+updated_synyms <- system.file("extdata", "poss_synyms_updated.csv", 
+                         package="mtDNAcombine")
+
+GB_with_SeqDat <- get_GB_sequence_data(accessions_of_interest = min_examp, 
+                      gene = "ND2", new_names_file = updated_synyms)
 ```
 
+N.B. For the sake of computational efficency in this vignette we will now load a pre-created file for the full data-set rather than running through another 330 accessions!
 
+```r
+GB_with_SeqDat <-  read.csv(system.file("extdata","GB_with_SeqDat.csv", 
+                                        package = "mtDNAcombine"))
+```
 
-For this vignette, the GB_with_SeqDat file should now be 333 observations with 8 variables. 
+GB_with_SeqDat file should now be 333 observations with 8 variables. 
 
 ```r
 nrow(GB_with_SeqDat)
@@ -307,15 +327,21 @@ We have now managed to generate a set of sequences from multiple species coverin
 Previously, the  `export_sequences` function wrote out a .fasta file of raw, unaligned, sequence data for each species / gene combination, starting the file name with the regular expression 'FOR_ALIGNMENT'. We exploit this pattern to capture the list of file names to explore. 
 
 ```r
-alignment_files <- list.files(pattern="FOR_ALIGNMENT")
+alignment_file_list <- list.files(pattern="FOR_ALIGNMENT")
 ```
 
 
 For each species, the sequence data needs to be aligned so that we can capture comparable regions of the genome common to each sample.  This is done within the `align_and_summarise` function using the ClustalW algorithm, removing any columns with blanks or ambiguous calls.
 
+For efficiency, here we will subset the `alignment_file_list` and run just one of the four datasets.
+
 ```r
-align_and_summarise(alignment_files = alignment_files, 
+align_and_summarise(alignment_files = alignment_file_list[4], 
                     max_haps_found_together = 2, minbp = 200)
+```
+
+```
+## use default substitution matrix
 ```
 
 
@@ -328,11 +354,11 @@ Depending on the quality/consistency of the raw sequence data, this step can res
 
 The impact of the alignment/trimming process is summarised in a diagnostic histogram plot, offering a visual way to identify cases where it would be advantageous to look at the raw data in more detail. The histogram bars show frequency and sequence length of raw, unaligned data and the red line shows the length of the aligned sequences after cropping to the longest section common to all samples. 
 
-![plot of chunk unnamed-chunk-11](./inst/extdata/hist_Pinicola_enucleator.png)
+![plot of chunk unnamed-chunk-10](./histograms/hist_Pinicola_enucleator.png)
 
 Here we see that, in the *Pinicola enucleator* dataset, the majority of samples have been heavily cropped due to the inclusion of one, shorter, sequence. In this instance, it may be worth reviewing the decision to include the single, much shorter, 450 base pair sample. 
 
-![plot of chunk unnamed-chunk-12](./inst/extdata/hist_Calidris_maritima.png)
+![plot of chunk unnamed-chunk-11](./inst/extdata/hist_Calidris_maritima.png)
 
 Alternatively, the *Calidris maritima* histogram shows that, whilst a few longer sequences have been trimmed by a couple hundred base pairs, the majority of the sequences are being used at nearly full length. This alignment and crop seems good. 
 
@@ -343,7 +369,7 @@ Alternatively, the *Calidris maritima* histogram shows that, whilst a few longer
 The `align_and_summarise` function also produces a haplotype network diagram which helps visualise the level of structure in a population/sample set.  
 
 
-![plot of chunk unnamed-chunk-13](./inst/extdata/Net_Picoides_tridactylus.png)
+![plot of chunk unnamed-chunk-12](./inst/extdata/Net_Picoides_tridactylus.png)
 Here is an example of a network diagram for data from *Picoides tridactylus*. Plots like these help to quickly flag if there are any extreme outliers in the dataset or if the population is heavily structured. 
 
 
@@ -355,16 +381,28 @@ For each of the populations recorded in "More_info_df.csv", the `align_and_summa
 
 
 
-In this vignette-dataset accessions for *Calidris maritima* and *Motacilla alba* are flagged as needing further investigation. Exploration of the original published papers suggest that data for *Motacilla alba* have indeed been uploaded at sampled frequency and this was essentially a "false alarm". Therefore, we don't want to alter this data so the "MAGNIFY_Motacilla_alba.csv"" file can be left as it is, with a default "freq" column value of "1".
+In this vignette-dataset accessions for *Calidris maritima* and *Motacilla alba* are flagged as needing further investigation. Exploration of the original published papers suggest that data for *Motacilla alba* have indeed been uploaded at sampled frequency and this was essentially a "false alarm". Therefore, we don't want to alter this data so the "MAGNIFY_Motacilla_alba.csv" file can be left as it is, with a default "freq" column value of "1".
 
 However, exploration of the paper *'A review of the subspecies status of the Icelandic Purple Sandpiper Calidris maritima littoralis'* shows that only unique haplotype sequences were uploaded, rather than a new accession being created for every sample.  Therefore, this dataset needs to be manipulated to get to the original sampled frequency. 
 
-For the purposes of this vignette we have created an updated "MAGNIFY_Calidris_maritima.csv" file (found in ../extdata/) which already contains the values for the number of times each haplotype was sampled in the population.
+For the purposes of this vignette we have created an updated "MAGNIFY_Calidris_maritima.csv" file (found in ../extdata/) which already contains the values for the number of times each haplotype was sampled in the population. The below code simply copies this file to the temporary working directory currently in use.
+
+```r
+invisible(file.copy(from = paste0(system.file("extdata", package="mtDNAcombine"),
+                        "/MAGNIFY_Calidris_maritima.csv"), 
+          to = paste0(getwd(), "/")))
+```
+
+This file is now ready to be used with the `magnify_to_sampled_freq` function, as below.
 
 ```r
 magnify_file_list <- list.files(pattern="MAGNIFY")
 
 mag_df <- magnify_to_sampled_freq(magnify_file_list = magnify_file_list)
+```
+
+```
+## use default substitution matrix
 ```
 
 After updating the frequency information the sequences are processed as before - haplotype networks are drawn and .fasta files of the aligned sequence data written out.
