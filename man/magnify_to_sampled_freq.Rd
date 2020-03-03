@@ -4,9 +4,12 @@
 \alias{magnify_to_sampled_freq}
 \title{Multiplies sequence data up to sampled frequency, aligns and summarises data}
 \usage{
-magnify_to_sampled_freq(magnify_file_list)
+magnify_to_sampled_freq(directory_path = getwd(), magnify_file_list)
 }
 \arguments{
+\item{directory_path}{path to the directory in which to build/call files, 
+defaults to working directory}
+
 \item{magnify_file_list}{.csv file with two columns; first column lists
 accession numbers/accession versions and the second the frequency that
 haplotype was found at when sampled.}

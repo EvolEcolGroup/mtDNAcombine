@@ -4,12 +4,14 @@
 \alias{export_sequences}
 \title{Exports downloaded details into seperate .csv files for each species}
 \usage{
-export_sequences(data)
+export_sequences(data, file_path = getwd())
 }
 \arguments{
 \item{data}{data frame with `$sci_nam`, `$sequence`, and `$accession_version`
 column (expected to be `GB_with_SeqDat`, the data frame result of the pipeline
 so far).}
+
+\item{file_path}{path to newly created .csv file, defaults to working directory}
 }
 \description{
 \code{export_sequences}

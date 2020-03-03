@@ -10,6 +10,8 @@
 #' are multiplied by given values in relevant .csv file.   Also, haplotype
 #' networks are drawn, and summary data recorded.
 #'
+#' @param directory_path path to the directory in which to build/call files, 
+#' defaults to working directory
 #' @param magnify_file_list .csv file with two columns; first column lists
 #' accession numbers/accession versions and the second the frequency that
 #' haplotype was found at when sampled.
@@ -18,7 +20,7 @@
 
 
 
-magnify_to_sampled_freq <- function(magnify_file_list) {
+magnify_to_sampled_freq <- function(directory_path = getwd(), magnify_file_list) {
     mag_df <- as.data.frame(NULL)
 
     for (q in 1:length(magnify_file_list)) {
@@ -33,7 +35,8 @@ magnify_to_sampled_freq <- function(magnify_file_list) {
                                   sub("csv", "fasta", magnify_file_list[q]))
 
             my_sequence <-
-                Biostrings::readDNAStringSet(alignment_file)
+                Biostrings::readDNAStringSet(paste0(directory_path, "/", 
+                                                    alignment_file))
             first_alignment <-
                 msa::msaClustalW(my_sequence, type = "dna")
             cleaned_matrix <-
@@ -44,7 +47,8 @@ magnify_to_sampled_freq <- function(magnify_file_list) {
                 ips::deleteGaps(cleaned_matrix, gap.max = 1)
 
             # get the new frequency values for each accession
-            sample_frequency <- utils::read.csv(magnify_file_list[q])
+            sample_frequency <- utils::read.csv(paste0(directory_path, "/",
+                                                       magnify_file_list[q]))
 
             if (ncol(sample_frequency) == 2) {
                 # set up 'cleaned' file to build on
@@ -65,7 +69,7 @@ magnify_to_sampled_freq <- function(magnify_file_list) {
                 }
 
                 # get a histogram of sequence length before and after clean up
-                mypath <- file.path("./histograms",
+                mypath <- file.path(paste0(directory_path, "/histograms"),
                                     paste0("hist_", spp_name, ".png"))
                 grDevices::png(file = mypath)
                 h1 <- graphics::hist(Biostrings::width(my_sequence))
@@ -82,7 +86,8 @@ magnify_to_sampled_freq <- function(magnify_file_list) {
                 aligned_file <- sub("FOR_ALIGNMENT", "ALIGNED",
                         sub("fasta", "fas", alignment_file))
 
-                ape::write.FASTA(cleaned, file = aligned_file)
+                ape::write.FASTA(cleaned, 
+                                 file = paste0(directory_path, "/", aligned_file))
 
                 # add this info to the original info_df
 
@@ -100,11 +105,11 @@ magnify_to_sampled_freq <- function(magnify_file_list) {
                 the_haplonet <- pegas::haploNet(haps)
                 max_step <- max(the_haplonet[, "step"])
 
-                mypath <- file.path("./network_diagrams",
+                mypath <- file.path(paste0(directory_path, "/network_diagrams"),
                               paste0("Net_", spp_name, ".png"))
                 grDevices::png(file = mypath)
                 # inclusion of 'size =' sets size of circles to hap freq values
-                graphics::plot( the_haplonet, size = attr(the_haplonet, "freq"),
+                graphics::plot(the_haplonet, size = attr(the_haplonet, "freq"),
                     fast = FALSE)
                 grDevices::dev.off()
 

@@ -12,11 +12,12 @@
 #' @param data data frame with `$sci_nam`, `$sequence`, and `$accession_version`
 #' column (expected to be `GB_with_SeqDat`, the data frame result of the pipeline
 #' so far).
-#'
+#' @param file_path path to newly created .csv file, defaults to working directory
+#' 
 #' @export
 
 
-export_sequences <- function(data) {
+export_sequences <- function(data, file_path = getwd()) {
     if (length(unique(
         c("sci_nam", "sequence", "accession_version") %in% colnames(data)
     )) == 1) {
@@ -29,7 +30,7 @@ export_sequences <- function(data) {
                 seqinr::write.fasta(
                     sequences = as.list(exporting[[k]]$sequence),
                     names = exporting[[k]]$accession_version,
-                    file.out = paste0("FOR_ALIGNMENT_",
+                    file.out = paste0(file_path,"/FOR_ALIGNMENT_",
                     as.character(sub(" ", "_", x = spp[k])), ".fasta"),
                     open = "w", nbchar = 60)
             })

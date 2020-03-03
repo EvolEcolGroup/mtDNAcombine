@@ -4,9 +4,17 @@
 \alias{align_and_summarise}
 \title{Aligns sequence data, plots haplotype networks and summarises the data}
 \usage{
-align_and_summarise(alignment_files, max_haps_found_together, minbp)
+align_and_summarise(
+  directory_path = getwd(),
+  alignment_files,
+  max_haps_found_together,
+  minbp
+)
 }
 \arguments{
+\item{directory_path}{path to the directory in which to build/call files, 
+defaults to working directory}
+
 \item{alignment_files}{list of .fas/.fasta files in directory that need
 alignment, often signaled by the pattern "FOR_ALIGNMENT" in file name}
 

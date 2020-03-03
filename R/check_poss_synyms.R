@@ -14,11 +14,13 @@
 #'
 #' @param data data frame with `$sci_nam` column (expected to be `GB_with_SeqDat`,
 #' the data frame result of the pipeline so far).
+#' @param file_path path to newly created .csv file, defaults to working directory
 #'
 #' @export
 
-check_poss_synyms <- function(data) {
+check_poss_synyms <- function(data, file_path = getwd()) {
     poss_synyms <- NULL
+    
     if ("sci_nam" %in% colnames(data)) {
         data$sci_nam <- as.character(data$sci_nam)
         for (b in 1:nrow(data)) {
@@ -29,8 +31,9 @@ check_poss_synyms <- function(data) {
         poss_synyms <- unique(poss_synyms)
 
         if (length(poss_synyms) > 0) {
-            utils::write.csv(poss_synyms, "poss_synyms.csv",
-                quote = FALSE, row.names = FALSE)
+            utils::write.csv(x = poss_synyms, 
+                             file = paste0(file_path,"/poss_synyms.csv"), 
+                             quote = FALSE, row.names = FALSE)
         }
         return(poss_synyms)
     } else {

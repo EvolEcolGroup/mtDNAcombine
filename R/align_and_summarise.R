@@ -15,6 +15,8 @@
 #' haplotype ever found, assumed that accessions might represent haplotypes
 #' not sample frequency, populations flagged for further inspection.
 #'
+#' @param directory_path path to the directory in which to build/call files, 
+#' defaults to working directory
 #' @param alignment_files list of .fas/.fasta files in directory that need
 #' alignment, often signaled by the pattern "FOR_ALIGNMENT" in file name
 #' @param max_haps_found_together input value for \code{hapfreq_from_paper} function.
@@ -26,10 +28,10 @@
 #'
 #' @export
 
-align_and_summarise <- function(alignment_files,
+align_and_summarise <- function(directory_path = getwd(), alignment_files,
                                 max_haps_found_together, minbp) {
-    dir.create("./network_diagrams")
-    dir.create("./histograms")
+    dir.create(paste0(directory_path, "/network_diagrams"))
+    dir.create(paste0(directory_path, "/histograms"))
     info_df <- as.data.frame(NULL)
     more_info_df <- NULL
     for (a in 1:length(alignment_files)) {
@@ -37,7 +39,8 @@ align_and_summarise <- function(alignment_files,
                          "", gsub(".fasta", "", alignment_files[a]))
         # read in sequences from first file
         my_sequence_init <-
-            Biostrings::readDNAStringSet(alignment_files[a])
+            Biostrings::readDNAStringSet(paste0(directory_path, "/", 
+                                                alignment_files[a]))
         my_sequence <-
             my_sequence_init[Biostrings::width(my_sequence_init) > minbp]
         first_alignment <-
@@ -88,15 +91,17 @@ align_and_summarise <- function(alignment_files,
             magnify_file <- sub("FOR_ALIGNMENT", "MAGNIFY",
                                 sub("fasta", "csv", alignment_files[a]))
             # write out a csv file to manually fill with hap freq. data
-            utils::write.csv(magnify_haplotypes, file = magnify_file,
-                quote = FALSE, row.names = FALSE)
+            utils::write.csv(magnify_haplotypes, 
+                             file = paste0(directory_path, "/", magnify_file), 
+                             quote = FALSE, row.names = FALSE)
 
         } else {
             # some downstream programmes need file end .FAS not .FASTA
             aligned_file <- sub("FOR_ALIGNMENT", "ALIGNED",
                                 sub("fasta", "fas", alignment_files[a]))
             rownames(cleaned) <- old_rownam
-            ape::write.FASTA(cleaned, file = aligned_file)
+            ape::write.FASTA(cleaned, 
+                             file = paste0(directory_path, "/", aligned_file))
 
 
             # get some more details about the data
@@ -114,7 +119,7 @@ align_and_summarise <- function(alignment_files,
             max_step <- max(the_haplonet[, "step"])
 
             # get a histogram of sequence length before and after clean up
-            mypath <- file.path("./histograms",
+            mypath <- file.path(paste0(directory_path, "/histograms"),
                                 paste0("hist_", spp_name, ".png"))
             grDevices::png(file = mypath)
             h1 <- graphics::hist(Biostrings::width(my_sequence_init))
@@ -128,7 +133,7 @@ align_and_summarise <- function(alignment_files,
             grDevices::dev.off()
 
             # plot network diagram
-            mypath <- file.path("./network_diagrams",
+            mypath <- file.path(paste0(directory_path, "/network_diagrams"),
                           paste0("Net_", spp_name, ".png"))
             grDevices::png(file = mypath)
             # inclusion of 'size =' sets size of circles to hap freq values
@@ -146,7 +151,9 @@ align_and_summarise <- function(alignment_files,
         }
     }
 
-    utils::write.csv(info_df, "Info_df.csv", row.names = FALSE)
-    utils::write.csv(more_info_df, "More_info_df.csv", row.names = FALSE)
+    utils::write.csv(info_df, paste0(directory_path, "/", "Info_df.csv"), 
+                     row.names = FALSE)
+    utils::write.csv(more_info_df, paste0(directory_path, "/", "More_info_df.csv"), 
+                     row.names = FALSE)
 
 }

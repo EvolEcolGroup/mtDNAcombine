@@ -4,11 +4,13 @@
 \alias{check_poss_synyms}
 \title{Checks if scientific name for sample is likely a species, or subspecies name}
 \usage{
-check_poss_synyms(data)
+check_poss_synyms(data, file_path = getwd())
 }
 \arguments{
 \item{data}{data frame with `$sci_nam` column (expected to be `GB_with_SeqDat`,
 the data frame result of the pipeline so far).}
+
+\item{file_path}{path to newly created .csv file, defaults to working directory}
 }
 \description{
 \code{check_poss_synyms}
