@@ -341,16 +341,6 @@ align_and_summarise(alignment_files = alignment_file_list[4],
 ```
 
 ```
-## Warning in dir.create(paste0(directory_path, "/network_diagrams")): '/tmp/RtmpYwGb4v/network_diagrams'
-## already exists
-```
-
-```
-## Warning in dir.create(paste0(directory_path, "/histograms")): '/tmp/RtmpYwGb4v/histograms' already
-## exists
-```
-
-```
 ## use default substitution matrix
 ```
 
