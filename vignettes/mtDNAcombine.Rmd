@@ -323,7 +323,8 @@ Depending on the quality/consistency of the raw sequence data, this step can res
 The impact of the alignment/trimming process is summarised in a diagnostic histogram plot, offering a visual way to identify cases where it would be advantageous to look at the raw data in more detail. The histogram bars show frequency and sequence length of raw, unaligned data and the red line shows the length of the aligned sequences after cropping to the longest section common to all samples. 
 
 ```{r echo=FALSE}
-knitr::include_graphics("./histograms/hist_Pinicola_enucleator.png")
+knitr::include_graphics(system.file("extdata", "/hist_Pinicola_enucleator.png",
+                                     package="mtDNAcombine"))
 ```
 
 Here we see that, in the *Pinicola enucleator* dataset, the majority of samples have been heavily cropped due to the inclusion of one, shorter, sequence. In this instance, it may be worth reviewing the decision to include the single, much shorter, 450 base pair sample. 

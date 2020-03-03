@@ -341,6 +341,16 @@ align_and_summarise(alignment_files = alignment_file_list[4],
 ```
 
 ```
+## Warning in dir.create(paste0(directory_path, "/network_diagrams")): '/tmp/RtmpYwGb4v/network_diagrams'
+## already exists
+```
+
+```
+## Warning in dir.create(paste0(directory_path, "/histograms")): '/tmp/RtmpYwGb4v/histograms' already
+## exists
+```
+
+```
 ## use default substitution matrix
 ```
 
@@ -354,7 +364,7 @@ Depending on the quality/consistency of the raw sequence data, this step can res
 
 The impact of the alignment/trimming process is summarised in a diagnostic histogram plot, offering a visual way to identify cases where it would be advantageous to look at the raw data in more detail. The histogram bars show frequency and sequence length of raw, unaligned data and the red line shows the length of the aligned sequences after cropping to the longest section common to all samples. 
 
-![plot of chunk unnamed-chunk-10](./histograms/hist_Pinicola_enucleator.png)
+![plot of chunk unnamed-chunk-10](./inst/extdata/hist_Pinicola_enucleator.png)
 
 Here we see that, in the *Pinicola enucleator* dataset, the majority of samples have been heavily cropped due to the inclusion of one, shorter, sequence. In this instance, it may be worth reviewing the decision to include the single, much shorter, 450 base pair sample. 
 
