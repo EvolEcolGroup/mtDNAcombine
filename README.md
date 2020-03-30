@@ -22,7 +22,7 @@ This vignette describes the `mtDNAcombine` package, an `R` library designed to s
 
 Below is a flow diagram of the processes and steps in the `mtDNAcombine` pipeline.
 
-![plot of chunk unnamed-chunk-1](./inst/extdata/mtDNAcombine_flow.jpg)
+![plot of chunk unnamed-chunk-1](./inst/extdata/mtDNAcombine_flow.png)
 
 
 If you are running a LINUX operating system you will need to have the following system dependencies installed before attempting to install `mtDNAcombine`. In Ubuntu 18.04, run the below code in your bash shell: 
@@ -113,20 +113,13 @@ GB_data
 ```
 
 ```
-##          sci_nam                     gene_nam position_start position_end accession_version create_date
-## 1 Motacilla alba NADH dehydrogenase subunit 2              1         1041        AY681627.1 09-JUL-2005
-## 2 Motacilla alba                          ND2              1         1041        AY681627.1 09-JUL-2005
-## 3 Motacilla alba NADH dehydrogenase subunit 2              1         1041        AY681608.1 09-JUL-2005
-## 4 Motacilla alba                          ND2              1         1041        AY681608.1 09-JUL-2005
-## 5 Motacilla alba NADH dehydrogenase subunit 2              1         1041        AY681620.1 09-JUL-2005
-## 6 Motacilla alba                          ND2              1         1041        AY681620.1 09-JUL-2005
-##   download_date
-## 1    2020-03-03
-## 2    2020-03-03
-## 3    2020-03-03
-## 4    2020-03-03
-## 5    2020-03-03
-## 6    2020-03-03
+##          sci_nam                     gene_nam position_start position_end accession_version create_date download_date
+## 1 Motacilla alba NADH dehydrogenase subunit 2              1         1041        AY681627.1 09-JUL-2005    2020-03-30
+## 2 Motacilla alba                          ND2              1         1041        AY681627.1 09-JUL-2005    2020-03-30
+## 3 Motacilla alba NADH dehydrogenase subunit 2              1         1041        AY681608.1 09-JUL-2005    2020-03-30
+## 4 Motacilla alba                          ND2              1         1041        AY681608.1 09-JUL-2005    2020-03-30
+## 5 Motacilla alba NADH dehydrogenase subunit 2              1         1041        AY681620.1 09-JUL-2005    2020-03-30
+## 6 Motacilla alba                          ND2              1         1041        AY681620.1 09-JUL-2005    2020-03-30
 ```
 
 However, it takes a little longer to collect all the information available for >300 accessions, so, for the sake of speed and efficency, we will load a pre-created output from the `build_genbank_df` function using `vignette_accessions.csv`. 

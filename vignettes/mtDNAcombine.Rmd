@@ -28,7 +28,7 @@ This vignette describes the `mtDNAcombine` package, an `R` library designed to s
 Below is a flow diagram of the processes and steps in the `mtDNAcombine` pipeline.
 
 ```{r echo=FALSE}
-knitr::include_graphics(system.file("extdata", "/mtDNAcombine_flow.jpg", 
+knitr::include_graphics(system.file("extdata", "/mtDNAcombine_flow.png", 
                                     package="mtDNAcombine"))
 ```
 
