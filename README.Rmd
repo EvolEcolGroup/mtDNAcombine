@@ -58,9 +58,9 @@ mdInput[2] <- paste(circleci_img)
 
 ## pick wd path depending on operating system
 ## LINUX
-foo <- '/home/eleanor/'
+#foo <- '/home/eleanor/'
 ## Windows
-#foo <- 'C:/Users/mille/'
+foo <- 'C:/Users/mille/'
 
 mdInput <- gsub(paste0(foo,"Documents/Projects/mtDNAcombine/inst/extdata/mtDNAcombine_flow.png"), "./inst/extdata/mtDNAcombine_flow.png", mdInput)
 mdInput <- gsub(paste0(foo,"Documents/Projects/mtDNAcombine/inst/extdata/hist_Pinicola_enucleator.png"), "./inst/extdata/hist_Pinicola_enucleator.png", mdInput)

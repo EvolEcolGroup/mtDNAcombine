@@ -81,7 +81,7 @@ For this vignette we will work with a fixed set of 335 accessions in the file "v
 path_to_file <- system.file("extdata","vignette_accessions.csv", 
                             package="mtDNAcombine")
 
-knitr::kable(head(read.csv(path_to_file, header = F)))
+knitr::kable(head(read.csv(path_to_file, header = F, stringsAsFactors = T)))
 ```
 
 
@@ -114,18 +114,18 @@ GB_data
 
 ```
 ##          sci_nam                     gene_nam position_start position_end accession_version create_date download_date
-## 1 Motacilla alba NADH dehydrogenase subunit 2              1         1041        AY681627.1 09-JUL-2005    2020-03-30
-## 2 Motacilla alba                          ND2              1         1041        AY681627.1 09-JUL-2005    2020-03-30
-## 3 Motacilla alba NADH dehydrogenase subunit 2              1         1041        AY681608.1 09-JUL-2005    2020-03-30
-## 4 Motacilla alba                          ND2              1         1041        AY681608.1 09-JUL-2005    2020-03-30
-## 5 Motacilla alba NADH dehydrogenase subunit 2              1         1041        AY681620.1 09-JUL-2005    2020-03-30
-## 6 Motacilla alba                          ND2              1         1041        AY681620.1 09-JUL-2005    2020-03-30
+## 1 Motacilla alba NADH dehydrogenase subunit 2              1         1041        AY681627.1 09-JUL-2005    2020-06-18
+## 2 Motacilla alba                          ND2              1         1041        AY681627.1 09-JUL-2005    2020-06-18
+## 3 Motacilla alba NADH dehydrogenase subunit 2              1         1041        AY681608.1 09-JUL-2005    2020-06-18
+## 4 Motacilla alba                          ND2              1         1041        AY681608.1 09-JUL-2005    2020-06-18
+## 5 Motacilla alba NADH dehydrogenase subunit 2              1         1041        AY681620.1 09-JUL-2005    2020-06-18
+## 6 Motacilla alba                          ND2              1         1041        AY681620.1 09-JUL-2005    2020-06-18
 ```
 
 However, it takes a little longer to collect all the information available for >300 accessions, so, for the sake of speed and efficency, we will load a pre-created output from the `build_genbank_df` function using `vignette_accessions.csv`. 
 
 ```r
-GB_data <- read.csv(system.file("extdata","GB_data.csv", package="mtDNAcombine"))
+GB_data <- read.csv(system.file("extdata","GB_data.csv", package="mtDNAcombine"), stringsAsFactors = T)
 ```
 
 Within GenBank, the same single sequence is often associated to multiple features (e.g. 'source', 'gene', and 'CDS'). This is visible on the website, where the same sequence is found under multiple 'Feature' tabs. This means that the same sequence will also be grabbed multiple times when scraping data from GenBank, hence GB_data has 860 observations when it was given 335 accession numbers to search.  
@@ -285,7 +285,7 @@ N.B. For the sake of computational efficency in this vignette we will now load a
 
 ```r
 GB_with_SeqDat <-  read.csv(system.file("extdata","GB_with_SeqDat.csv", 
-                                        package = "mtDNAcombine"))
+                                        package = "mtDNAcombine"), stringsAsFactors = T)
 ```
 
 GB_with_SeqDat file should now be 333 observations with 8 variables. 
@@ -432,7 +432,7 @@ After applying these filters we are left with curated datasets from two species.
 ```r
 what_gets_dropped <- outliers_dropped(max_mutations = 30, info_df = info_df)
 
-info_df <- read.csv("Info_df.csv")
+info_df <- read.csv("Info_df.csv", stringsAsFactors = T)
 ```
 
 ```r
@@ -505,7 +505,8 @@ A quick look at the structure of the output from Tracer taking only complete row
 
 ```r
 data <-read.table(system.file("extdata","ND2_Carpodacus_erythrinus_TracerOut.txt", 
-                                    package = "mtDNAcombine"), skip=1, header=T)
+                                    package = "mtDNAcombine"), skip=1, 
+                  header=T, stringsAsFactors = T)
 data<-data[complete.cases(data),]
 head(data)
 ```

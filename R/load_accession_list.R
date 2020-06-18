@@ -20,10 +20,10 @@ load_accession_list <- function(accession_file_name) {
     # check type of file being read in
     what <- stringr::str_sub(accession_file_name, start = -3)
     if (what == "csv") {
-        accession_list <- utils::read.csv(accession_file_name, header = F)
+        accession_list <- utils::read.csv(accession_file_name, header = F, stringsAsFactors = T)
     } else {
         if (what == "txt") {
-            accession_list <- utils::read.table(accession_file_name, header = F)
+            accession_list <- utils::read.table(accession_file_name, header = F, stringsAsFactors = T)
         }
     }
     # check file format

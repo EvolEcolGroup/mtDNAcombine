@@ -48,7 +48,8 @@ magnify_to_sampled_freq <- function(directory_path = getwd(), magnify_file_list)
 
             # get the new frequency values for each accession
             sample_frequency <- utils::read.csv(paste0(directory_path, "/",
-                                                       magnify_file_list[q]))
+                                                       magnify_file_list[q]), 
+                                                stringsAsFactors = T)
 
             if (ncol(sample_frequency) == 2) {
                 # set up 'cleaned' file to build on

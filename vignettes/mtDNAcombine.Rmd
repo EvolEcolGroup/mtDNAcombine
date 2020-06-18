@@ -89,7 +89,7 @@ For this vignette we will work with a fixed set of 335 accessions in the file "v
 path_to_file <- system.file("extdata","vignette_accessions.csv", 
                             package="mtDNAcombine")
 
-knitr::kable(head(read.csv(path_to_file, header = F)))
+knitr::kable(head(read.csv(path_to_file, header = F, stringsAsFactors = T)))
 ```
 
 
@@ -112,7 +112,7 @@ GB_data
 However, it takes a little longer to collect all the information available for >300 accessions, so, for the sake of speed and efficency, we will load a pre-created output from the `build_genbank_df` function using `vignette_accessions.csv`. 
 
 ```{r}
-GB_data <- read.csv(system.file("extdata","GB_data.csv", package="mtDNAcombine"))
+GB_data <- read.csv(system.file("extdata","GB_data.csv", package="mtDNAcombine"), stringsAsFactors = T)
 ```
 
 Within GenBank, the same single sequence is often associated to multiple features (e.g. 'source', 'gene', and 'CDS'). This is visible on the website, where the same sequence is found under multiple 'Feature' tabs. This means that the same sequence will also be grabbed multiple times when scraping data from GenBank, hence GB_data has 860 observations when it was given 335 accession numbers to search.  
@@ -266,7 +266,7 @@ N.B. For the sake of computational efficency in this vignette we will now load a
 
 ```{r load GB_with_SeqDat}
 GB_with_SeqDat <-  read.csv(system.file("extdata","GB_with_SeqDat.csv", 
-                                        package = "mtDNAcombine"))
+                                        package = "mtDNAcombine"), stringsAsFactors = T)
 ```
 
 GB_with_SeqDat file should now be 333 observations with 8 variables. 
@@ -387,7 +387,7 @@ To keep accurate summary information of the datasets available, we now need to c
 info_df <- updating_info_df(original_df = "Info_df.csv", new_df = mag_df)
 ```
 ```{r read in preexisitng info_df file, echo=FALSE}
-info_df <- read.csv(system.file("extdata","Inf_df.csv", package="mtDNAcombine"))
+info_df <- read.csv(system.file("extdata","Inf_df.csv", package="mtDNAcombine"), stringsAsFactors = T)
 ```
 
 
@@ -418,7 +418,7 @@ colnames(what_gets_dropped) <- c('outlier_accession', 'spp_name')
 ```{r eval=FALSE}
 what_gets_dropped <- outliers_dropped(max_mutations = 30, info_df = info_df)
 
-info_df <- read.csv("Info_df.csv")
+info_df <- read.csv("Info_df.csv", stringsAsFactors = T)
 ```
 ```{r}
 what_gets_dropped
@@ -486,7 +486,8 @@ A quick look at the structure of the output from Tracer taking only complete row
 
 ```{r}
 data <-read.table(system.file("extdata","ND2_Carpodacus_erythrinus_TracerOut.txt", 
-                                    package = "mtDNAcombine"), skip=1, header=T)
+                                    package = "mtDNAcombine"), skip=1, 
+                  header=T, stringsAsFactors = T)
 data<-data[complete.cases(data),]
 head(data)
 ```

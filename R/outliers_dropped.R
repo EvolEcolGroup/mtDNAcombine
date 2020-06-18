@@ -28,7 +28,7 @@ outliers_dropped <- function(max_mutations, info_df) {
     dropped <- NULL
     split_pop <- NULL
     if (inherits(info_df, "character")) {
-        df_in <- utils::read.csv(info_df)
+        df_in <- utils::read.csv(info_df, stringsAsFactors = T)
     } else {
         if (inherits(info_df, "data.frame")) {
             df_in <- info_df

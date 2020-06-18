@@ -23,7 +23,7 @@
 
 standardise_spp_names <- function(data, new_names_file) {
     if (inherits(new_names_file, "character")) {
-        new_names <- utils::read.csv(new_names_file, header = TRUE)
+        new_names <- utils::read.csv(new_names_file, header = T, stringsAsFactors = T)
         what <- ncol(new_names)
 
         if (what == 2) {

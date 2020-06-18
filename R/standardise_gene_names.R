@@ -28,10 +28,12 @@ standardise_gene_names <- function(df_to_update, names_to_replace) {
         filepath <-
             system.file("extdata", "gene_nomenclature_correction.csv",
                         package = "mtDNAcombine")
-        names_to_replace <- utils::read.csv(file = filepath, header = TRUE)
+        names_to_replace <- utils::read.csv(file = filepath, header = T,
+                                            stringsAsFactors = T)
     } else {
         if (inherits(names_to_replace, "character")) {
-            names_to_replace <- utils::read.csv(names_to_replace, header = TRUE)
+            names_to_replace <- utils::read.csv(names_to_replace, header = T,
+                                                stringsAsFactors = T)
         } else {
             stop("file name for names_to_replace not a character string")
         }

@@ -23,7 +23,7 @@
 updating_info_df <- function(original_df, new_df) {
     # open appropriate file
     if (inherits(original_df, "character")) {
-        df_in <- utils::read.csv(original_df)
+        df_in <- utils::read.csv(original_df, stringsAsFactors = T)
     } else {
         if (inherits(original_df, "data.frame")) {
             df_in <- original_df
