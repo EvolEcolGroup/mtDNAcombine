@@ -537,7 +537,7 @@ If analysing data from multiple genes it can be helpful to differentiate the plo
 
 ```r
 plot(log10(data[,3])~data[,1],type="n",ylim=c(3.5,7.5),xlim=c(0,60000), yaxt="n", 
-     yaxs="i", ylab = expression("Pop. Size (Log'[10]*')"), xaxs="i", 
+     yaxs="i", ylab = expression("Pop. Size (Log"[10]*")"), xaxs="i", 
      xlab = "Time since present day (yrs)")
 axis(2, at=c(4,5,6,7), labels = c("1.E4","1.E5","1.E6","1.E7"), las=2, adj=1,
      cex.axis=0.82)
