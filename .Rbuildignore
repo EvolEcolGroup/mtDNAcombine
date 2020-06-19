@@ -5,3 +5,6 @@
 ^\.Rprofile$
 README.md
 README.Rmd
+.circleci
+ci_dependencies
+deps_checksums
