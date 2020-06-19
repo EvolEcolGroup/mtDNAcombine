@@ -60,10 +60,12 @@ And finally load it:
 library(mtDNAcombine)
 ```
 
-If you are working in a version of R <v4.0 and have issues with the installation due to `Biostrings` or `mnormt` you may need to manually install these packages from their .tar.gz files first.  This is due to older versions of these packages being removed from CRAN after the Rv4.0 release. Once installed using the code below, you should be able to install `mtDNAcombine` as normal.
+If you are working in a version of R <v4.0 and have issues with the installation due to `Biostrings` or `mnormt` you may need to manually install these packages from their .tar.gz files first.  This is due to older versions of these packages being removed from CRAN after the R v4.0 release. Once installed using the code below, you should be able to install `mtDNAcombine` as normal.
 
 ```{r manual install older deps, eval=FALSE}
-install.packages(c("https://cran.r-project.org/src/contrib/Archive/mnormt/mnormt_1.5-6.tar.gz","http://bioconductor.riken.jp/packages/3.10/bioc/src/contrib/Biostrings_2.54.0.tar.gz"),repos=NULL,type="source")
+install.packages(c("https://cran.r-project.org/src/contrib/Archive/mnormt/mnormt_1.5-6.tar.gz",
+                   "http://bioconductor.riken.jp/packages/3.10/bioc/src/contrib/Biostrings_2.54.0.tar.gz"), 
+                 repos=NULL,type="source")
 ```
 
 
