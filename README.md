@@ -9,7 +9,7 @@
 
 
 ---
-[![CircleCI](https://img.shields.io/circleci/build/github/EvolEcolGroup/mtDNAcombine/master?label=build%20%28master%29&logo=circleci&style=plastic&token=dbf19e075582baa257024cdbe7a75edf96f93517)](https://circleci.com/gh/EvolEcolGroup/mtDNAcombine/tree/master)
+
 
 
 
@@ -114,12 +114,12 @@ GB_data
 
 ```
 ##          sci_nam                     gene_nam position_start position_end accession_version create_date download_date
-## 1 Motacilla alba NADH dehydrogenase subunit 2              1         1041        AY681627.1 09-JUL-2005    2020-06-18
-## 2 Motacilla alba                          ND2              1         1041        AY681627.1 09-JUL-2005    2020-06-18
-## 3 Motacilla alba NADH dehydrogenase subunit 2              1         1041        AY681608.1 09-JUL-2005    2020-06-18
-## 4 Motacilla alba                          ND2              1         1041        AY681608.1 09-JUL-2005    2020-06-18
-## 5 Motacilla alba NADH dehydrogenase subunit 2              1         1041        AY681620.1 09-JUL-2005    2020-06-18
-## 6 Motacilla alba                          ND2              1         1041        AY681620.1 09-JUL-2005    2020-06-18
+## 1 Motacilla alba NADH dehydrogenase subunit 2              1         1041        AY681627.1 09-JUL-2005    2020-06-19
+## 2 Motacilla alba                          ND2              1         1041        AY681627.1 09-JUL-2005    2020-06-19
+## 3 Motacilla alba NADH dehydrogenase subunit 2              1         1041        AY681608.1 09-JUL-2005    2020-06-19
+## 4 Motacilla alba                          ND2              1         1041        AY681608.1 09-JUL-2005    2020-06-19
+## 5 Motacilla alba NADH dehydrogenase subunit 2              1         1041        AY681620.1 09-JUL-2005    2020-06-19
+## 6 Motacilla alba                          ND2              1         1041        AY681620.1 09-JUL-2005    2020-06-19
 ```
 
 However, it takes a little longer to collect all the information available for >300 accessions, so, for the sake of speed and efficency, we will load a pre-created output from the `build_genbank_df` function using `vignette_accessions.csv`. 
