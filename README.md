@@ -9,7 +9,7 @@
 
 
 ---
-[![CircleCI](https://img.shields.io/circleci/build/github/EvolEcolGroup/mtDNAcombine/master?label=build%20%28master%29&logo=circleci&style=plastic&token=dbf19e075582baa257024cdbe7a75edf96f93517)](https://circleci.com/gh/EvolEcolGroup/mtDNAcombine/tree/master)
+
 
 
 
