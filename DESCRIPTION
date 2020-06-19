@@ -31,7 +31,6 @@ Imports:
   reshape2,
   MASS,
   seqinr,
-  S4Vectors,
   BiocGenerics,
   Biostrings,
   grDevices,
