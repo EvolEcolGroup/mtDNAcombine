@@ -43,7 +43,7 @@ Suggests: testthat,
 VignetteBuilder: knitr
 Remotes: bioc::msa,
   bioc::BiocGenerics,
-  bioc::Biostrings,
+  bioc::Biostrings (<= 2.54.0),
   ropensci/mauricer,
   ropensci/tracerer,
   ropensci/beautier,
