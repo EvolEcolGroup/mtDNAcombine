@@ -32,7 +32,7 @@ Imports:
   MASS,
   seqinr,
   BiocGenerics,
-  Biostrings,
+  Biostrings==2.54.0,
   grDevices,
   graphics,
   utils
@@ -42,7 +42,7 @@ Suggests: testthat,
 VignetteBuilder: knitr
 Remotes: bioc::msa,
   bioc::BiocGenerics,
-  bioc::Biostrings==3.10,
+  bioc::Biostrings==2.54.0,
   ropensci/mauricer,
   ropensci/tracerer,
   ropensci/beautier,
