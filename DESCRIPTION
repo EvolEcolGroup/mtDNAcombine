@@ -33,7 +33,7 @@ Imports:
   MASS,
   seqinr,
   BiocGenerics,
-  Biostrings (<=2.54.0),
+  Biostrings (<= 2.54.0),
   grDevices,
   graphics,
   utils
