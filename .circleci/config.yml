@@ -60,7 +60,7 @@ jobs:
 
 
 #      - run: true | Rscript -e 'devtools::install_deps(upgrade="always", quiet = TRUE)'
-      - run: true | Rscript -e 'install.packages("https://cran.r-project.org/src/contrib/Archive/mnormt/mnormt_1.5-6.tar.gz",repos=NULL,type="source")' -e 'devtools::install_deps(upgrade="default")'
+      - run: true | Rscript -e 'R_REMOTES_NO_ERRORS_FROM_WARNINGS="true"; install.packages("https://cran.r-project.org/src/contrib/Archive/mnormt/mnormt_1.5-6.tar.gz",repos=NULL,type="source")' -e 'devtools::install_deps(upgrade="never")'
 
 
       - *create_dir_cache_key
