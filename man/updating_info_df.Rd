@@ -4,7 +4,7 @@
 \alias{updating_info_df}
 \title{Multiplies sequence data up to sampled frequency, aligns and summarises data}
 \usage{
-updating_info_df(original_df, new_df)
+updating_info_df(original_df, new_df, file_name = "Info_df.csv")
 }
 \arguments{
 \item{original_df}{expected to be info_df or structured as info_df from
@@ -12,6 +12,9 @@ earlier functions}
 
 \item{new_df}{expected to be mag_df data frame or structure as mag_df
 constructed in earlier function.}
+
+\item{file_name}{defaults to 'Info_df.csv' but user can set name if desired,
+must include file extension, e.g. '.csv'}
 }
 \description{
 \code{updating_info_df}
