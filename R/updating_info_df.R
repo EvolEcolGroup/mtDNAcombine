@@ -17,10 +17,12 @@
 #' earlier functions
 #' @param new_df expected to be mag_df data frame or structure as mag_df
 #' constructed in earlier function.
+#' @param file_name defaults to 'Info_df.csv' but user can set name if desired,
+#' must include file extension, e.g. '.csv' 
 #'
 #' @export
 
-updating_info_df <- function(original_df, new_df) {
+updating_info_df <- function(original_df, new_df, file_name = "Info_df.csv") {
     # open appropriate file
     if (inherits(original_df, "character")) {
         df_in <- utils::read.csv(original_df, stringsAsFactors = T)
@@ -36,7 +38,7 @@ updating_info_df <- function(original_df, new_df) {
     # check structure
     if (all(colnames(new_df) == colnames(df_in))) {
         updated_df <- rbind(df_in, new_df)
-        utils::write.csv(updated_df, "Info_df.csv", row.names = FALSE)
+        utils::write.csv(updated_df, file_name, row.names = FALSE)
         return(updated_df)
     } else {
         stop("structure of two data frames doesnt match")
