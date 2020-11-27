@@ -53,7 +53,7 @@ build_genbank_df <- function(accession_file_name) {
             genbank_download2 <-
                 as.data.frame(cbind(
                         sample_details$sci_nam,
-                        as.character(gene_details$gene_nam),
+                        as.character(gene_details$gene_name),
                         as.numeric(as.character(gene_details$position_start)),
                         as.numeric(as.character(gene_details$position_end)),
                         sample_details$accession_version,
@@ -75,7 +75,7 @@ build_genbank_df <- function(accession_file_name) {
 
 
     colnames(genbank_download) <-
-        c("sci_nam", "gene_nam", "position_start", "position_end",
+        c("sci_nam", "gene_name", "position_start", "position_end",
             "accession_version", "create_date", "download_date")
 
     return(genbank_download)
