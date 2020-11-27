@@ -21,7 +21,11 @@
 #' @export
 
 
-standardise_spp_names <- function(data, new_names_file) {
+standardise_spp_names <- function(data, new_names_file = NULL) {
+    if (is.null(new_names_file)){
+        print("No new names provided for updating")
+        return(data)
+    }
     if (inherits(new_names_file, "character")) {
         new_names <- utils::read.csv(new_names_file, header = T, stringsAsFactors = T)
         what <- ncol(new_names)
