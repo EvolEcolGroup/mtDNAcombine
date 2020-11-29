@@ -1,861 +1,1241 @@
 sci_nam,gene_name,position_start,position_end,accession_version,create_date,download_date
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681627.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681627.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681608.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681608.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681620.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681620.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681514.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681514.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681560.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681560.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681501.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681501.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681643.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681643.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681562.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681562.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681613.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681613.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681626.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681626.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681649.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681649.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681662.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681662.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681610.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681610.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681675.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681675.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681601.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681601.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681599.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681599.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681547.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681547.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681518.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681518.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681612.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681612.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681638.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681638.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681648.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681648.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681679.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681679.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681559.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681559.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681665.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681665.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681500.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681500.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681521.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681521.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681645.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681645.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681633.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681633.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681542.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681542.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1006,AF526476.1,12-Nov-02,03/12/2018
-Motacilla alba,ND2,1,1006,AF526476.1,12-Nov-02,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681519.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681519.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681676.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681676.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681555.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681555.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681600.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681600.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681670.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681670.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681617.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681617.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681619.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681619.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681513.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681513.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681698.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681698.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681498.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681498.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681597.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681597.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681557.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681557.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,KC759308.1,03-Jul-13,03/12/2018
-Motacilla alba,ND2,1,1041,KC759308.1,03-Jul-13,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681654.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681654.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681605.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681605.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1006,AF526472.1,12-Nov-02,03/12/2018
-Motacilla alba,ND2,1,1006,AF526472.1,12-Nov-02,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681628.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681628.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681520.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681520.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681603.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681603.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681591.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681591.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681666.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681666.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681631.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681631.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681552.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681552.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681578.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681578.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681630.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681630.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681508.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681508.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681642.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681642.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681682.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681682.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681669.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681669.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681618.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681618.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681512.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681512.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681640.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681640.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681598.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681598.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681694.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681694.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681693.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681693.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681509.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681509.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681647.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681647.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681644.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681644.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681659.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681659.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681668.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681668.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681576.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681576.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681624.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681624.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681571.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681571.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681702.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681702.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681696.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681696.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681699.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681699.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681606.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681606.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681685.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681685.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681522.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681522.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681711.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681711.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681684.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681684.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681553.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681553.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681615.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681615.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681622.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681622.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681661.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681661.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681543.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681543.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681658.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681658.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681550.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681550.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681548.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681548.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681646.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681646.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681621.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681621.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681671.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681671.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681673.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681673.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681651.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681651.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681672.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681672.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 1,4036,5013,KT736087.1,19-Dec-15,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,5238,6277,KT736087.1,19-Dec-15,03/12/2018
-Motacilla alba,cytochrome c oxidase subunit I,6642,8192,KT736087.1,19-Dec-15,03/12/2018
-Motacilla alba,cytochrome c oxidase subunit II,8340,9023,KT736087.1,19-Dec-15,03/12/2018
-Motacilla alba,ATP synthase F0 subunit 8,9095,9262,KT736087.1,19-Dec-15,03/12/2018
-Motacilla alba,ATP synthase F0 subunit 6,9253,9936,KT736087.1,19-Dec-15,03/12/2018
-Motacilla alba,cytochrome c oxidase subunit III,9945,10728,KT736087.1,19-Dec-15,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 3,10798,11148,KT736087.1,19-Dec-15,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 4L,11221,11517,KT736087.1,19-Dec-15,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 4,11511,12888,KT736087.1,19-Dec-15,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 5,13095,14912,KT736087.1,19-Dec-15,03/12/2018
-Motacilla alba,cytochrome b,14923,16065,KT736087.1,19-Dec-15,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 6,16753,16235,KT736087.1,19-Dec-15,03/12/2018
-Motacilla alba,ND1,4036,5013,KT736087.1,19-Dec-15,03/12/2018
-Motacilla alba,ND1,5238,6277,KT736087.1,19-Dec-15,03/12/2018
-Motacilla alba,ND2,6642,8192,KT736087.1,19-Dec-15,03/12/2018
-Motacilla alba,ND2,8340,9023,KT736087.1,19-Dec-15,03/12/2018
-Motacilla alba,COX1,9095,9262,KT736087.1,19-Dec-15,03/12/2018
-Motacilla alba,COX1,9253,9936,KT736087.1,19-Dec-15,03/12/2018
-Motacilla alba,COX2,9945,10728,KT736087.1,19-Dec-15,03/12/2018
-Motacilla alba,COX2,10798,11148,KT736087.1,19-Dec-15,03/12/2018
-Motacilla alba,ATP8,11221,11517,KT736087.1,19-Dec-15,03/12/2018
-Motacilla alba,ATP8,11511,12888,KT736087.1,19-Dec-15,03/12/2018
-Motacilla alba,ATP6,13095,14912,KT736087.1,19-Dec-15,03/12/2018
-Motacilla alba,ATP6,14923,16065,KT736087.1,19-Dec-15,03/12/2018
-Motacilla alba,COX3,16753,16235,KT736087.1,19-Dec-15,03/12/2018
-Motacilla alba,control region,1,1244,KT736087.1,19-Dec-15,03/12/2018
-Motacilla alba,12S ribosomal RNA,1312,2284,KT736087.1,19-Dec-15,03/12/2018
-Motacilla alba,16S ribosomal RNA,2355,3949,KT736087.1,19-Dec-15,03/12/2018
-Motacilla alba,tRNA-Phe,1245,1311,KT736087.1,19-Dec-15,03/12/2018
-Motacilla alba,tRNA-Val,2285,2354,KT736087.1,19-Dec-15,03/12/2018
-Motacilla alba,tRNA-Leu,3950,4024,KT736087.1,19-Dec-15,03/12/2018
-Motacilla alba,tRNA-Ile,5022,5096,KT736087.1,19-Dec-15,03/12/2018
-Motacilla alba,tRNA-Gln,5169,5099,KT736087.1,19-Dec-15,03/12/2018
-Motacilla alba,tRNA-Met,5169,5237,KT736087.1,19-Dec-15,03/12/2018
-Motacilla alba,tRNA-Trp,6278,6347,KT736087.1,19-Dec-15,03/12/2018
-Motacilla alba,tRNA-Ala,6417,6349,KT736087.1,19-Dec-15,03/12/2018
-Motacilla alba,tRNA-Asn,6501,6429,KT736087.1,19-Dec-15,03/12/2018
-Motacilla alba,tRNA-Cys,6570,6504,KT736087.1,19-Dec-15,03/12/2018
-Motacilla alba,tRNA-Tyr,6640,6570,KT736087.1,19-Dec-15,03/12/2018
-Motacilla alba,tRNA-Ser,8265,8184,KT736087.1,19-Dec-15,03/12/2018
-Motacilla alba,tRNA-Asp,8262,8331,KT736087.1,19-Dec-15,03/12/2018
-Motacilla alba,tRNA-Lys,9025,9093,KT736087.1,19-Dec-15,03/12/2018
-Motacilla alba,tRNA-Gly,10729,10797,KT736087.1,19-Dec-15,03/12/2018
-Motacilla alba,tRNA-Arg,11150,11219,KT736087.1,19-Dec-15,03/12/2018
-Motacilla alba,tRNA-His,12889,12958,KT736087.1,19-Dec-15,03/12/2018
-Motacilla alba,tRNA-Ser,12959,13024,KT736087.1,19-Dec-15,03/12/2018
-Motacilla alba,tRNA-Leu,13024,13094,KT736087.1,19-Dec-15,03/12/2018
-Motacilla alba,tRNA-Thr,16069,16137,KT736087.1,19-Dec-15,03/12/2018
-Motacilla alba,tRNA-Pro,16213,16144,KT736087.1,19-Dec-15,03/12/2018
-Motacilla alba,tRNA-Glu,16826,16755,KT736087.1,19-Dec-15,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681538.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681538.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681616.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681616.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681677.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681677.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681544.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681544.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681678.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681678.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681639.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681639.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681625.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681625.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681507.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681507.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,22,1062,AF407040.1,15-Mar-02,03/12/2018
-Motacilla alba,ND2,22,1062,AF407040.1,15-Mar-02,03/12/2018
-Motacilla alba,tRNA-Met,1,21,AF407040.1,15-Mar-02,03/12/2018
-Motacilla alba,tRNA-Trp,1063,1088,AF407040.1,15-Mar-02,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681499.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681499.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681681.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681681.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681561.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681561.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681680.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681680.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681636.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681636.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681541.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681541.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681551.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681551.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681650.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681650.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681556.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681556.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681539.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681539.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681623.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681623.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681697.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681697.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681497.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681497.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681546.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681546.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681674.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681674.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681632.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681632.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681595.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681595.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681536.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681536.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1006,AF526478.1,12-Nov-02,03/12/2018
-Motacilla alba,ND2,1,1006,AF526478.1,12-Nov-02,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681635.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681635.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681602.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681602.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681614.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681614.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681504.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681504.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681549.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681549.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681510.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681510.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681573.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681573.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681540.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681540.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 1,76,1053,EU166960.1,11-May-08,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1266,2306,EU166960.1,11-May-08,03/12/2018
-Motacilla alba,191,1054,1244,EU166960.1,11-May-08,03/12/2018
-Motacilla alba,tRNA-Leu,1,75,EU166960.1,11-May-08,03/12/2018
-Motacilla alba,tRNA-Met,1245,1265,EU166960.1,11-May-08,03/12/2018
-Motacilla alba,tRNA-Ala,2377,2446,EU166960.1,11-May-08,03/12/2018
-Motacilla alba,tRNA-Asn,2458,2530,EU166960.1,11-May-08,03/12/2018
-Motacilla alba,tRNA-Cys,2533,2599,EU166960.1,11-May-08,03/12/2018
-Motacilla alba,tRNA-Tyr,2600,2669,EU166960.1,11-May-08,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681558.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681558.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681590.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681590.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681568.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681568.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681575.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681575.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681511.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681511.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681524.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681524.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681634.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681634.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681517.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681517.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681609.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681609.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681596.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681596.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1025,KJ455507.1,29-May-14,03/12/2018
-Motacilla alba,ND2,1,1025,KJ455507.1,29-May-14,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681695.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681695.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681653.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681653.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681683.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681683.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681523.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681523.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681502.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681502.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681657.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681657.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681637.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681637.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681663.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681663.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681655.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681655.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681535.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681535.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681537.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681537.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681660.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681660.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1006,AF526486.1,12-Nov-02,03/12/2018
-Motacilla alba,ND2,1,1006,AF526486.1,12-Nov-02,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1006,AF526498.1,12-Nov-02,03/12/2018
-Motacilla alba,ND2,1,1006,AF526498.1,12-Nov-02,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit II,1,1041,GU816849.1,01-Jan-11,03/12/2018
-Motacilla alba,ND2,1,1041,GU816849.1,01-Jan-11,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681534.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681534.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681574.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681574.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681579.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681579.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681577.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681577.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681506.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681506.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1006,AF526496.1,12-Nov-02,03/12/2018
-Motacilla alba,ND2,1,1006,AF526496.1,12-Nov-02,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681572.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681572.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681667.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681667.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681515.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681515.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681516.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681516.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681505.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681505.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681545.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681545.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681664.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681664.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681533.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681533.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681652.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681652.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681554.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681554.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681629.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681629.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681641.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681641.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681611.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681611.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681604.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681604.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681503.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681503.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681496.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681496.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681656.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681656.1,09-Jul-05,03/12/2018
-Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681607.1,09-Jul-05,03/12/2018
-Motacilla alba,ND2,1,1041,AY681607.1,09-Jul-05,03/12/2018
-Picoides tridactylus,cytochrome b,515,947,AH011288.2,20-Dec-01,03/12/2018
-Picoides tridactylus,NADH dehydrogenase subunit 2,1048,1430,AH011288.2,20-Dec-01,03/12/2018
-Picoides tridactylus,unknown,415,514,AH011288.2,20-Dec-01,03/12/2018
-Picoides tridactylus,unknown,948,1047,AH011288.2,20-Dec-01,03/12/2018
-Picoides tridactylus,contains NADH dehydrogenase subunit 3,1,414,AH011288.2,20-Dec-01,03/12/2018
-Picoides tridactylus,cytochrome b,519,951,AH011281.2,20-Dec-01,03/12/2018
-Picoides tridactylus,NADH dehydrogenase subunit 2,1052,1434,AH011281.2,20-Dec-01,03/12/2018
-Picoides tridactylus,unknown,419,518,AH011281.2,20-Dec-01,03/12/2018
-Picoides tridactylus,unknown,952,1051,AH011281.2,20-Dec-01,03/12/2018
-Picoides tridactylus,contains NADH dehydrogenase subunit 3,1,418,AH011281.2,20-Dec-01,03/12/2018
-Picoides tridactylus,cytochrome b,506,938,AH011294.2,20-Dec-01,03/12/2018
-Picoides tridactylus,NADH dehydrogenase subunit 2,1039,1420,AH011294.2,20-Dec-01,03/12/2018
-Picoides tridactylus,unknown,406,505,AH011294.2,20-Dec-01,03/12/2018
-Picoides tridactylus,unknown,939,1038,AH011294.2,20-Dec-01,03/12/2018
-Picoides tridactylus,contains NADH dehydrogenase subunit 3,1,405,AH011294.2,20-Dec-01,03/12/2018
-Picoides tridactylus,cytochrome b,519,951,AH011282.2,20-Dec-01,03/12/2018
-Picoides tridactylus,NADH dehydrogenase subunit 2,1052,1434,AH011282.2,20-Dec-01,03/12/2018
-Picoides tridactylus,unknown,419,518,AH011282.2,20-Dec-01,03/12/2018
-Picoides tridactylus,unknown,952,1051,AH011282.2,20-Dec-01,03/12/2018
-Picoides tridactylus,contains NADH dehydrogenase subunit 3,1,418,AH011282.2,20-Dec-01,03/12/2018
-Picoides tridactylus,cytochrome b,519,951,AH011273.2,20-Dec-01,03/12/2018
-Picoides tridactylus,NADH dehydrogenase subunit 2,1052,1415,AH011273.2,20-Dec-01,03/12/2018
-Picoides tridactylus,unknown,419,518,AH011273.2,20-Dec-01,03/12/2018
-Picoides tridactylus,unknown,952,1051,AH011273.2,20-Dec-01,03/12/2018
-Picoides tridactylus,contains NADH dehydrogenase subunit 3,1,418,AH011273.2,20-Dec-01,03/12/2018
-Picoides tridactylus,cytochrome b,519,951,AH011293.2,20-Dec-01,03/12/2018
-Picoides tridactylus,NADH dehydrogenase subunit 2,1052,1434,AH011293.2,20-Dec-01,03/12/2018
-Picoides tridactylus,unknown,419,518,AH011293.2,20-Dec-01,03/12/2018
-Picoides tridactylus,unknown,952,1051,AH011293.2,20-Dec-01,03/12/2018
-Picoides tridactylus,contains NADH dehydrogenase subunit 3,1,418,AH011293.2,20-Dec-01,03/12/2018
-Picoides tridactylus,cytochrome b,519,951,AH011277.2,20-Dec-01,03/12/2018
-Picoides tridactylus,NADH dehydrogenase subunit 2,1052,1434,AH011277.2,20-Dec-01,03/12/2018
-Picoides tridactylus,unknown,419,518,AH011277.2,20-Dec-01,03/12/2018
-Picoides tridactylus,unknown,952,1051,AH011277.2,20-Dec-01,03/12/2018
-Picoides tridactylus,contains NADH dehydrogenase subunit 3,1,418,AH011277.2,20-Dec-01,03/12/2018
-Picoides tridactylus,cytochrome b,519,951,AH011272.2,20-Dec-01,03/12/2018
-Picoides tridactylus,NADH dehydrogenase subunit 2,1052,1409,AH011272.2,20-Dec-01,03/12/2018
-Picoides tridactylus,unknown,419,518,AH011272.2,20-Dec-01,03/12/2018
-Picoides tridactylus,unknown,952,1051,AH011272.2,20-Dec-01,03/12/2018
-Picoides tridactylus,contains NADH dehydrogenase subunit 3,1,418,AH011272.2,20-Dec-01,03/12/2018
-Picoides tridactylus,cytochrome b,519,951,AH011274.2,20-Dec-01,03/12/2018
-Picoides tridactylus,NADH dehydrogenase subunit 2,1052,1434,AH011274.2,20-Dec-01,03/12/2018
-Picoides tridactylus,unknown,419,518,AH011274.2,20-Dec-01,03/12/2018
-Picoides tridactylus,unknown,952,1051,AH011274.2,20-Dec-01,03/12/2018
-Picoides tridactylus,contains NADH dehydrogenase subunit 3,1,418,AH011274.2,20-Dec-01,03/12/2018
-Picoides tridactylus,cytochrome b,519,951,AH011275.2,20-Dec-01,03/12/2018
-Picoides tridactylus,NADH dehydrogenase subunit 2,1052,1434,AH011275.2,20-Dec-01,03/12/2018
-Picoides tridactylus,unknown,419,518,AH011275.2,20-Dec-01,03/12/2018
-Picoides tridactylus,unknown,952,1051,AH011275.2,20-Dec-01,03/12/2018
-Picoides tridactylus,contains NADH dehydrogenase subunit 3,1,418,AH011275.2,20-Dec-01,03/12/2018
-Picoides tridactylus,cytochrome b,516,948,AH011295.2,20-Dec-01,03/12/2018
-Picoides tridactylus,NADH dehydrogenase subunit 2,1049,1430,AH011295.2,20-Dec-01,03/12/2018
-Picoides tridactylus,unknown,416,515,AH011295.2,20-Dec-01,03/12/2018
-Picoides tridactylus,unknown,949,1048,AH011295.2,20-Dec-01,03/12/2018
-Picoides tridactylus,contains NADH dehydrogenase subunit 3,1,415,AH011295.2,20-Dec-01,03/12/2018
-Picoides tridactylus,cytochrome b,459,891,AH011276.2,20-Dec-01,03/12/2018
-Picoides tridactylus,NADH dehydrogenase subunit 2,992,1374,AH011276.2,20-Dec-01,03/12/2018
-Picoides tridactylus,unknown,359,458,AH011276.2,20-Dec-01,03/12/2018
-Picoides tridactylus,unknown,892,991,AH011276.2,20-Dec-01,03/12/2018
-Picoides tridactylus,contains NADH dehydrogenase subunit 3,1,358,AH011276.2,20-Dec-01,03/12/2018
-Picoides tridactylus,cytochrome b,519,951,AH011286.2,20-Dec-01,03/12/2018
-Picoides tridactylus,NADH dehydrogenase subunit 2,1052,1434,AH011286.2,20-Dec-01,03/12/2018
-Picoides tridactylus,unknown,419,518,AH011286.2,20-Dec-01,03/12/2018
-Picoides tridactylus,unknown,952,1051,AH011286.2,20-Dec-01,03/12/2018
-Picoides tridactylus,contains NADH dehydrogenase subunit 3,1,418,AH011286.2,20-Dec-01,03/12/2018
-Picoides tridactylus,cytochrome b,519,951,AH011269.2,20-Dec-01,03/12/2018
-Picoides tridactylus,NADH dehydrogenase subunit 2,1052,1434,AH011269.2,20-Dec-01,03/12/2018
-Picoides tridactylus,unknown,419,518,AH011269.2,20-Dec-01,03/12/2018
-Picoides tridactylus,unknown,952,1051,AH011269.2,20-Dec-01,03/12/2018
-Picoides tridactylus,contains NADH dehydrogenase subunit 3,1,418,AH011269.2,20-Dec-01,03/12/2018
-Picoides tridactylus,cytochrome b,519,948,AH011290.2,20-Dec-01,03/12/2018
-Picoides tridactylus,NADH dehydrogenase subunit 2,1049,1431,AH011290.2,20-Dec-01,03/12/2018
-Picoides tridactylus,unknown,419,518,AH011290.2,20-Dec-01,03/12/2018
-Picoides tridactylus,unknown,949,1048,AH011290.2,20-Dec-01,03/12/2018
-Picoides tridactylus,contains NADH dehydrogenase subunit 3,1,418,AH011290.2,20-Dec-01,03/12/2018
-Picoides tridactylus,cytochrome b,519,951,AH011270.2,20-Dec-01,03/12/2018
-Picoides tridactylus,NADH dehydrogenase subunit 2,1052,1434,AH011270.2,20-Dec-01,03/12/2018
-Picoides tridactylus,unknown,419,518,AH011270.2,20-Dec-01,03/12/2018
-Picoides tridactylus,unknown,952,1051,AH011270.2,20-Dec-01,03/12/2018
-Picoides tridactylus,contains NADH dehydrogenase subunit 3,1,418,AH011270.2,20-Dec-01,03/12/2018
-Picoides tridactylus,cytochrome b,519,951,AH011291.2,20-Dec-01,03/12/2018
-Picoides tridactylus,NADH dehydrogenase subunit 2,1052,1434,AH011291.2,20-Dec-01,03/12/2018
-Picoides tridactylus,unknown,419,518,AH011291.2,20-Dec-01,03/12/2018
-Picoides tridactylus,unknown,952,1051,AH011291.2,20-Dec-01,03/12/2018
-Picoides tridactylus,contains NADH dehydrogenase subunit 3,1,418,AH011291.2,20-Dec-01,03/12/2018
-Picoides tridactylus,cytochrome b,519,951,AH011284.2,20-Dec-01,03/12/2018
-Picoides tridactylus,NADH dehydrogenase subunit 2,1052,1434,AH011284.2,20-Dec-01,03/12/2018
-Picoides tridactylus,unknown,419,518,AH011284.2,20-Dec-01,03/12/2018
-Picoides tridactylus,unknown,952,1051,AH011284.2,20-Dec-01,03/12/2018
-Picoides tridactylus,contains NADH dehydrogenase subunit 3,1,418,AH011284.2,20-Dec-01,03/12/2018
-Picoides tridactylus,cytochrome b,516,948,AH011296.2,20-Dec-01,03/12/2018
-Picoides tridactylus,NADH dehydrogenase subunit 2,1049,1427,AH011296.2,20-Dec-01,03/12/2018
-Picoides tridactylus,unknown,416,515,AH011296.2,20-Dec-01,03/12/2018
-Picoides tridactylus,unknown,949,1048,AH011296.2,20-Dec-01,03/12/2018
-Picoides tridactylus,contains NADH dehydrogenase subunit 3,1,415,AH011296.2,20-Dec-01,03/12/2018
-Picoides tridactylus,cytochrome b,519,951,AH011271.2,20-Dec-01,03/12/2018
-Picoides tridactylus,NADH dehydrogenase subunit 2,1052,1433,AH011271.2,20-Dec-01,03/12/2018
-Picoides tridactylus,unknown,419,518,AH011271.2,20-Dec-01,03/12/2018
-Picoides tridactylus,unknown,952,1051,AH011271.2,20-Dec-01,03/12/2018
-Picoides tridactylus,contains NADH dehydrogenase subunit 3,1,418,AH011271.2,20-Dec-01,03/12/2018
-Picoides tridactylus,NADH dehydrogenase subunit 2,1,1036,DQ188164.1,06-Sep-06,03/12/2018
-Picoides tridactylus,ND2,1,1036,DQ188164.1,06-Sep-06,03/12/2018
-Picoides tridactylus,cytochrome b,519,951,AH011292.2,20-Dec-01,03/12/2018
-Picoides tridactylus,NADH dehydrogenase subunit 2,1052,1434,AH011292.2,20-Dec-01,03/12/2018
-Picoides tridactylus,unknown,419,518,AH011292.2,20-Dec-01,03/12/2018
-Picoides tridactylus,unknown,952,1051,AH011292.2,20-Dec-01,03/12/2018
-Picoides tridactylus,contains NADH dehydrogenase subunit 3,1,418,AH011292.2,20-Dec-01,03/12/2018
-Picoides tridactylus,cytochrome b,519,951,AH011278.2,20-Dec-01,03/12/2018
-Picoides tridactylus,NADH dehydrogenase subunit 2,1052,1434,AH011278.2,20-Dec-01,03/12/2018
-Picoides tridactylus,unknown,419,518,AH011278.2,20-Dec-01,03/12/2018
-Picoides tridactylus,unknown,952,1051,AH011278.2,20-Dec-01,03/12/2018
-Picoides tridactylus,contains NADH dehydrogenase subunit 3,1,418,AH011278.2,20-Dec-01,03/12/2018
-Picoides tridactylus,cytochrome b,519,951,AH011289.2,20-Dec-01,03/12/2018
-Picoides tridactylus,NADH dehydrogenase subunit 2,1052,1434,AH011289.2,20-Dec-01,03/12/2018
-Picoides tridactylus,unknown,419,518,AH011289.2,20-Dec-01,03/12/2018
-Picoides tridactylus,unknown,952,1051,AH011289.2,20-Dec-01,03/12/2018
-Picoides tridactylus,contains NADH dehydrogenase subunit 3,1,418,AH011289.2,20-Dec-01,03/12/2018
-Picoides tridactylus,cytochrome b,519,950,AH011279.2,20-Dec-01,03/12/2018
-Picoides tridactylus,NADH dehydrogenase subunit 2,1051,1419,AH011279.2,20-Dec-01,03/12/2018
-Picoides tridactylus,unknown,419,518,AH011279.2,20-Dec-01,03/12/2018
-Picoides tridactylus,unknown,951,1050,AH011279.2,20-Dec-01,03/12/2018
-Picoides tridactylus,contains NADH dehydrogenase subunit 3,1,418,AH011279.2,20-Dec-01,03/12/2018
-Picoides tridactylus,cytochrome b,517,949,AH011297.2,20-Dec-01,03/12/2018
-Picoides tridactylus,NADH dehydrogenase subunit 2,1050,1432,AH011297.2,20-Dec-01,03/12/2018
-Picoides tridactylus,unknown,417,516,AH011297.2,20-Dec-01,03/12/2018
-Picoides tridactylus,unknown,950,1049,AH011297.2,20-Dec-01,03/12/2018
-Picoides tridactylus,contains NADH dehydrogenase subunit 3,1,416,AH011297.2,20-Dec-01,03/12/2018
-Picoides tridactylus,cytochrome b,519,951,AH011280.2,20-Dec-01,03/12/2018
-Picoides tridactylus,NADH dehydrogenase subunit 2,1052,1434,AH011280.2,20-Dec-01,03/12/2018
-Picoides tridactylus,unknown,419,518,AH011280.2,20-Dec-01,03/12/2018
-Picoides tridactylus,unknown,952,1051,AH011280.2,20-Dec-01,03/12/2018
-Picoides tridactylus,contains NADH dehydrogenase subunit 3,1,418,AH011280.2,20-Dec-01,03/12/2018
-Picoides tridactylus,cytochrome b,519,951,AH011287.2,20-Dec-01,03/12/2018
-Picoides tridactylus,NADH dehydrogenase subunit 2,1052,1423,AH011287.2,20-Dec-01,03/12/2018
-Picoides tridactylus,unknown,419,518,AH011287.2,20-Dec-01,03/12/2018
-Picoides tridactylus,unknown,952,1051,AH011287.2,20-Dec-01,03/12/2018
-Picoides tridactylus,contains NADH dehydrogenase subunit 3,1,418,AH011287.2,20-Dec-01,03/12/2018
-Picoides tridactylus,cytochrome b,519,951,AH011283.2,20-Dec-01,03/12/2018
-Picoides tridactylus,NADH dehydrogenase subunit 2,1052,1414,AH011283.2,20-Dec-01,03/12/2018
-Picoides tridactylus,unknown,419,518,AH011283.2,20-Dec-01,03/12/2018
-Picoides tridactylus,unknown,952,1051,AH011283.2,20-Dec-01,03/12/2018
-Picoides tridactylus,contains NADH dehydrogenase subunit 3,1,418,AH011283.2,20-Dec-01,03/12/2018
-Picoides tridactylus,cytochrome b,519,950,AH011285.2,20-Dec-01,03/12/2018
-Picoides tridactylus,NADH dehydrogenase subunit 2,1051,1433,AH011285.2,20-Dec-01,03/12/2018
-Picoides tridactylus,unknown,419,518,AH011285.2,20-Dec-01,03/12/2018
-Picoides tridactylus,unknown,951,1050,AH011285.2,20-Dec-01,03/12/2018
-Picoides tridactylus,contains NADH dehydrogenase subunit 3,1,418,AH011285.2,20-Dec-01,03/12/2018
-Calidris maritima,NADH dehydrogenase subunit 2,1,753,KP765396.1,20-Jul-15,03/12/2018
-Calidris maritima,ND2,1,753,KP765396.1,20-Jul-15,03/12/2018
-Calidris maritima,NADH dehydrogenase subunit 2,1,753,KP765392.1,20-Jul-15,03/12/2018
-Calidris maritima,ND2,1,753,KP765392.1,20-Jul-15,03/12/2018
-Calidris maritima,NADH dehydrogenase subunit 2,1,753,KP765397.1,20-Jul-15,03/12/2018
-Calidris maritima,ND2,1,753,KP765397.1,20-Jul-15,03/12/2018
-Calidris maritima,NADH dehydrogenase subunit 2,1,753,KP765391.1,20-Jul-15,03/12/2018
-Calidris maritima,ND2,1,753,KP765391.1,20-Jul-15,03/12/2018
-Calidris maritima,NADH dehydrogenase subunit 2,1,753,KP765393.1,20-Jul-15,03/12/2018
-Calidris maritima,ND2,1,753,KP765393.1,20-Jul-15,03/12/2018
-Calidris maritima,NADH dehydrogenase subunit 2,1,753,KP765395.1,20-Jul-15,03/12/2018
-Calidris maritima,ND2,1,753,KP765395.1,20-Jul-15,03/12/2018
-Calidris maritima,NADH dehydrogenase subunit 2,1,1041,AY156131.1,30-Sep-03,03/12/2018
-Calidris maritima,ND2,1,1041,AY156131.1,30-Sep-03,03/12/2018
-Calidris maritima,NADH dehydrogenase subunit 2,1,753,KP765399.1,20-Jul-15,03/12/2018
-Calidris maritima,ND2,1,753,KP765399.1,20-Jul-15,03/12/2018
-Calidris maritima,NADH dehydrogenase subunit 2,1,753,KP765401.1,20-Jul-15,03/12/2018
-Calidris maritima,ND2,1,753,KP765401.1,20-Jul-15,03/12/2018
-Calidris maritima,NADH dehydrogenase subunit 2,1,753,KP765398.1,20-Jul-15,03/12/2018
-Calidris maritima,ND2,1,753,KP765398.1,20-Jul-15,03/12/2018
-Calidris maritima,NADH dehydrogenase subunit 2,1,753,KP765394.1,20-Jul-15,03/12/2018
-Calidris maritima,ND2,1,753,KP765394.1,20-Jul-15,03/12/2018
-Calidris maritima,NADH dehydrogenase subunit 2,1,1041,AY156132.1,30-Sep-03,03/12/2018
-Calidris maritima,ND2,1,1041,AY156132.1,30-Sep-03,03/12/2018
-Calidris maritima,NADH dehydrogenase subunit 2,1,753,KP765400.1,20-Jul-15,03/12/2018
-Calidris maritima,ND2,1,753,KP765400.1,20-Jul-15,03/12/2018
-Calidris maritima,NADH dehydrogenase subunit 2,1,1041,AY156134.1,30-Sep-03,03/12/2018
-Calidris maritima,ND2,1,1041,AY156134.1,30-Sep-03,03/12/2018
-Calidris maritima,NADH dehydrogenase subunit 2,1,1041,AY156133.1,30-Sep-03,03/12/2018
-Calidris maritima,ND2,1,1041,AY156133.1,30-Sep-03,03/12/2018
-Calidris maritima,NADH dehydrogenase subunit 2,1,753,KP765402.1,20-Jul-15,03/12/2018
-Calidris maritima,ND2,1,753,KP765402.1,20-Jul-15,03/12/2018
-Calidris maritima,NADH dehydrogenase subunit 2,1,981,KC969098.1,28-Aug-13,03/12/2018
-Calidris maritima,ND2,1,981,KC969098.1,28-Aug-13,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870814.1,20-Sep-10,03/12/2018
-Pinicola enucleator,ND2,1,1041,GQ870814.1,20-Sep-10,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870801.1,20-Sep-10,03/12/2018
-Pinicola enucleator,ND2,1,1041,GQ870801.1,20-Sep-10,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870866.1,20-Sep-10,03/12/2018
-Pinicola enucleator,ND2,1,1041,GQ870866.1,20-Sep-10,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870809.1,20-Sep-10,03/12/2018
-Pinicola enucleator,ND2,1,1041,GQ870809.1,20-Sep-10,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870837.1,20-Sep-10,03/12/2018
-Pinicola enucleator,ND2,1,1041,GQ870837.1,20-Sep-10,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870860.1,20-Sep-10,03/12/2018
-Pinicola enucleator,ND2,1,1041,GQ870860.1,20-Sep-10,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870821.1,20-Sep-10,03/12/2018
-Pinicola enucleator,ND2,1,1041,GQ870821.1,20-Sep-10,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870830.1,20-Sep-10,03/12/2018
-Pinicola enucleator,ND2,1,1041,GQ870830.1,20-Sep-10,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,FJ547516.1,28-Feb-09,03/12/2018
-Pinicola enucleator,ND2,1,1041,FJ547516.1,28-Feb-09,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870861.1,20-Sep-10,03/12/2018
-Pinicola enucleator,ND2,1,1041,GQ870861.1,20-Sep-10,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870800.1,20-Sep-10,03/12/2018
-Pinicola enucleator,ND2,1,1041,GQ870800.1,20-Sep-10,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 1,4041,5018,KM078781.1,01-Nov-14,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,5240,6279,KM078781.1,01-Nov-14,03/12/2018
-Pinicola enucleator,cytochrome c oxidase subunit I,6639,8189,KM078781.1,01-Nov-14,03/12/2018
-Pinicola enucleator,cytochrome c oxidase subunit II,8334,9017,KM078781.1,01-Nov-14,03/12/2018
-Pinicola enucleator,ATP synthase F0 subunit 8,9089,9256,KM078781.1,01-Nov-14,03/12/2018
-Pinicola enucleator,ATP synthase F0 subunit 6,9247,9930,KM078781.1,01-Nov-14,03/12/2018
-Pinicola enucleator,cytochrome c oxidase subunit III,9939,10722,KM078781.1,01-Nov-14,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 3,10792,11142,KM078781.1,01-Nov-14,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 4L,11215,11511,KM078781.1,01-Nov-14,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 4,11505,12882,KM078781.1,01-Nov-14,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 5,13089,14906,KM078781.1,01-Nov-14,03/12/2018
-Pinicola enucleator,cytochrome b,14915,16057,KM078781.1,01-Nov-14,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 6,16746,16228,KM078781.1,01-Nov-14,03/12/2018
-Pinicola enucleator,ND1,4041,5018,KM078781.1,01-Nov-14,03/12/2018
-Pinicola enucleator,ND1,5240,6279,KM078781.1,01-Nov-14,03/12/2018
-Pinicola enucleator,ND2,6639,8189,KM078781.1,01-Nov-14,03/12/2018
-Pinicola enucleator,ND2,8334,9017,KM078781.1,01-Nov-14,03/12/2018
-Pinicola enucleator,COX1,9089,9256,KM078781.1,01-Nov-14,03/12/2018
-Pinicola enucleator,COX1,9247,9930,KM078781.1,01-Nov-14,03/12/2018
-Pinicola enucleator,COX2,9939,10722,KM078781.1,01-Nov-14,03/12/2018
-Pinicola enucleator,COX2,10792,11142,KM078781.1,01-Nov-14,03/12/2018
-Pinicola enucleator,ATP8,11215,11511,KM078781.1,01-Nov-14,03/12/2018
-Pinicola enucleator,ATP8,11505,12882,KM078781.1,01-Nov-14,03/12/2018
-Pinicola enucleator,ATP6,13089,14906,KM078781.1,01-Nov-14,03/12/2018
-Pinicola enucleator,ATP6,14915,16057,KM078781.1,01-Nov-14,03/12/2018
-Pinicola enucleator,COX3,16746,16228,KM078781.1,01-Nov-14,03/12/2018
-Pinicola enucleator,control region,1,1238,KM078781.1,01-Nov-14,03/12/2018
-Pinicola enucleator,12S ribosomal RNA,1307,2282,KM078781.1,01-Nov-14,03/12/2018
-Pinicola enucleator,16S ribosomal RNA,2353,3951,KM078781.1,01-Nov-14,03/12/2018
-Pinicola enucleator,tRNA-Phe,1239,1306,KM078781.1,01-Nov-14,03/12/2018
-Pinicola enucleator,tRNA-Val,2283,2352,KM078781.1,01-Nov-14,03/12/2018
-Pinicola enucleator,tRNA-Leu,3952,4026,KM078781.1,01-Nov-14,03/12/2018
-Pinicola enucleator,tRNA-Ile,5024,5097,KM078781.1,01-Nov-14,03/12/2018
-Pinicola enucleator,tRNA-Gln,5171,5101,KM078781.1,01-Nov-14,03/12/2018
-Pinicola enucleator,tRNA-Met,5171,5239,KM078781.1,01-Nov-14,03/12/2018
-Pinicola enucleator,tRNA-Trp,6280,6349,KM078781.1,01-Nov-14,03/12/2018
-Pinicola enucleator,tRNA-Ala,6419,6351,KM078781.1,01-Nov-14,03/12/2018
-Pinicola enucleator,tRNA-Asn,6500,6428,KM078781.1,01-Nov-14,03/12/2018
-Pinicola enucleator,tRNA-Cys,6567,6501,KM078781.1,01-Nov-14,03/12/2018
-Pinicola enucleator,tRNA-Tyr,6637,6567,KM078781.1,01-Nov-14,03/12/2018
-Pinicola enucleator,tRNA-Ser,8253,8181,KM078781.1,01-Nov-14,03/12/2018
-Pinicola enucleator,tRNA-Asp,8257,8325,KM078781.1,01-Nov-14,03/12/2018
-Pinicola enucleator,tRNA-Lys,9019,9087,KM078781.1,01-Nov-14,03/12/2018
-Pinicola enucleator,tRNA-Gly,10723,10791,KM078781.1,01-Nov-14,03/12/2018
-Pinicola enucleator,tRNA-Arg,11144,11213,KM078781.1,01-Nov-14,03/12/2018
-Pinicola enucleator,tRNA-His,12883,12952,KM078781.1,01-Nov-14,03/12/2018
-Pinicola enucleator,tRNA-Ser,12953,13018,KM078781.1,01-Nov-14,03/12/2018
-Pinicola enucleator,tRNA-Leu,13018,13088,KM078781.1,01-Nov-14,03/12/2018
-Pinicola enucleator,tRNA-Thr,16061,16129,KM078781.1,01-Nov-14,03/12/2018
-Pinicola enucleator,tRNA-Pro,16216,16147,KM078781.1,01-Nov-14,03/12/2018
-Pinicola enucleator,tRNA-Glu,16818,16748,KM078781.1,01-Nov-14,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870843.1,20-Sep-10,03/12/2018
-Pinicola enucleator,ND2,1,1041,GQ870843.1,20-Sep-10,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870863.1,20-Sep-10,03/12/2018
-Pinicola enucleator,ND2,1,1041,GQ870863.1,20-Sep-10,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870857.1,20-Sep-10,03/12/2018
-Pinicola enucleator,ND2,1,1041,GQ870857.1,20-Sep-10,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870838.1,20-Sep-10,03/12/2018
-Pinicola enucleator,ND2,1,1041,GQ870838.1,20-Sep-10,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870845.1,20-Sep-10,03/12/2018
-Pinicola enucleator,ND2,1,1041,GQ870845.1,20-Sep-10,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870851.1,20-Sep-10,03/12/2018
-Pinicola enucleator,ND2,1,1041,GQ870851.1,20-Sep-10,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870865.1,20-Sep-10,03/12/2018
-Pinicola enucleator,ND2,1,1041,GQ870865.1,20-Sep-10,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,FJ547514.1,28-Feb-09,03/12/2018
-Pinicola enucleator,ND2,1,1041,FJ547514.1,28-Feb-09,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870825.1,20-Sep-10,03/12/2018
-Pinicola enucleator,ND2,1,1041,GQ870825.1,20-Sep-10,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870862.1,20-Sep-10,03/12/2018
-Pinicola enucleator,ND2,1,1041,GQ870862.1,20-Sep-10,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870831.1,20-Sep-10,03/12/2018
-Pinicola enucleator,ND2,1,1041,GQ870831.1,20-Sep-10,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870806.1,20-Sep-10,03/12/2018
-Pinicola enucleator,ND2,1,1041,GQ870806.1,20-Sep-10,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870859.1,20-Sep-10,03/12/2018
-Pinicola enucleator,ND2,1,1041,GQ870859.1,20-Sep-10,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,FJ547513.1,28-Feb-09,03/12/2018
-Pinicola enucleator,ND2,1,1041,FJ547513.1,28-Feb-09,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870819.1,20-Sep-10,03/12/2018
-Pinicola enucleator,ND2,1,1041,GQ870819.1,20-Sep-10,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870815.1,20-Sep-10,03/12/2018
-Pinicola enucleator,ND2,1,1041,GQ870815.1,20-Sep-10,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870803.1,20-Sep-10,03/12/2018
-Pinicola enucleator,ND2,1,1041,GQ870803.1,20-Sep-10,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870849.1,20-Sep-10,03/12/2018
-Pinicola enucleator,ND2,1,1041,GQ870849.1,20-Sep-10,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870832.1,20-Sep-10,03/12/2018
-Pinicola enucleator,ND2,1,1041,GQ870832.1,20-Sep-10,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870853.1,20-Sep-10,03/12/2018
-Pinicola enucleator,ND2,1,1041,GQ870853.1,20-Sep-10,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870813.1,20-Sep-10,03/12/2018
-Pinicola enucleator,ND2,1,1041,GQ870813.1,20-Sep-10,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,FJ547517.1,28-Feb-09,03/12/2018
-Pinicola enucleator,ND2,1,1041,FJ547517.1,28-Feb-09,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870840.1,20-Sep-10,03/12/2018
-Pinicola enucleator,ND2,1,1041,GQ870840.1,20-Sep-10,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870816.1,20-Sep-10,03/12/2018
-Pinicola enucleator,ND2,1,1041,GQ870816.1,20-Sep-10,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870810.1,20-Sep-10,03/12/2018
-Pinicola enucleator,ND2,1,1041,GQ870810.1,20-Sep-10,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870799.1,20-Sep-10,03/12/2018
-Pinicola enucleator,ND2,1,1041,GQ870799.1,20-Sep-10,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870817.1,20-Sep-10,03/12/2018
-Pinicola enucleator,ND2,1,1041,GQ870817.1,20-Sep-10,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,FJ547515.1,28-Feb-09,03/12/2018
-Pinicola enucleator,ND2,1,1041,FJ547515.1,28-Feb-09,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870834.1,20-Sep-10,03/12/2018
-Pinicola enucleator,ND2,1,1041,GQ870834.1,20-Sep-10,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870820.1,20-Sep-10,03/12/2018
-Pinicola enucleator,ND2,1,1041,GQ870820.1,20-Sep-10,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,444,KF194140.1,23-Sep-13,03/12/2018
-Pinicola enucleator,nd2,1,444,KF194140.1,23-Sep-13,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870854.1,20-Sep-10,03/12/2018
-Pinicola enucleator,ND2,1,1041,GQ870854.1,20-Sep-10,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit II,1,1041,JN715468.1,05-Nov-11,03/12/2018
-Pinicola enucleator,ND2,1,1041,JN715468.1,05-Nov-11,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870824.1,20-Sep-10,03/12/2018
-Pinicola enucleator,ND2,1,1041,GQ870824.1,20-Sep-10,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870807.1,20-Sep-10,03/12/2018
-Pinicola enucleator,ND2,1,1041,GQ870807.1,20-Sep-10,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870804.1,20-Sep-10,03/12/2018
-Pinicola enucleator,ND2,1,1041,GQ870804.1,20-Sep-10,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870847.1,20-Sep-10,03/12/2018
-Pinicola enucleator,ND2,1,1041,GQ870847.1,20-Sep-10,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870833.1,20-Sep-10,03/12/2018
-Pinicola enucleator,ND2,1,1041,GQ870833.1,20-Sep-10,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870850.1,20-Sep-10,03/12/2018
-Pinicola enucleator,ND2,1,1041,GQ870850.1,20-Sep-10,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870823.1,20-Sep-10,03/12/2018
-Pinicola enucleator,ND2,1,1041,GQ870823.1,20-Sep-10,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870839.1,20-Sep-10,03/12/2018
-Pinicola enucleator,ND2,1,1041,GQ870839.1,20-Sep-10,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870802.1,20-Sep-10,03/12/2018
-Pinicola enucleator,ND2,1,1041,GQ870802.1,20-Sep-10,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870812.1,20-Sep-10,03/12/2018
-Pinicola enucleator,ND2,1,1041,GQ870812.1,20-Sep-10,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870852.1,20-Sep-10,03/12/2018
-Pinicola enucleator,ND2,1,1041,GQ870852.1,20-Sep-10,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870811.1,20-Sep-10,03/12/2018
-Pinicola enucleator,ND2,1,1041,GQ870811.1,20-Sep-10,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870836.1,20-Sep-10,03/12/2018
-Pinicola enucleator,ND2,1,1041,GQ870836.1,20-Sep-10,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870828.1,20-Sep-10,03/12/2018
-Pinicola enucleator,ND2,1,1041,GQ870828.1,20-Sep-10,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870841.1,20-Sep-10,03/12/2018
-Pinicola enucleator,ND2,1,1041,GQ870841.1,20-Sep-10,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870842.1,20-Sep-10,03/12/2018
-Pinicola enucleator,ND2,1,1041,GQ870842.1,20-Sep-10,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870808.1,20-Sep-10,03/12/2018
-Pinicola enucleator,ND2,1,1041,GQ870808.1,20-Sep-10,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870822.1,20-Sep-10,03/12/2018
-Pinicola enucleator,ND2,1,1041,GQ870822.1,20-Sep-10,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870844.1,20-Sep-10,03/12/2018
-Pinicola enucleator,ND2,1,1041,GQ870844.1,20-Sep-10,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870867.1,20-Sep-10,03/12/2018
-Pinicola enucleator,ND2,1,1041,GQ870867.1,20-Sep-10,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870826.1,20-Sep-10,03/12/2018
-Pinicola enucleator,ND2,1,1041,GQ870826.1,20-Sep-10,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870858.1,20-Sep-10,03/12/2018
-Pinicola enucleator,ND2,1,1041,GQ870858.1,20-Sep-10,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870855.1,20-Sep-10,03/12/2018
-Pinicola enucleator,ND2,1,1041,GQ870855.1,20-Sep-10,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870848.1,20-Sep-10,03/12/2018
-Pinicola enucleator,ND2,1,1041,GQ870848.1,20-Sep-10,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870856.1,20-Sep-10,03/12/2018
-Pinicola enucleator,ND2,1,1041,GQ870856.1,20-Sep-10,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870846.1,20-Sep-10,03/12/2018
-Pinicola enucleator,ND2,1,1041,GQ870846.1,20-Sep-10,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870805.1,20-Sep-10,03/12/2018
-Pinicola enucleator,ND2,1,1041,GQ870805.1,20-Sep-10,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870829.1,20-Sep-10,03/12/2018
-Pinicola enucleator,ND2,1,1041,GQ870829.1,20-Sep-10,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870864.1,20-Sep-10,03/12/2018
-Pinicola enucleator,ND2,1,1041,GQ870864.1,20-Sep-10,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870818.1,20-Sep-10,03/12/2018
-Pinicola enucleator,ND2,1,1041,GQ870818.1,20-Sep-10,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870835.1,20-Sep-10,03/12/2018
-Pinicola enucleator,ND2,1,1041,GQ870835.1,20-Sep-10,03/12/2018
-Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870827.1,20-Sep-10,03/12/2018
-Pinicola enucleator,ND2,1,1041,GQ870827.1,20-Sep-10,03/12/2018
-Motacilla alba alboides,NADH dehydrogenase subunit 2,1,1041,AY681729.1,09-Jul-05,03/12/2018
-Motacilla alba alboides,ND2,1,1041,AY681729.1,09-Jul-05,03/12/2018
-Motacilla alba alboides,NADH dehydrogenase subunit 2,1,1041,AY681728.1,09-Jul-05,03/12/2018
-Motacilla alba alboides,ND2,1,1041,AY681728.1,09-Jul-05,03/12/2018
-Motacilla alba alboides,NADH dehydrogenase subunit 2,1,922,KT031331.1,30-Nov-15,03/12/2018
-Motacilla alba alboides,ND2,1,922,KT031331.1,30-Nov-15,03/12/2018
-Motacilla alba alboides,NADH dehydrogenase subunit 2,1,1021,KT031326.1,30-Nov-15,03/12/2018
-Motacilla alba alboides,ND2,1,1021,KT031326.1,30-Nov-15,03/12/2018
-Motacilla alba alboides,NADH dehydrogenase subunit 2,1,1021,KT031325.1,30-Nov-15,03/12/2018
-Motacilla alba alboides,ND2,1,1021,KT031325.1,30-Nov-15,03/12/2018
-Motacilla alba alboides,NADH dehydrogenase subunit 2,1,1021,KT031324.1,30-Nov-15,03/12/2018
-Motacilla alba alboides,ND2,1,1021,KT031324.1,30-Nov-15,03/12/2018
-Motacilla alba alboides,NADH dehydrogenase subunit 2,1,1021,KT031323.1,30-Nov-15,03/12/2018
-Motacilla alba alboides,ND2,1,1021,KT031323.1,30-Nov-15,03/12/2018
-Motacilla alba alboides,NADH dehydrogenase subunit 2,1,1021,KT031321.1,30-Nov-15,03/12/2018
-Motacilla alba alboides,ND2,1,1021,KT031321.1,30-Nov-15,03/12/2018
-Motacilla alba alboides,NADH dehydrogenase subunit 2,1,1021,KT031320.1,30-Nov-15,03/12/2018
-Motacilla alba alboides,ND2,1,1021,KT031320.1,30-Nov-15,03/12/2018
-Motacilla alba alboides,NADH dehydrogenase subunit 2,1,1021,KT031319.1,30-Nov-15,03/12/2018
-Motacilla alba alboides,ND2,1,1021,KT031319.1,30-Nov-15,03/12/2018
-Motacilla alba alboides,NADH dehydrogenase subunit 2,1,1021,KT031318.1,30-Nov-15,03/12/2018
-Motacilla alba alboides,ND2,1,1021,KT031318.1,30-Nov-15,03/12/2018
-Motacilla alba alboides,NADH dehydrogenase subunit 2,1,1021,KT031317.1,30-Nov-15,03/12/2018
-Motacilla alba alboides,ND2,1,1021,KT031317.1,30-Nov-15,03/12/2018
-Motacilla alba alboides,NADH dehydrogenase subunit 2,1,1021,KT031316.1,30-Nov-15,03/12/2018
-Motacilla alba alboides,ND2,1,1021,KT031316.1,30-Nov-15,03/12/2018
-Motacilla alba alboides,NADH dehydrogenase subunit 2,1,1021,KT031315.1,30-Nov-15,03/12/2018
-Motacilla alba alboides,ND2,1,1021,KT031315.1,30-Nov-15,03/12/2018
-Motacilla alba alboides,NADH dehydrogenase subunit 2,1,1021,KT031314.1,30-Nov-15,03/12/2018
-Motacilla alba alboides,ND2,1,1021,KT031314.1,30-Nov-15,03/12/2018
-Motacilla alba alboides,NADH dehydrogenase subunit 2,1,1021,KT031313.1,30-Nov-15,03/12/2018
-Motacilla alba alboides,ND2,1,1021,KT031313.1,30-Nov-15,03/12/2018
-Motacilla alba alboides,NADH dehydrogenase subunit 2,1,1021,KT031312.1,30-Nov-15,03/12/2018
-Motacilla alba alboides,ND2,1,1021,KT031312.1,30-Nov-15,03/12/2018
-Motacilla alba alboides,NADH dehydrogenase subunit 2,1,1021,KT031311.1,30-Nov-15,03/12/2018
-Motacilla alba alboides,ND2,1,1021,KT031311.1,30-Nov-15,03/12/2018
-Motacilla alba alboides,NADH dehydrogenase subunit 2,1,1021,KT031310.1,30-Nov-15,03/12/2018
-Motacilla alba alboides,ND2,1,1021,KT031310.1,30-Nov-15,03/12/2018
-Motacilla alba alboides,NADH dehydrogenase subunit 2,1,1021,KT031309.1,30-Nov-15,03/12/2018
-Motacilla alba alboides,ND2,1,1021,KT031309.1,30-Nov-15,03/12/2018
-Motacilla alba alboides,NADH dehydrogenase subunit 2,1,1021,KT031308.1,30-Nov-15,03/12/2018
-Motacilla alba alboides,ND2,1,1021,KT031308.1,30-Nov-15,03/12/2018
-Motacilla alba alboides,NADH dehydrogenase subunit 2,1,1021,KT031307.1,30-Nov-15,03/12/2018
-Motacilla alba alboides,ND2,1,1021,KT031307.1,30-Nov-15,03/12/2018
-Motacilla alba alboides,NADH dehydrogenase subunit 2,1,1021,KT031306.1,30-Nov-15,03/12/2018
-Motacilla alba alboides,ND2,1,1021,KT031306.1,30-Nov-15,03/12/2018
-Motacilla alba alboides,NADH dehydrogenase subunit 2,1,1021,KT031305.1,30-Nov-15,03/12/2018
-Motacilla alba alboides,ND2,1,1021,KT031305.1,30-Nov-15,03/12/2018
-Motacilla alba alboides,NADH dehydrogenase subunit 2,1,922,KT031292.1,30-Nov-15,03/12/2018
-Motacilla alba alboides,ND2,1,922,KT031292.1,30-Nov-15,03/12/2018
-Motacilla alba alboides,NADH dehydrogenase subunit 2,1,922,KT031286.1,30-Nov-15,03/12/2018
-Motacilla alba alboides,ND2,1,922,KT031286.1,30-Nov-15,03/12/2018
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681627.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681627.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681608.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681608.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681620.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681620.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681514.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681514.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681560.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681560.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681501.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681501.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681643.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681643.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681562.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681562.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681613.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681613.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681626.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681626.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681649.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681649.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681662.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681662.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681610.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681610.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681675.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681675.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681601.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681601.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681599.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681599.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681547.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681547.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681518.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681518.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681612.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681612.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681638.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681638.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681648.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681648.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681679.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681679.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681559.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681559.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681665.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681665.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681500.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681500.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681521.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681521.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681645.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681645.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681633.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681633.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681542.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681542.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1006,AF526476.1,12-NOV-2002,2020-11-27
+Motacilla alba,ND2,1,1006,AF526476.1,12-NOV-2002,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681519.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681519.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681676.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681676.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681555.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681555.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681600.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681600.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681670.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681670.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681617.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681617.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681619.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681619.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681513.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681513.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681698.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681698.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681498.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681498.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681597.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681597.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681557.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681557.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,KC759308.1,03-JUL-2013,2020-11-27
+Motacilla alba,ND2,1,1041,KC759308.1,03-JUL-2013,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681654.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681654.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681605.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681605.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1006,AF526472.1,12-NOV-2002,2020-11-27
+Motacilla alba,ND2,1,1006,AF526472.1,12-NOV-2002,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681628.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681628.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681520.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681520.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681603.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681603.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681591.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681591.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681666.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681666.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681631.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681631.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681552.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681552.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681578.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681578.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681630.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681630.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681508.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681508.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681642.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681642.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681682.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681682.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681669.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681669.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681618.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681618.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681512.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681512.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681640.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681640.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681598.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681598.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681694.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681694.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681693.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681693.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681509.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681509.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681647.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681647.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681644.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681644.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681659.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681659.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681668.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681668.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681576.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681576.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681624.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681624.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681571.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681571.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681702.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681702.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681696.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681696.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681699.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681699.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681606.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681606.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681685.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681685.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681522.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681522.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681711.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681711.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681684.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681684.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681553.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681553.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681615.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681615.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681622.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681622.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681661.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681661.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681543.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681543.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681658.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681658.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681550.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681550.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681548.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681548.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681646.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681646.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681621.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681621.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681671.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681671.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681673.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681673.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681651.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681651.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681672.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681672.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 1,4036,5013,KT736087.1,19-DEC-2015,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,5238,6277,KT736087.1,19-DEC-2015,2020-11-27
+Motacilla alba,cytochrome c oxidase subunit I,6642,8192,KT736087.1,19-DEC-2015,2020-11-27
+Motacilla alba,cytochrome c oxidase subunit II,8340,9023,KT736087.1,19-DEC-2015,2020-11-27
+Motacilla alba,ATP synthase F0 subunit 8,9095,9262,KT736087.1,19-DEC-2015,2020-11-27
+Motacilla alba,ATP synthase F0 subunit 6,9253,9936,KT736087.1,19-DEC-2015,2020-11-27
+Motacilla alba,cytochrome c oxidase subunit III,9945,10728,KT736087.1,19-DEC-2015,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 3,10798,11148,KT736087.1,19-DEC-2015,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 4L,11221,11517,KT736087.1,19-DEC-2015,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 4,11511,12888,KT736087.1,19-DEC-2015,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 5,13095,14912,KT736087.1,19-DEC-2015,2020-11-27
+Motacilla alba,cytochrome b,14923,16065,KT736087.1,19-DEC-2015,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 6,16753,16235,KT736087.1,19-DEC-2015,2020-11-27
+Motacilla alba,ND1,4036,5013,KT736087.1,19-DEC-2015,2020-11-27
+Motacilla alba,ND1,5238,6277,KT736087.1,19-DEC-2015,2020-11-27
+Motacilla alba,ND2,6642,8192,KT736087.1,19-DEC-2015,2020-11-27
+Motacilla alba,ND2,8340,9023,KT736087.1,19-DEC-2015,2020-11-27
+Motacilla alba,COX1,9095,9262,KT736087.1,19-DEC-2015,2020-11-27
+Motacilla alba,COX1,9253,9936,KT736087.1,19-DEC-2015,2020-11-27
+Motacilla alba,COX2,9945,10728,KT736087.1,19-DEC-2015,2020-11-27
+Motacilla alba,COX2,10798,11148,KT736087.1,19-DEC-2015,2020-11-27
+Motacilla alba,ATP8,11221,11517,KT736087.1,19-DEC-2015,2020-11-27
+Motacilla alba,ATP8,11511,12888,KT736087.1,19-DEC-2015,2020-11-27
+Motacilla alba,ATP6,13095,14912,KT736087.1,19-DEC-2015,2020-11-27
+Motacilla alba,ATP6,14923,16065,KT736087.1,19-DEC-2015,2020-11-27
+Motacilla alba,COX3,16753,16235,KT736087.1,19-DEC-2015,2020-11-27
+Motacilla alba,control region,1,1244,KT736087.1,19-DEC-2015,2020-11-27
+Motacilla alba,12S ribosomal RNA,1312,2284,KT736087.1,19-DEC-2015,2020-11-27
+Motacilla alba,16S ribosomal RNA,2355,3949,KT736087.1,19-DEC-2015,2020-11-27
+Motacilla alba,tRNA-Phe,1245,1311,KT736087.1,19-DEC-2015,2020-11-27
+Motacilla alba,tRNA-Val,2285,2354,KT736087.1,19-DEC-2015,2020-11-27
+Motacilla alba,tRNA-Leu,3950,4024,KT736087.1,19-DEC-2015,2020-11-27
+Motacilla alba,tRNA-Ile,5022,5096,KT736087.1,19-DEC-2015,2020-11-27
+Motacilla alba,tRNA-Gln,5169,5099,KT736087.1,19-DEC-2015,2020-11-27
+Motacilla alba,tRNA-Met,5169,5237,KT736087.1,19-DEC-2015,2020-11-27
+Motacilla alba,tRNA-Trp,6278,6347,KT736087.1,19-DEC-2015,2020-11-27
+Motacilla alba,tRNA-Ala,6417,6349,KT736087.1,19-DEC-2015,2020-11-27
+Motacilla alba,tRNA-Asn,6501,6429,KT736087.1,19-DEC-2015,2020-11-27
+Motacilla alba,tRNA-Cys,6570,6504,KT736087.1,19-DEC-2015,2020-11-27
+Motacilla alba,tRNA-Tyr,6640,6570,KT736087.1,19-DEC-2015,2020-11-27
+Motacilla alba,tRNA-Ser,8265,8184,KT736087.1,19-DEC-2015,2020-11-27
+Motacilla alba,tRNA-Asp,8262,8331,KT736087.1,19-DEC-2015,2020-11-27
+Motacilla alba,tRNA-Lys,9025,9093,KT736087.1,19-DEC-2015,2020-11-27
+Motacilla alba,tRNA-Gly,10729,10797,KT736087.1,19-DEC-2015,2020-11-27
+Motacilla alba,tRNA-Arg,11150,11219,KT736087.1,19-DEC-2015,2020-11-27
+Motacilla alba,tRNA-His,12889,12958,KT736087.1,19-DEC-2015,2020-11-27
+Motacilla alba,tRNA-Ser,12959,13024,KT736087.1,19-DEC-2015,2020-11-27
+Motacilla alba,tRNA-Leu,13024,13094,KT736087.1,19-DEC-2015,2020-11-27
+Motacilla alba,tRNA-Thr,16069,16137,KT736087.1,19-DEC-2015,2020-11-27
+Motacilla alba,tRNA-Pro,16213,16144,KT736087.1,19-DEC-2015,2020-11-27
+Motacilla alba,tRNA-Glu,16826,16755,KT736087.1,19-DEC-2015,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681538.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681538.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681616.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681616.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681677.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681677.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681544.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681544.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681678.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681678.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681639.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681639.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681625.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681625.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681507.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681507.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,22,1062,AF407040.1,15-MAR-2002,2020-11-27
+Motacilla alba,ND2,22,1062,AF407040.1,15-MAR-2002,2020-11-27
+Motacilla alba,tRNA-Met,1,21,AF407040.1,15-MAR-2002,2020-11-27
+Motacilla alba,tRNA-Trp,1063,1088,AF407040.1,15-MAR-2002,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681499.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681499.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681681.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681681.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681561.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681561.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681680.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681680.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681636.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681636.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681541.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681541.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681551.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681551.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681650.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681650.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681556.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681556.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681539.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681539.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681623.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681623.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681697.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681697.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681497.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681497.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681546.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681546.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681674.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681674.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681632.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681632.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681595.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681595.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681536.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681536.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1006,AF526478.1,12-NOV-2002,2020-11-27
+Motacilla alba,ND2,1,1006,AF526478.1,12-NOV-2002,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681635.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681635.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681602.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681602.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681614.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681614.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681504.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681504.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681549.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681549.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681510.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681510.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681573.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681573.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681540.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681540.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 1,76,1053,EU166960.1,11-MAY-2008,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1266,2306,EU166960.1,11-MAY-2008,2020-11-27
+Motacilla alba,191,1054,1244,EU166960.1,11-MAY-2008,2020-11-27
+Motacilla alba,tRNA-Leu,1,75,EU166960.1,11-MAY-2008,2020-11-27
+Motacilla alba,tRNA-Met,1245,1265,EU166960.1,11-MAY-2008,2020-11-27
+Motacilla alba,tRNA-Ala,2377,2446,EU166960.1,11-MAY-2008,2020-11-27
+Motacilla alba,tRNA-Asn,2458,2530,EU166960.1,11-MAY-2008,2020-11-27
+Motacilla alba,tRNA-Cys,2533,2599,EU166960.1,11-MAY-2008,2020-11-27
+Motacilla alba,tRNA-Tyr,2600,2669,EU166960.1,11-MAY-2008,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681558.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681558.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681590.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681590.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681568.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681568.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681575.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681575.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681511.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681511.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681524.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681524.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681634.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681634.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681517.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681517.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681609.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681609.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681596.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681596.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1025,KJ455507.1,29-MAY-2014,2020-11-27
+Motacilla alba,ND2,1,1025,KJ455507.1,29-MAY-2014,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681695.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681695.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681653.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681653.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681683.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681683.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681523.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681523.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681502.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681502.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681657.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681657.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681637.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681637.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681663.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681663.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681655.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681655.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681535.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681535.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681537.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681537.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681660.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681660.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1006,AF526486.1,12-NOV-2002,2020-11-27
+Motacilla alba,ND2,1,1006,AF526486.1,12-NOV-2002,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1006,AF526498.1,12-NOV-2002,2020-11-27
+Motacilla alba,ND2,1,1006,AF526498.1,12-NOV-2002,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit II,1,1041,GU816849.1,01-JAN-2011,2020-11-27
+Motacilla alba,ND2,1,1041,GU816849.1,01-JAN-2011,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681534.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681534.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681574.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681574.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681579.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681579.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681577.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681577.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681506.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681506.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1006,AF526496.1,12-NOV-2002,2020-11-27
+Motacilla alba,ND2,1,1006,AF526496.1,12-NOV-2002,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681572.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681572.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681667.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681667.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681515.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681515.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681516.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681516.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681505.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681505.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681545.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681545.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681664.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681664.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681533.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681533.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681652.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681652.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681554.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681554.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681629.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681629.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681641.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681641.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681611.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681611.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681604.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681604.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681503.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681503.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681496.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681496.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681656.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681656.1,09-JUL-2005,2020-11-27
+Motacilla alba,NADH dehydrogenase subunit 2,1,1041,AY681607.1,09-JUL-2005,2020-11-27
+Motacilla alba,ND2,1,1041,AY681607.1,09-JUL-2005,2020-11-27
+Picoides tridactylus,cytochrome b,515,947,AH011288.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,NADH dehydrogenase subunit 2,1048,1430,AH011288.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,unknown,415,514,AH011288.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,unknown,948,1047,AH011288.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,contains NADH dehydrogenase subunit 3,1,414,AH011288.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,cytochrome b,519,951,AH011281.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,NADH dehydrogenase subunit 2,1052,1434,AH011281.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,unknown,419,518,AH011281.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,unknown,952,1051,AH011281.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,contains NADH dehydrogenase subunit 3,1,418,AH011281.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,cytochrome b,506,938,AH011294.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,NADH dehydrogenase subunit 2,1039,1420,AH011294.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,unknown,406,505,AH011294.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,unknown,939,1038,AH011294.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,contains NADH dehydrogenase subunit 3,1,405,AH011294.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,cytochrome b,519,951,AH011282.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,NADH dehydrogenase subunit 2,1052,1434,AH011282.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,unknown,419,518,AH011282.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,unknown,952,1051,AH011282.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,contains NADH dehydrogenase subunit 3,1,418,AH011282.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,cytochrome b,519,951,AH011273.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,NADH dehydrogenase subunit 2,1052,1415,AH011273.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,unknown,419,518,AH011273.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,unknown,952,1051,AH011273.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,contains NADH dehydrogenase subunit 3,1,418,AH011273.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,cytochrome b,519,951,AH011293.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,NADH dehydrogenase subunit 2,1052,1434,AH011293.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,unknown,419,518,AH011293.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,unknown,952,1051,AH011293.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,contains NADH dehydrogenase subunit 3,1,418,AH011293.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,cytochrome b,519,951,AH011277.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,NADH dehydrogenase subunit 2,1052,1434,AH011277.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,unknown,419,518,AH011277.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,unknown,952,1051,AH011277.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,contains NADH dehydrogenase subunit 3,1,418,AH011277.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,cytochrome b,519,951,AH011272.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,NADH dehydrogenase subunit 2,1052,1409,AH011272.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,unknown,419,518,AH011272.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,unknown,952,1051,AH011272.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,contains NADH dehydrogenase subunit 3,1,418,AH011272.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,cytochrome b,519,951,AH011274.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,NADH dehydrogenase subunit 2,1052,1434,AH011274.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,unknown,419,518,AH011274.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,unknown,952,1051,AH011274.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,contains NADH dehydrogenase subunit 3,1,418,AH011274.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,cytochrome b,519,951,AH011275.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,NADH dehydrogenase subunit 2,1052,1434,AH011275.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,unknown,419,518,AH011275.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,unknown,952,1051,AH011275.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,contains NADH dehydrogenase subunit 3,1,418,AH011275.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,cytochrome b,516,948,AH011295.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,NADH dehydrogenase subunit 2,1049,1430,AH011295.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,unknown,416,515,AH011295.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,unknown,949,1048,AH011295.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,contains NADH dehydrogenase subunit 3,1,415,AH011295.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,cytochrome b,459,891,AH011276.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,NADH dehydrogenase subunit 2,992,1374,AH011276.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,unknown,359,458,AH011276.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,unknown,892,991,AH011276.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,contains NADH dehydrogenase subunit 3,1,358,AH011276.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,cytochrome b,519,951,AH011286.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,NADH dehydrogenase subunit 2,1052,1434,AH011286.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,unknown,419,518,AH011286.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,unknown,952,1051,AH011286.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,contains NADH dehydrogenase subunit 3,1,418,AH011286.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,cytochrome b,519,951,AH011269.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,NADH dehydrogenase subunit 2,1052,1434,AH011269.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,unknown,419,518,AH011269.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,unknown,952,1051,AH011269.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,contains NADH dehydrogenase subunit 3,1,418,AH011269.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,cytochrome b,519,948,AH011290.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,NADH dehydrogenase subunit 2,1049,1431,AH011290.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,unknown,419,518,AH011290.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,unknown,949,1048,AH011290.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,contains NADH dehydrogenase subunit 3,1,418,AH011290.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,cytochrome b,519,951,AH011270.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,NADH dehydrogenase subunit 2,1052,1434,AH011270.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,unknown,419,518,AH011270.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,unknown,952,1051,AH011270.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,contains NADH dehydrogenase subunit 3,1,418,AH011270.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,cytochrome b,519,951,AH011291.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,NADH dehydrogenase subunit 2,1052,1434,AH011291.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,unknown,419,518,AH011291.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,unknown,952,1051,AH011291.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,contains NADH dehydrogenase subunit 3,1,418,AH011291.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,cytochrome b,519,951,AH011284.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,NADH dehydrogenase subunit 2,1052,1434,AH011284.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,unknown,419,518,AH011284.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,unknown,952,1051,AH011284.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,contains NADH dehydrogenase subunit 3,1,418,AH011284.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,cytochrome b,516,948,AH011296.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,NADH dehydrogenase subunit 2,1049,1427,AH011296.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,unknown,416,515,AH011296.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,unknown,949,1048,AH011296.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,contains NADH dehydrogenase subunit 3,1,415,AH011296.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,cytochrome b,519,951,AH011271.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,NADH dehydrogenase subunit 2,1052,1433,AH011271.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,unknown,419,518,AH011271.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,unknown,952,1051,AH011271.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,contains NADH dehydrogenase subunit 3,1,418,AH011271.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,NADH dehydrogenase subunit 2,1,1036,DQ188164.1,06-SEP-2006,2020-11-27
+Picoides tridactylus,ND2,1,1036,DQ188164.1,06-SEP-2006,2020-11-27
+Picoides tridactylus,cytochrome b,519,951,AH011292.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,NADH dehydrogenase subunit 2,1052,1434,AH011292.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,unknown,419,518,AH011292.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,unknown,952,1051,AH011292.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,contains NADH dehydrogenase subunit 3,1,418,AH011292.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,cytochrome b,519,951,AH011278.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,NADH dehydrogenase subunit 2,1052,1434,AH011278.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,unknown,419,518,AH011278.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,unknown,952,1051,AH011278.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,contains NADH dehydrogenase subunit 3,1,418,AH011278.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,cytochrome b,519,951,AH011289.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,NADH dehydrogenase subunit 2,1052,1434,AH011289.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,unknown,419,518,AH011289.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,unknown,952,1051,AH011289.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,contains NADH dehydrogenase subunit 3,1,418,AH011289.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,cytochrome b,519,950,AH011279.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,NADH dehydrogenase subunit 2,1051,1419,AH011279.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,unknown,419,518,AH011279.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,unknown,951,1050,AH011279.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,contains NADH dehydrogenase subunit 3,1,418,AH011279.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,cytochrome b,517,949,AH011297.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,NADH dehydrogenase subunit 2,1050,1432,AH011297.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,unknown,417,516,AH011297.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,unknown,950,1049,AH011297.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,contains NADH dehydrogenase subunit 3,1,416,AH011297.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,cytochrome b,519,951,AH011280.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,NADH dehydrogenase subunit 2,1052,1434,AH011280.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,unknown,419,518,AH011280.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,unknown,952,1051,AH011280.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,contains NADH dehydrogenase subunit 3,1,418,AH011280.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,cytochrome b,519,951,AH011287.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,NADH dehydrogenase subunit 2,1052,1423,AH011287.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,unknown,419,518,AH011287.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,unknown,952,1051,AH011287.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,contains NADH dehydrogenase subunit 3,1,418,AH011287.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,cytochrome b,519,951,AH011283.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,NADH dehydrogenase subunit 2,1052,1414,AH011283.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,unknown,419,518,AH011283.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,unknown,952,1051,AH011283.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,contains NADH dehydrogenase subunit 3,1,418,AH011283.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,cytochrome b,519,950,AH011285.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,NADH dehydrogenase subunit 2,1051,1433,AH011285.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,unknown,419,518,AH011285.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,unknown,951,1050,AH011285.2,20-DEC-2001,2020-11-27
+Picoides tridactylus,contains NADH dehydrogenase subunit 3,1,418,AH011285.2,20-DEC-2001,2020-11-27
+Calidris maritima,NADH dehydrogenase subunit 2,1,753,KP765396.1,20-JUL-2015,2020-11-27
+Calidris maritima,ND2,1,753,KP765396.1,20-JUL-2015,2020-11-27
+Calidris maritima,NADH dehydrogenase subunit 2,1,753,KP765392.1,20-JUL-2015,2020-11-27
+Calidris maritima,ND2,1,753,KP765392.1,20-JUL-2015,2020-11-27
+Calidris maritima,NADH dehydrogenase subunit 2,1,753,KP765397.1,20-JUL-2015,2020-11-27
+Calidris maritima,ND2,1,753,KP765397.1,20-JUL-2015,2020-11-27
+Calidris maritima,NADH dehydrogenase subunit 2,1,753,KP765391.1,20-JUL-2015,2020-11-27
+Calidris maritima,ND2,1,753,KP765391.1,20-JUL-2015,2020-11-27
+Calidris maritima,NADH dehydrogenase subunit 2,1,753,KP765393.1,20-JUL-2015,2020-11-27
+Calidris maritima,ND2,1,753,KP765393.1,20-JUL-2015,2020-11-27
+Calidris maritima,NADH dehydrogenase subunit 2,1,753,KP765395.1,20-JUL-2015,2020-11-27
+Calidris maritima,ND2,1,753,KP765395.1,20-JUL-2015,2020-11-27
+Calidris maritima,NADH dehydrogenase subunit 2,1,1041,AY156131.1,30-SEP-2003,2020-11-27
+Calidris maritima,ND2,1,1041,AY156131.1,30-SEP-2003,2020-11-27
+Calidris maritima,NADH dehydrogenase subunit 2,1,753,KP765399.1,20-JUL-2015,2020-11-27
+Calidris maritima,ND2,1,753,KP765399.1,20-JUL-2015,2020-11-27
+Calidris maritima,NADH dehydrogenase subunit 2,1,753,KP765401.1,20-JUL-2015,2020-11-27
+Calidris maritima,ND2,1,753,KP765401.1,20-JUL-2015,2020-11-27
+Calidris maritima,NADH dehydrogenase subunit 2,1,753,KP765398.1,20-JUL-2015,2020-11-27
+Calidris maritima,ND2,1,753,KP765398.1,20-JUL-2015,2020-11-27
+Calidris maritima,NADH dehydrogenase subunit 2,1,753,KP765394.1,20-JUL-2015,2020-11-27
+Calidris maritima,ND2,1,753,KP765394.1,20-JUL-2015,2020-11-27
+Calidris maritima,NADH dehydrogenase subunit 2,1,1041,AY156132.1,30-SEP-2003,2020-11-27
+Calidris maritima,ND2,1,1041,AY156132.1,30-SEP-2003,2020-11-27
+Calidris maritima,NADH dehydrogenase subunit 2,1,753,KP765400.1,20-JUL-2015,2020-11-27
+Calidris maritima,ND2,1,753,KP765400.1,20-JUL-2015,2020-11-27
+Calidris maritima,NADH dehydrogenase subunit 2,1,1041,AY156134.1,30-SEP-2003,2020-11-27
+Calidris maritima,ND2,1,1041,AY156134.1,30-SEP-2003,2020-11-27
+Calidris maritima,NADH dehydrogenase subunit 2,1,1041,AY156133.1,30-SEP-2003,2020-11-27
+Calidris maritima,ND2,1,1041,AY156133.1,30-SEP-2003,2020-11-27
+Calidris maritima,NADH dehydrogenase subunit 2,1,753,KP765402.1,20-JUL-2015,2020-11-27
+Calidris maritima,ND2,1,753,KP765402.1,20-JUL-2015,2020-11-27
+Calidris maritima,NADH dehydrogenase subunit 2,1,981,KC969098.1,28-AUG-2013,2020-11-27
+Calidris maritima,ND2,1,981,KC969098.1,28-AUG-2013,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870814.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,ND2,1,1041,GQ870814.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870801.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,ND2,1,1041,GQ870801.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870866.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,ND2,1,1041,GQ870866.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870809.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,ND2,1,1041,GQ870809.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870837.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,ND2,1,1041,GQ870837.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870860.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,ND2,1,1041,GQ870860.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870821.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,ND2,1,1041,GQ870821.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870830.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,ND2,1,1041,GQ870830.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,FJ547516.1,28-FEB-2009,2020-11-27
+Pinicola enucleator,ND2,1,1041,FJ547516.1,28-FEB-2009,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870861.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,ND2,1,1041,GQ870861.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870800.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,ND2,1,1041,GQ870800.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 1,4041,5018,KM078781.1,01-NOV-2014,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,5240,6279,KM078781.1,01-NOV-2014,2020-11-27
+Pinicola enucleator,cytochrome c oxidase subunit I,6639,8189,KM078781.1,01-NOV-2014,2020-11-27
+Pinicola enucleator,cytochrome c oxidase subunit II,8334,9017,KM078781.1,01-NOV-2014,2020-11-27
+Pinicola enucleator,ATP synthase F0 subunit 8,9089,9256,KM078781.1,01-NOV-2014,2020-11-27
+Pinicola enucleator,ATP synthase F0 subunit 6,9247,9930,KM078781.1,01-NOV-2014,2020-11-27
+Pinicola enucleator,cytochrome c oxidase subunit III,9939,10722,KM078781.1,01-NOV-2014,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 3,10792,11142,KM078781.1,01-NOV-2014,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 4L,11215,11511,KM078781.1,01-NOV-2014,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 4,11505,12882,KM078781.1,01-NOV-2014,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 5,13089,14906,KM078781.1,01-NOV-2014,2020-11-27
+Pinicola enucleator,cytochrome b,14915,16057,KM078781.1,01-NOV-2014,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 6,16746,16228,KM078781.1,01-NOV-2014,2020-11-27
+Pinicola enucleator,ND1,4041,5018,KM078781.1,01-NOV-2014,2020-11-27
+Pinicola enucleator,ND1,5240,6279,KM078781.1,01-NOV-2014,2020-11-27
+Pinicola enucleator,ND2,6639,8189,KM078781.1,01-NOV-2014,2020-11-27
+Pinicola enucleator,ND2,8334,9017,KM078781.1,01-NOV-2014,2020-11-27
+Pinicola enucleator,COX1,9089,9256,KM078781.1,01-NOV-2014,2020-11-27
+Pinicola enucleator,COX1,9247,9930,KM078781.1,01-NOV-2014,2020-11-27
+Pinicola enucleator,COX2,9939,10722,KM078781.1,01-NOV-2014,2020-11-27
+Pinicola enucleator,COX2,10792,11142,KM078781.1,01-NOV-2014,2020-11-27
+Pinicola enucleator,ATP8,11215,11511,KM078781.1,01-NOV-2014,2020-11-27
+Pinicola enucleator,ATP8,11505,12882,KM078781.1,01-NOV-2014,2020-11-27
+Pinicola enucleator,ATP6,13089,14906,KM078781.1,01-NOV-2014,2020-11-27
+Pinicola enucleator,ATP6,14915,16057,KM078781.1,01-NOV-2014,2020-11-27
+Pinicola enucleator,COX3,16746,16228,KM078781.1,01-NOV-2014,2020-11-27
+Pinicola enucleator,control region,1,1238,KM078781.1,01-NOV-2014,2020-11-27
+Pinicola enucleator,12S ribosomal RNA,1307,2282,KM078781.1,01-NOV-2014,2020-11-27
+Pinicola enucleator,16S ribosomal RNA,2353,3951,KM078781.1,01-NOV-2014,2020-11-27
+Pinicola enucleator,tRNA-Phe,1239,1306,KM078781.1,01-NOV-2014,2020-11-27
+Pinicola enucleator,tRNA-Val,2283,2352,KM078781.1,01-NOV-2014,2020-11-27
+Pinicola enucleator,tRNA-Leu,3952,4026,KM078781.1,01-NOV-2014,2020-11-27
+Pinicola enucleator,tRNA-Ile,5024,5097,KM078781.1,01-NOV-2014,2020-11-27
+Pinicola enucleator,tRNA-Gln,5171,5101,KM078781.1,01-NOV-2014,2020-11-27
+Pinicola enucleator,tRNA-Met,5171,5239,KM078781.1,01-NOV-2014,2020-11-27
+Pinicola enucleator,tRNA-Trp,6280,6349,KM078781.1,01-NOV-2014,2020-11-27
+Pinicola enucleator,tRNA-Ala,6419,6351,KM078781.1,01-NOV-2014,2020-11-27
+Pinicola enucleator,tRNA-Asn,6500,6428,KM078781.1,01-NOV-2014,2020-11-27
+Pinicola enucleator,tRNA-Cys,6567,6501,KM078781.1,01-NOV-2014,2020-11-27
+Pinicola enucleator,tRNA-Tyr,6637,6567,KM078781.1,01-NOV-2014,2020-11-27
+Pinicola enucleator,tRNA-Ser,8253,8181,KM078781.1,01-NOV-2014,2020-11-27
+Pinicola enucleator,tRNA-Asp,8257,8325,KM078781.1,01-NOV-2014,2020-11-27
+Pinicola enucleator,tRNA-Lys,9019,9087,KM078781.1,01-NOV-2014,2020-11-27
+Pinicola enucleator,tRNA-Gly,10723,10791,KM078781.1,01-NOV-2014,2020-11-27
+Pinicola enucleator,tRNA-Arg,11144,11213,KM078781.1,01-NOV-2014,2020-11-27
+Pinicola enucleator,tRNA-His,12883,12952,KM078781.1,01-NOV-2014,2020-11-27
+Pinicola enucleator,tRNA-Ser,12953,13018,KM078781.1,01-NOV-2014,2020-11-27
+Pinicola enucleator,tRNA-Leu,13018,13088,KM078781.1,01-NOV-2014,2020-11-27
+Pinicola enucleator,tRNA-Thr,16061,16129,KM078781.1,01-NOV-2014,2020-11-27
+Pinicola enucleator,tRNA-Pro,16216,16147,KM078781.1,01-NOV-2014,2020-11-27
+Pinicola enucleator,tRNA-Glu,16818,16748,KM078781.1,01-NOV-2014,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870843.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,ND2,1,1041,GQ870843.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870863.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,ND2,1,1041,GQ870863.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870857.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,ND2,1,1041,GQ870857.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870838.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,ND2,1,1041,GQ870838.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870845.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,ND2,1,1041,GQ870845.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870851.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,ND2,1,1041,GQ870851.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870865.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,ND2,1,1041,GQ870865.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,FJ547514.1,28-FEB-2009,2020-11-27
+Pinicola enucleator,ND2,1,1041,FJ547514.1,28-FEB-2009,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870825.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,ND2,1,1041,GQ870825.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870862.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,ND2,1,1041,GQ870862.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870831.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,ND2,1,1041,GQ870831.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870806.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,ND2,1,1041,GQ870806.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870859.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,ND2,1,1041,GQ870859.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,FJ547513.1,28-FEB-2009,2020-11-27
+Pinicola enucleator,ND2,1,1041,FJ547513.1,28-FEB-2009,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870819.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,ND2,1,1041,GQ870819.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870815.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,ND2,1,1041,GQ870815.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870803.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,ND2,1,1041,GQ870803.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870849.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,ND2,1,1041,GQ870849.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870832.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,ND2,1,1041,GQ870832.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870853.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,ND2,1,1041,GQ870853.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870813.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,ND2,1,1041,GQ870813.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,FJ547517.1,28-FEB-2009,2020-11-27
+Pinicola enucleator,ND2,1,1041,FJ547517.1,28-FEB-2009,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870840.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,ND2,1,1041,GQ870840.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870816.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,ND2,1,1041,GQ870816.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870810.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,ND2,1,1041,GQ870810.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870799.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,ND2,1,1041,GQ870799.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870817.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,ND2,1,1041,GQ870817.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,FJ547515.1,28-FEB-2009,2020-11-27
+Pinicola enucleator,ND2,1,1041,FJ547515.1,28-FEB-2009,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870834.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,ND2,1,1041,GQ870834.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870820.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,ND2,1,1041,GQ870820.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,444,KF194140.1,23-SEP-2013,2020-11-27
+Pinicola enucleator,nd2,1,444,KF194140.1,23-SEP-2013,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870854.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,ND2,1,1041,GQ870854.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit II,1,1041,JN715468.1,05-NOV-2011,2020-11-27
+Pinicola enucleator,ND2,1,1041,JN715468.1,05-NOV-2011,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870824.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,ND2,1,1041,GQ870824.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870807.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,ND2,1,1041,GQ870807.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870804.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,ND2,1,1041,GQ870804.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870847.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,ND2,1,1041,GQ870847.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870833.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,ND2,1,1041,GQ870833.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870850.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,ND2,1,1041,GQ870850.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870823.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,ND2,1,1041,GQ870823.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870839.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,ND2,1,1041,GQ870839.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870802.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,ND2,1,1041,GQ870802.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870812.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,ND2,1,1041,GQ870812.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870852.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,ND2,1,1041,GQ870852.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870811.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,ND2,1,1041,GQ870811.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870836.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,ND2,1,1041,GQ870836.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870828.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,ND2,1,1041,GQ870828.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870841.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,ND2,1,1041,GQ870841.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870842.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,ND2,1,1041,GQ870842.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870808.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,ND2,1,1041,GQ870808.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870822.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,ND2,1,1041,GQ870822.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870844.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,ND2,1,1041,GQ870844.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870867.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,ND2,1,1041,GQ870867.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870826.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,ND2,1,1041,GQ870826.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870858.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,ND2,1,1041,GQ870858.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870855.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,ND2,1,1041,GQ870855.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870848.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,ND2,1,1041,GQ870848.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870856.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,ND2,1,1041,GQ870856.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870846.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,ND2,1,1041,GQ870846.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870805.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,ND2,1,1041,GQ870805.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870829.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,ND2,1,1041,GQ870829.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870864.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,ND2,1,1041,GQ870864.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870818.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,ND2,1,1041,GQ870818.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870835.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,ND2,1,1041,GQ870835.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,NADH dehydrogenase subunit 2,1,1041,GQ870827.1,20-SEP-2010,2020-11-27
+Pinicola enucleator,ND2,1,1041,GQ870827.1,20-SEP-2010,2020-11-27
+Motacilla alba alboides,NADH dehydrogenase subunit 2,1,1041,AY681729.1,09-JUL-2005,2020-11-27
+Motacilla alba alboides,ND2,1,1041,AY681729.1,09-JUL-2005,2020-11-27
+Motacilla alba alboides,NADH dehydrogenase subunit 2,1,1041,AY681728.1,09-JUL-2005,2020-11-27
+Motacilla alba alboides,ND2,1,1041,AY681728.1,09-JUL-2005,2020-11-27
+Motacilla alba alboides,NADH dehydrogenase subunit 2,1,922,KT031331.1,30-NOV-2015,2020-11-27
+Motacilla alba alboides,ND2,1,922,KT031331.1,30-NOV-2015,2020-11-27
+Motacilla alba alboides,NADH dehydrogenase subunit 2,1,1021,KT031326.1,30-NOV-2015,2020-11-27
+Motacilla alba alboides,ND2,1,1021,KT031326.1,30-NOV-2015,2020-11-27
+Motacilla alba alboides,NADH dehydrogenase subunit 2,1,1021,KT031325.1,30-NOV-2015,2020-11-27
+Motacilla alba alboides,ND2,1,1021,KT031325.1,30-NOV-2015,2020-11-27
+Motacilla alba alboides,NADH dehydrogenase subunit 2,1,1021,KT031324.1,30-NOV-2015,2020-11-27
+Motacilla alba alboides,ND2,1,1021,KT031324.1,30-NOV-2015,2020-11-27
+Motacilla alba alboides,NADH dehydrogenase subunit 2,1,1021,KT031323.1,30-NOV-2015,2020-11-27
+Motacilla alba alboides,ND2,1,1021,KT031323.1,30-NOV-2015,2020-11-27
+Motacilla alba alboides,NADH dehydrogenase subunit 2,1,1021,KT031321.1,30-NOV-2015,2020-11-27
+Motacilla alba alboides,ND2,1,1021,KT031321.1,30-NOV-2015,2020-11-27
+Motacilla alba alboides,NADH dehydrogenase subunit 2,1,1021,KT031320.1,30-NOV-2015,2020-11-27
+Motacilla alba alboides,ND2,1,1021,KT031320.1,30-NOV-2015,2020-11-27
+Motacilla alba alboides,NADH dehydrogenase subunit 2,1,1021,KT031319.1,30-NOV-2015,2020-11-27
+Motacilla alba alboides,ND2,1,1021,KT031319.1,30-NOV-2015,2020-11-27
+Motacilla alba alboides,NADH dehydrogenase subunit 2,1,1021,KT031318.1,30-NOV-2015,2020-11-27
+Motacilla alba alboides,ND2,1,1021,KT031318.1,30-NOV-2015,2020-11-27
+Motacilla alba alboides,NADH dehydrogenase subunit 2,1,1021,KT031317.1,30-NOV-2015,2020-11-27
+Motacilla alba alboides,ND2,1,1021,KT031317.1,30-NOV-2015,2020-11-27
+Motacilla alba alboides,NADH dehydrogenase subunit 2,1,1021,KT031316.1,30-NOV-2015,2020-11-27
+Motacilla alba alboides,ND2,1,1021,KT031316.1,30-NOV-2015,2020-11-27
+Motacilla alba alboides,NADH dehydrogenase subunit 2,1,1021,KT031315.1,30-NOV-2015,2020-11-27
+Motacilla alba alboides,ND2,1,1021,KT031315.1,30-NOV-2015,2020-11-27
+Motacilla alba alboides,NADH dehydrogenase subunit 2,1,1021,KT031314.1,30-NOV-2015,2020-11-27
+Motacilla alba alboides,ND2,1,1021,KT031314.1,30-NOV-2015,2020-11-27
+Motacilla alba alboides,NADH dehydrogenase subunit 2,1,1021,KT031313.1,30-NOV-2015,2020-11-27
+Motacilla alba alboides,ND2,1,1021,KT031313.1,30-NOV-2015,2020-11-27
+Motacilla alba alboides,NADH dehydrogenase subunit 2,1,1021,KT031312.1,30-NOV-2015,2020-11-27
+Motacilla alba alboides,ND2,1,1021,KT031312.1,30-NOV-2015,2020-11-27
+Motacilla alba alboides,NADH dehydrogenase subunit 2,1,1021,KT031311.1,30-NOV-2015,2020-11-27
+Motacilla alba alboides,ND2,1,1021,KT031311.1,30-NOV-2015,2020-11-27
+Motacilla alba alboides,NADH dehydrogenase subunit 2,1,1021,KT031310.1,30-NOV-2015,2020-11-27
+Motacilla alba alboides,ND2,1,1021,KT031310.1,30-NOV-2015,2020-11-27
+Motacilla alba alboides,NADH dehydrogenase subunit 2,1,1021,KT031309.1,30-NOV-2015,2020-11-27
+Motacilla alba alboides,ND2,1,1021,KT031309.1,30-NOV-2015,2020-11-27
+Motacilla alba alboides,NADH dehydrogenase subunit 2,1,1021,KT031308.1,30-NOV-2015,2020-11-27
+Motacilla alba alboides,ND2,1,1021,KT031308.1,30-NOV-2015,2020-11-27
+Motacilla alba alboides,NADH dehydrogenase subunit 2,1,1021,KT031307.1,30-NOV-2015,2020-11-27
+Motacilla alba alboides,ND2,1,1021,KT031307.1,30-NOV-2015,2020-11-27
+Motacilla alba alboides,NADH dehydrogenase subunit 2,1,1021,KT031306.1,30-NOV-2015,2020-11-27
+Motacilla alba alboides,ND2,1,1021,KT031306.1,30-NOV-2015,2020-11-27
+Motacilla alba alboides,NADH dehydrogenase subunit 2,1,1021,KT031305.1,30-NOV-2015,2020-11-27
+Motacilla alba alboides,ND2,1,1021,KT031305.1,30-NOV-2015,2020-11-27
+Motacilla alba alboides,NADH dehydrogenase subunit 2,1,922,KT031292.1,30-NOV-2015,2020-11-27
+Motacilla alba alboides,ND2,1,922,KT031292.1,30-NOV-2015,2020-11-27
+Motacilla alba alboides,NADH dehydrogenase subunit 2,1,922,KT031286.1,30-NOV-2015,2020-11-27
+Motacilla alba alboides,ND2,1,922,KT031286.1,30-NOV-2015,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703261.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703261.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703264.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703264.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703265.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703265.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703266.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703266.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703268.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703268.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703270.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703270.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703272.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703272.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703273.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703273.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703277.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703277.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703278.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703278.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703280.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703280.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703299.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703299.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703282.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703282.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703301.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703301.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703283.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703283.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703284.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703284.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703343.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703343.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703440.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703440.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703439.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703439.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703286.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703286.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703287.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703287.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703288.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703288.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703377.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703377.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703291.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703291.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703292.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703292.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703293.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703293.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703281.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703281.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703294.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703294.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703295.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703295.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703296.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703296.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703300.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703300.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703297.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703297.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703298.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703298.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703302.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703302.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703427.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703427.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703373.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703373.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703364.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703364.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703367.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703367.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703324.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703324.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703325.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703325.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703276.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703276.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703382.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703382.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703368.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703368.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703263.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703263.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703333.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703333.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703371.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703371.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703320.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703320.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703303.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703303.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703271.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703271.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703305.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703305.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703307.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703307.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703308.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703308.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703420.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703420.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703309.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703309.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703310.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703310.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit 2,1,1041,KJ455349.1,29-MAY-2014,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,KJ455349.1,29-MAY-2014,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703319.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703319.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703289.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703289.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703311.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703311.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703312.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703312.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703313.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703313.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703332.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703332.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703314.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703314.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703315.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703315.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703318.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703318.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703321.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703321.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703323.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703323.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703326.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703326.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703327.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703327.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703328.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703328.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703329.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703329.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703330.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703330.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703331.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703331.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703335.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703335.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703336.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703336.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703337.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703337.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703338.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703338.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703344.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703344.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703339.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703339.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703341.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703341.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703346.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703346.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703348.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703348.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703349.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703349.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703350.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703350.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703351.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703351.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703353.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703353.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703356.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703356.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703352.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703352.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703345.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703345.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703347.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703347.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703355.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703355.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703429.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703429.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703354.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703354.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703357.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703357.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703359.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703359.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703361.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703361.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703363.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703363.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703365.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703365.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703399.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703399.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703362.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703362.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703369.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703369.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703370.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703370.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703374.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703374.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703375.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703375.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703376.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703376.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703378.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703378.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703379.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703379.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703381.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703381.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703385.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703385.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703387.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703387.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703390.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703390.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703391.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703391.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703304.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703304.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703392.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703392.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703393.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703393.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703394.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703394.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703397.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703397.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703398.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703398.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703401.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703401.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703402.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703402.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703403.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703403.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703404.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703404.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703405.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703405.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703407.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703407.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703410.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703410.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703412.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703412.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703413.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703413.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703267.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703267.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703269.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703269.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703435.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703435.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703274.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703274.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703395.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703395.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703444.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703444.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703411.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703411.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703340.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703340.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703334.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703334.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703358.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703358.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703414.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703414.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703428.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703428.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703400.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703400.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703316.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703316.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703306.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703306.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703415.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703415.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703416.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703416.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703434.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703434.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703322.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703322.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703279.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703279.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703366.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703366.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703389.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703389.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703406.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703406.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703317.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703317.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703388.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703388.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703384.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703384.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,JN715428.1,05-NOV-2011,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,JN715428.1,05-NOV-2011,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703409.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703409.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703285.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703285.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703396.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703396.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703383.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703383.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703386.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703386.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703290.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703290.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703275.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703275.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703380.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703380.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703360.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703360.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703408.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703408.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703372.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703372.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703446.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703446.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703417.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703417.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703418.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703418.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703419.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703419.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703421.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703421.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703422.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703422.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703262.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703262.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703423.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703423.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703424.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703424.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703425.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703425.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703342.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703342.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703426.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703426.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703430.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703430.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703431.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703431.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703432.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703432.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703433.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703433.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703436.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703436.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703437.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703437.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703438.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703438.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703441.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703441.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703442.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703442.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703443.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703443.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit II,1,1041,AY703445.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,ND2,1,1041,AY703445.1,22-AUG-2005,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit 2,1,1038,KF194129.1,23-SEP-2013,2020-11-27
+Carpodacus erythrinus,nd2,1,1038,KF194129.1,23-SEP-2013,2020-11-27
+Carpodacus erythrinus,NADH dehydrogenase subunit 2,1,1041,KF194157.1,23-SEP-2013,2020-11-27
+Carpodacus erythrinus,nd2,1,1041,KF194157.1,23-SEP-2013,2020-11-27
