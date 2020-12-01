@@ -92,7 +92,7 @@ Then click the 'Send to:' drop down, check the 'Complete Record' radio button, t
 The output produced by GenBank is likely to be a '.seq' file, or, if using a list of accessions gathered in a different way (e.g. compiled by hand), a list of accessions saved in a .csv format is okay as long as there are no headers or row names. 
 
 
-For this vignette we will work with a fixed set of 335 accessions in the file "vignette_accessions.csv" from the package. This file can be accessed from the extdata directory through the 'system.file' command (see below for an example of its usage).
+For this vignette we will work with a fixed set of 525 accessions in the file "vignette_accessions.csv" from the package. This file can be accessed from the extdata directory through the 'system.file' command (see below for an example of its usage).
 
 ```{r}
 path_to_file <- system.file("extdata","vignette_accessions.csv", 
@@ -118,15 +118,15 @@ GB_data <- build_genbank_df(accession_file_name = path_to_file)
 GB_data
 ```
 
-However, it takes a little longer to collect all the information available for >300 accessions, so, for the sake of speed and efficency, we will load a pre-created output from the `build_genbank_df` function using `vignette_accessions.csv`. 
+However, it takes a little longer to collect all the information available for >500 accessions, so, for the sake of speed and efficency, we will load a pre-created output from the `build_genbank_df` function using `vignette_accessions.csv`. 
 
 ```{r}
 GB_data <- read.csv(system.file("extdata","GB_data.csv", package="mtDNAcombine"), stringsAsFactors = T)
 ```
 
-Within GenBank, the same single sequence is often associated to multiple features (e.g. 'source', 'gene', and 'CDS'). This is visible on the website, where the same sequence is found under multiple 'Feature' tabs. This means that the same sequence will also be grabbed multiple times when scraping data from GenBank, hence GB_data has 860 observations when it was given 335 accession numbers to search.  
+Within GenBank, the same single sequence is often associated to multiple features (e.g. 'source', 'gene', and 'CDS'). This is visible on the website, where the same sequence is found under multiple 'Feature' tabs. This means that the same sequence will also be grabbed multiple times when scraping data from GenBank, hence GB_data has 1240 observations when it was given 525 accession numbers to search.  
 
-It should also be noted at this stage that `GB_data` only has data for 333 unique accession numbers, two less that the number included in the `vignette_accessions.csv`.  A key feature of the `build_genbank_df` function is that it will silently remove any RefSeq accessions included in the list of accession numbers it is given, if they are identified as duplicates.  The RefSeq collection aims to provide a collated and stable set of standard reference sequences for studies from all disciplines to build on.  Drawn from genomes already available in GenBank and other community databases, they may duplicate existing accessions and, for our purposes, need to be removed.  The `load_accessions_list` function, called within `build_genbank_df` silently removes these accessions having first checked that the 'original' accessions they duplicate are already included in the dataset. 
+It should also be noted at this stage that `GB_data` only has data for 523 unique accession numbers, two less that the number included in the `vignette_accessions.csv`.  A key feature of the `build_genbank_df` function is that it will silently remove any RefSeq accessions included in the list of accession numbers it is given, if they are identified as duplicates.  The RefSeq collection aims to provide a collated and stable set of standard reference sequences for studies from all disciplines to build on.  Drawn from genomes already available in GenBank and other community databases, they may duplicate existing accessions and, for our purposes, need to be removed.  The `load_accessions_list` function, called within `build_genbank_df` silently removes these accessions having first checked that the 'original' accessions they duplicate are already included in the dataset. 
 
 
 ## Tidying up raw information 
@@ -150,7 +150,7 @@ GB_data <- remove_duplicates(df_to_update = GB_data)
 nrow(GB_data)
 ```
 
-We do not expect the number of accessions we're exploring and number of observations to match at this stage. Indeed, in this example we see that, from the original 335 accession numbers in "vignette_accessions.csv", the GB_data data frame now has 500 observations.  This is because the script captures ALL genes associated with each given accession.  Every submission to GenBank receives a unique accession number but these individual submissions can contain data for anything from a single gene through to whole genome data.  
+We do not expect the number of accessions we're exploring and number of observations to match at this stage. Indeed, in this example we see that, from the original 525 accession numbers in "vignette_accessions.csv", the GB_data data frame now has 690 observations.  This is because the script captures ALL genes associated with each given accession.  Every submission to GenBank receives a unique accession number but these individual submissions can contain data for anything from a single gene through to whole genome data.  
 
 
 
@@ -182,6 +182,7 @@ colnames(GB_genes) <- "gene_name"
 
 GB_genes <- droplevels(as.data.frame(GB_genes[!grepl(patt, x = GB_genes$gene_name), ]))
 
+colnames(GB_genes) <- "gene_name"
 ```
 
 
@@ -278,7 +279,7 @@ GB_with_SeqDat <-  read.csv(system.file("extdata","GB_with_SeqDat.csv",
                                         package = "mtDNAcombine"), stringsAsFactors = T)
 ```
 
-GB_with_SeqDat file should now be 333 observations with 8 variables. 
+GB_with_SeqDat file should now be 523 observations with 8 variables. 
 
 ```{r collapse=TRUE}
 nrow(GB_with_SeqDat)
@@ -319,6 +320,7 @@ For efficiency, here we will subset the `alignment_file_list` and run just one o
 ```{r align and summarise the sequence data}
 align_and_summarise(alignment_files = alignment_file_list[4], 
                     max_haps_found_together = 2, minbp = 200)
+
 ```
 
 
@@ -367,7 +369,7 @@ For each of the populations recorded in "More_info_df.csv", the `align_and_summa
 
 
 
-In this vignette-dataset accessions for *Calidris maritima* and *Motacilla alba* are flagged as needing further investigation. Exploration of the original published papers suggest that data for *Motacilla alba* have indeed been uploaded at sampled frequency and this was essentially a "false alarm". Therefore, we don't want to alter this data so the "MAGNIFY_Motacilla_alba.csv" file can be left as it is, with a default "freq" column value of "1".
+In this vignette-dataset accessions for *Calidris maritima*, *Motacilla alba*, and *Carpodacus erythrinus* are flagged as needing further investigation. Exploration of the original published papers suggest that data for *Motacilla alba* and *Carpodacus erythrinus* have indeed been uploaded at sampled frequency and this was essentially a "false alarm". Therefore, we don't want to alter this data so the "MAGNIFY_Motacilla_alba.csv" file and "MAGNIFY_Carpodacus_erythrinus.csv" can be left as it is, with a default "freq" column value of "1".
 
 However, exploration of the paper *'A review of the subspecies status of the Icelandic Purple Sandpiper Calidris maritima littoralis'* shows that only unique haplotype sequences were uploaded, rather than a new accession being created for every sample.  Therefore, this dataset needs to be manipulated to get to the original sampled frequency. 
 
@@ -396,7 +398,7 @@ To keep accurate summary information of the datasets available, we now need to c
 info_df <- updating_info_df(original_df = "Info_df.csv", new_df = mag_df)
 ```
 ```{r read in preexisitng info_df file, echo=FALSE}
-info_df <- read.csv(system.file("extdata","Inf_df.csv", package="mtDNAcombine"), stringsAsFactors = T)
+info_df <- read.csv(system.file("extdata","vignette_info_df.csv", package="mtDNAcombine"), stringsAsFactors = T)
 ```
 
 
@@ -418,7 +420,7 @@ info_df <- drop_low_sequence_length(info_df = info_df, min_length = 600)
 ```
 
 
-After applying these filters we are left with curated datasets from two species.  We then want to remove any extreme outliers, considered here to be single samples separated from the nearest haplotype with >30 mutations on a branch.  The function `outliers_dropped` writes out an updated version of `info_df` but doesn't return it.  Therefore we need to read in the new version from the working directory.
+After applying these filters we are left with curated datasets from three species.  We then want to remove any extreme outliers, considered here to be single samples separated from the nearest haplotype with >30 mutations on a branch.  The function `outliers_dropped` writes out an updated version of `info_df` but doesn't return it.  Therefore we need to read in the new version from the working directory.
 
 ```{r echo=FALSE}
 what_gets_dropped <- cbind('EU166960.1','new_Motacilla_alba')
