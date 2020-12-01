@@ -122,13 +122,20 @@ GB_data
 ```
 
 ```
-##          sci_nam                    gene_name position_start position_end accession_version create_date download_date
-## 1 Motacilla alba NADH dehydrogenase subunit 2              1         1041        AY681627.1 09-JUL-2005    2020-12-01
-## 2 Motacilla alba                          ND2              1         1041        AY681627.1 09-JUL-2005    2020-12-01
-## 3 Motacilla alba NADH dehydrogenase subunit 2              1         1041        AY681608.1 09-JUL-2005    2020-12-01
-## 4 Motacilla alba                          ND2              1         1041        AY681608.1 09-JUL-2005    2020-12-01
-## 5 Motacilla alba NADH dehydrogenase subunit 2              1         1041        AY681620.1 09-JUL-2005    2020-12-01
-## 6 Motacilla alba                          ND2              1         1041        AY681620.1 09-JUL-2005    2020-12-01
+##          sci_nam                    gene_name position_start position_end
+## 1 Motacilla alba NADH dehydrogenase subunit 2              1         1041
+## 2 Motacilla alba                          ND2              1         1041
+## 3 Motacilla alba NADH dehydrogenase subunit 2              1         1041
+## 4 Motacilla alba                          ND2              1         1041
+## 5 Motacilla alba NADH dehydrogenase subunit 2              1         1041
+## 6 Motacilla alba                          ND2              1         1041
+##   accession_version create_date download_date
+## 1        AY681627.1 09-JUL-2005    2020-12-01
+## 2        AY681627.1 09-JUL-2005    2020-12-01
+## 3        AY681608.1 09-JUL-2005    2020-12-01
+## 4        AY681608.1 09-JUL-2005    2020-12-01
+## 5        AY681620.1 09-JUL-2005    2020-12-01
+## 6        AY681620.1 09-JUL-2005    2020-12-01
 ```
 
 However, it takes a little longer to collect all the information available for >500 accessions, so, for the sake of speed and efficency, we will load a pre-created output from the `build_genbank_df` function using `vignette_accessions.csv`. 
@@ -579,4 +586,4 @@ points(log10(data[,5])~data[,1],type="l")
 title(main = plot_title)
 ```
 
-<img src="./inst/extdata/plotting_median-1.png" title="plot of chunk plotting median" alt="plot of chunk plotting median" style="display: block; margin: auto;" />
+<img src="./inst/extdata/common_rosefinch_BSP.png" title="plot of chunk plotting median" alt="plot of chunk plotting median" style="display: block; margin: auto;" />
