@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><beast beautitemplate='Standard' beautistatus='noAutoSetClockRate' namespace="beast.core:beast.evolution.alignment:beast.evolution.tree.coalescent:beast.core.util:beast.evolution.nuc:beast.evolution.operators:beast.evolution.sitemodel:beast.evolution.substitutionmodel:beast.evolution.likelihood" required="bModelTest v1.0.4" version="2.4">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><beast beautitemplate='Standard' beautistatus='' namespace="beast.core:beast.evolution.alignment:beast.evolution.tree.coalescent:beast.core.util:beast.evolution.nuc:beast.evolution.operators:beast.evolution.sitemodel:beast.evolution.substitutionmodel:beast.evolution.likelihood" required="bModelTest v1.0.4:BEASTLabs v1.7.1" version="2.4">
 
 
     <data
-id="DnaSP_ND2_Carpodacus_erythrinus"
+id="ALIGNED_Carpodacus_erythrinus"
 name="alignment">
                     <sequence id="seq_AY703261.1" taxon="AY703261.1" totalcount="4" value="atgaatccacaggcaaagctaatttttataactagcctcctcctaggaaccaccatcacaatttcaagcaaccactgaattatagcctgagccggccttgaaattaatacactcgccgtcctaccactaatctcgaaatcccatcacccacgatccgttgaagcggccactaagtacttcttaacccaagcagccgcttcagccctagtactattttccagcataactaatgcatgacacaccgggcagtgggatatcactcagctgtcccaccccacatcaggtttaatcctaacctcagcaattgcaataaaactaggcttagtcccattccacttctgattcccagaagtactacaaggttcccccctctccacaggcctccttctgtctactatcataaaactccccccaattaccctcctatatataacctccccctcactaaaccccacactactaaccatcctggccctcctctcaacagcccttggaggatgaataggactcaaccagacacaagtccgaaaaatcttagccttctcctccatctcccacttaggatgaatagcgatcattattatctacaaccctaaactaactctccttaacttctacctttacaccataataactgcaaccgtatttctaaccttaaactcaataaaagtactaaaactatccaccctaataaccgcatgaaccaaagtcccatcattgaatgcaatactacttttaaccctactttcccttgcaggattacctcccctaacaggatttttacctaaatgacttatcatccaagaactaactaaacaagaaataatcactacagccacgcttatagccctcctctcattactaagcctgttcttttaccttcgccttgcatactgtacaacaatcacactcccaccacacaccacaaaccacataaaacaatgacgaaccggcaaaccaactaatgtcctaatcgctatcctagccacaatatccatcaccctcctccccatttcacccctaatcctcgccctcgtc"/>
                     <sequence id="seq_AY703262.1" taxon="AY703262.1" totalcount="4" value="atgaatccacaggcaaagctaatttttataactagcctcctcctaggaaccaccatcacaatttcaagcaaccactgaattatagcctgagccggccttgaaattaatacactcgccgtcctaccactaatctcgaaatcccatcacccacgatccgttgaagcggccactaagtacttcttaacccaagcagccgcttcagccctagtactattctccagcataactaatgcatgacacaccgggcagtgggatatcactcagctgtcccaccccacatcaggtttaatcctaacctcagcaattgcaataaaactaggcttagtcccattccacttctgattcccagaagtactacaaggttcccccctctccacaggcctccttctgtctactatcataaaactccccccaattaccctcctatatataacctccccctcactaaaccccacactactaaccatcctggccctcctttcaacagcccttggaggatgaataggactcaaccagacacaagtccgaaaaatcttagccttctcctccatctcccacttaggatgaatagcgatcattattatctacaaccctaaactaactctcctcaacttctacctttacaccataataactgcaaccgtatttctaaccttaaactcaataaaagtactaaaactatccaccctaataaccgcatgaaccaaagtcccatcattgaatgcaatactacttttaaccctactttcccttgcaggattacctcccctaacaggatttttacctaaatgacttattatccaagaactaactaaacaagaaataatcgctacagccacgcttatagccctcctctcattactaagcctgttcttttaccttcgccttgcatactgtacaacaatcacactcccaccacacaccacaaaccacataaaacaatgacgaaccggcaaaccaactaatgtcctaatcgctatcctagccacaatatccatcaccctcctccccatttcacccctaatcctcgccctcgtc"/>
@@ -216,147 +216,147 @@ name="alignment">
 <map name="OneOnX" >beast.math.distributions.OneOnX</map>
 
 
-<run id="mcmc" spec="MCMC" chainLength="300000000">
+<run id="mcmc" spec="MCMC" chainLength="150000000">
     <state id="state" storeEvery="5000">
-        <tree id="Tree.t:DnaSP_ND2_Carpodacus_erythrinus" name="stateNode">
-            <taxonset id="TaxonSet.DnaSP_ND2_Carpodacus_erythrinus" spec="TaxonSet">
-                <alignment idref="DnaSP_ND2_Carpodacus_erythrinus"/>
+        <tree id="Tree.t:ALIGNED_Carpodacus_erythrinus" name="stateNode">
+            <taxonset id="TaxonSet.ALIGNED_Carpodacus_erythrinus" spec="TaxonSet">
+                <alignment idref="ALIGNED_Carpodacus_erythrinus"/>
             </taxonset>
         </tree>
-        <stateNode id="BMT_ModelIndicator.s:DnaSP_ND2_Carpodacus_erythrinus" spec="parameter.IntegerParameter" lower="0" upper="5">5</stateNode>
-        <parameter id="BMT_Rates.s:DnaSP_ND2_Carpodacus_erythrinus" dimension="6" lower="0.01" name="stateNode" upper="100.0">1.0</parameter>
-        <parameter id="BMT_gammaShape.s:DnaSP_ND2_Carpodacus_erythrinus" name="stateNode">1.0</parameter>
-        <parameter id="BMT_ProportionInvariable.s:DnaSP_ND2_Carpodacus_erythrinus" lower="0.0" name="stateNode" upper="1.0">0.1</parameter>
-        <stateNode id="hasInvariableSites.s:DnaSP_ND2_Carpodacus_erythrinus" spec="parameter.IntegerParameter">1</stateNode>
-        <stateNode id="hasGammaRates.s:DnaSP_ND2_Carpodacus_erythrinus" spec="parameter.IntegerParameter">1</stateNode>
-        <stateNode id="hasEqualFreqs.s:DnaSP_ND2_Carpodacus_erythrinus" spec="parameter.BooleanParameter">false</stateNode>
-        <parameter id="BMT_frequencies.s:DnaSP_ND2_Carpodacus_erythrinus" dimension="4" name="stateNode">0.25 0.25 0.25 0.25</parameter>
-        <parameter id="bPopSizes.t:DnaSP_ND2_Carpodacus_erythrinus" dimension="3" lower="0.0" name="stateNode" upper="1.0E9">1000.0</parameter>
-        <stateNode id="bGroupSizes.t:DnaSP_ND2_Carpodacus_erythrinus" spec="parameter.IntegerParameter" dimension="3">1</stateNode>
+        <parameter id="bPopSizes.t:ALIGNED_Carpodacus_erythrinus" dimension="3" lower="0.0" name="stateNode" upper="1.0E9">380.0</parameter>
+        <stateNode id="bGroupSizes.t:ALIGNED_Carpodacus_erythrinus" spec="parameter.IntegerParameter" dimension="3">1</stateNode>
+        <stateNode id="BMT_ModelIndicator.s:ALIGNED_Carpodacus_erythrinus" spec="parameter.IntegerParameter" lower="0" upper="5">5</stateNode>
+        <parameter id="BMT_Rates.s:ALIGNED_Carpodacus_erythrinus" dimension="6" lower="0.01" name="stateNode" upper="100.0">1.0</parameter>
+        <parameter id="BMT_gammaShape.s:ALIGNED_Carpodacus_erythrinus" name="stateNode">1.0</parameter>
+        <parameter id="BMT_ProportionInvariable.s:ALIGNED_Carpodacus_erythrinus" lower="0.0" name="stateNode" upper="1.0">0.1</parameter>
+        <stateNode id="hasInvariableSites.s:ALIGNED_Carpodacus_erythrinus" spec="parameter.IntegerParameter">1</stateNode>
+        <stateNode id="hasGammaRates.s:ALIGNED_Carpodacus_erythrinus" spec="parameter.IntegerParameter">1</stateNode>
+        <stateNode id="hasEqualFreqs.s:ALIGNED_Carpodacus_erythrinus" spec="parameter.BooleanParameter">false</stateNode>
+        <parameter id="BMT_frequencies.s:ALIGNED_Carpodacus_erythrinus" dimension="4" name="stateNode">0.25 0.25 0.25 0.25</parameter>
     </state>
 
-    <init id="RandomTree.t:DnaSP_ND2_Carpodacus_erythrinus" spec="beast.evolution.tree.RandomTree" estimate="false" initial="@Tree.t:DnaSP_ND2_Carpodacus_erythrinus" taxa="@DnaSP_ND2_Carpodacus_erythrinus">
-        <populationModel id="ConstantPopulation0.t:DnaSP_ND2_Carpodacus_erythrinus" spec="ConstantPopulation">
-            <parameter id="randomPopSize.t:DnaSP_ND2_Carpodacus_erythrinus" name="popSize">1.0</parameter>
+    <init id="RandomTree.t:ALIGNED_Carpodacus_erythrinus" spec="beast.evolution.tree.RandomTree" estimate="false" initial="@Tree.t:ALIGNED_Carpodacus_erythrinus" taxa="@ALIGNED_Carpodacus_erythrinus">
+        <populationModel id="ConstantPopulation0.t:ALIGNED_Carpodacus_erythrinus" spec="ConstantPopulation">
+            <parameter id="randomPopSize.t:ALIGNED_Carpodacus_erythrinus" name="popSize">1.0</parameter>
         </populationModel>
     </init>
 
     <distribution id="posterior" spec="util.CompoundDistribution">
         <distribution id="prior" spec="util.CompoundDistribution">
-            <distribution id="BayesianSkyline.t:DnaSP_ND2_Carpodacus_erythrinus" spec="BayesianSkyline" groupSizes="@bGroupSizes.t:DnaSP_ND2_Carpodacus_erythrinus" popSizes="@bPopSizes.t:DnaSP_ND2_Carpodacus_erythrinus">
-                <treeIntervals id="BSPTreeIntervals.t:DnaSP_ND2_Carpodacus_erythrinus" spec="TreeIntervals" tree="@Tree.t:DnaSP_ND2_Carpodacus_erythrinus"/>
+            <distribution id="BayesianSkyline.t:ALIGNED_Carpodacus_erythrinus" spec="BayesianSkyline" groupSizes="@bGroupSizes.t:ALIGNED_Carpodacus_erythrinus" popSizes="@bPopSizes.t:ALIGNED_Carpodacus_erythrinus">
+                <treeIntervals id="BSPTreeIntervals.t:ALIGNED_Carpodacus_erythrinus" spec="TreeIntervals" tree="@Tree.t:ALIGNED_Carpodacus_erythrinus"/>
             </distribution>
-            <distribution id="BMT_PropInvariablePrior.s:DnaSP_ND2_Carpodacus_erythrinus" spec="beast.math.distributions.BMTPrior" count="@hasInvariableSites.s:DnaSP_ND2_Carpodacus_erythrinus" x="@BMT_ProportionInvariable.s:DnaSP_ND2_Carpodacus_erythrinus">
+            <distribution id="BMT_PropInvariablePrior.s:ALIGNED_Carpodacus_erythrinus" spec="beast.math.distributions.BMTPrior" count="@hasInvariableSites.s:ALIGNED_Carpodacus_erythrinus" x="@BMT_ProportionInvariable.s:ALIGNED_Carpodacus_erythrinus">
                 <Beta id="Beta.0" name="distr">
                     <parameter id="RealParameter.0" lower="0.0" name="alpha" upper="0.0">1.0</parameter>
                     <parameter id="RealParameter.01" lower="0.0" name="beta" upper="0.0">4.0</parameter>
                 </Beta>
             </distribution>
-            <distribution id="BMT_RatesPrior.s:DnaSP_ND2_Carpodacus_erythrinus" spec="beast.math.distributions.NucleotideRevJumpSubstModelRatePrior" modelIndicator="@BMT_ModelIndicator.s:DnaSP_ND2_Carpodacus_erythrinus" x="@BMT_Rates.s:DnaSP_ND2_Carpodacus_erythrinus">
-                <substModel id="RevJump.s:DnaSP_ND2_Carpodacus_erythrinus" spec="NucleotideRevJumpSubstModel" modelIndicator="@BMT_ModelIndicator.s:DnaSP_ND2_Carpodacus_erythrinus" rates="@BMT_Rates.s:DnaSP_ND2_Carpodacus_erythrinus">
-                    <frequencies id="BMTfreqs.s:DnaSP_ND2_Carpodacus_erythrinus" spec="ModelFrequencies" empirical="false" frequencies="@BMT_frequencies.s:DnaSP_ND2_Carpodacus_erythrinus" hasEqualFreqs="@hasEqualFreqs.s:DnaSP_ND2_Carpodacus_erythrinus"/>
+            <distribution id="BMT_RatesPrior.s:ALIGNED_Carpodacus_erythrinus" spec="beast.math.distributions.NucleotideRevJumpSubstModelRatePrior" modelIndicator="@BMT_ModelIndicator.s:ALIGNED_Carpodacus_erythrinus" x="@BMT_Rates.s:ALIGNED_Carpodacus_erythrinus">
+                <substModel id="RevJump.s:ALIGNED_Carpodacus_erythrinus" spec="NucleotideRevJumpSubstModel" modelIndicator="@BMT_ModelIndicator.s:ALIGNED_Carpodacus_erythrinus" rates="@BMT_Rates.s:ALIGNED_Carpodacus_erythrinus">
+                    <frequencies id="BMTfreqs.s:ALIGNED_Carpodacus_erythrinus" spec="ModelFrequencies" empirical="false" frequencies="@BMT_frequencies.s:ALIGNED_Carpodacus_erythrinus" hasEqualFreqs="@hasEqualFreqs.s:ALIGNED_Carpodacus_erythrinus"/>
                 </substModel>
-                <Exponential id="BMT_RatesPrior.s:DnaSP_ND2_Carpodacus_erythrinusx" name="distr"/>
+                <Exponential id="BMT_RatesPrior.s:ALIGNED_Carpodacus_erythrinusx" name="distr"/>
             </distribution>
-            <prior id="BMT_freqsPrior.s:DnaSP_ND2_Carpodacus_erythrinus" name="distribution" x="@BMT_frequencies.s:DnaSP_ND2_Carpodacus_erythrinus">
+            <prior id="BMT_freqsPrior.s:ALIGNED_Carpodacus_erythrinus" name="distribution" x="@BMT_frequencies.s:ALIGNED_Carpodacus_erythrinus">
                 <distr id="Dirichlet.0" spec="beast.math.distributions.Dirichlet">
                     <parameter id="RealParameter.02" dimension="4" lower="0.0" name="alpha" upper="0.0">1.0 1.0 1.0 1.0</parameter>
                 </distr>
             </prior>
-            <distribution id="BMT_GammaShapePrior.s:DnaSP_ND2_Carpodacus_erythrinus" spec="beast.math.distributions.BMTPrior" count="@hasGammaRates.s:DnaSP_ND2_Carpodacus_erythrinus" x="@BMT_gammaShape.s:DnaSP_ND2_Carpodacus_erythrinus">
+            <distribution id="BMT_GammaShapePrior.s:ALIGNED_Carpodacus_erythrinus" spec="beast.math.distributions.BMTPrior" count="@hasGammaRates.s:ALIGNED_Carpodacus_erythrinus" x="@BMT_gammaShape.s:ALIGNED_Carpodacus_erythrinus">
                 <Exponential id="Exponential.0" name="distr">
                     <parameter id="RealParameter.03" lower="0.0" name="mean" upper="0.0">1.0</parameter>
                 </Exponential>
             </distribution>
-            <distribution id="MarkovChainedPopSizes.t:DnaSP_ND2_Carpodacus_erythrinus" spec="beast.math.distributions.MarkovChainDistribution" jeffreys="true" parameter="@bPopSizes.t:DnaSP_ND2_Carpodacus_erythrinus"/>
+            <distribution id="MarkovChainedPopSizes.t:ALIGNED_Carpodacus_erythrinus" spec="beast.math.distributions.MarkovChainDistribution" jeffreys="true" parameter="@bPopSizes.t:ALIGNED_Carpodacus_erythrinus"/>
         </distribution>
         <distribution id="likelihood" spec="util.CompoundDistribution" useThreads="true">
-            <distribution id="treeLikelihood.DnaSP_ND2_Carpodacus_erythrinus" spec="ThreadedTreeLikelihood" data="@DnaSP_ND2_Carpodacus_erythrinus" tree="@Tree.t:DnaSP_ND2_Carpodacus_erythrinus">
-                <siteModel id="BEASTModelTest.s:DnaSP_ND2_Carpodacus_erythrinus" spec="BEASTModelTestSiteModel" gammaCategoryCount="4" hasGammaRates="@hasGammaRates.s:DnaSP_ND2_Carpodacus_erythrinus" hasInvariantSites="@hasInvariableSites.s:DnaSP_ND2_Carpodacus_erythrinus" proportionInvariant="@BMT_ProportionInvariable.s:DnaSP_ND2_Carpodacus_erythrinus" shape="@BMT_gammaShape.s:DnaSP_ND2_Carpodacus_erythrinus" substModel="@RevJump.s:DnaSP_ND2_Carpodacus_erythrinus">
-                    <parameter id="BMT_mutationRate.s:DnaSP_ND2_Carpodacus_erythrinus" estimate="false" name="mutationRate">3.11963E-8</parameter>
+            <distribution id="treeLikelihood.ALIGNED_Carpodacus_erythrinus" spec="ThreadedTreeLikelihood" data="@ALIGNED_Carpodacus_erythrinus" tree="@Tree.t:ALIGNED_Carpodacus_erythrinus">
+                <siteModel id="BEASTModelTest.s:ALIGNED_Carpodacus_erythrinus" spec="BEASTModelTestSiteModel" gammaCategoryCount="4" hasGammaRates="@hasGammaRates.s:ALIGNED_Carpodacus_erythrinus" hasInvariantSites="@hasInvariableSites.s:ALIGNED_Carpodacus_erythrinus" proportionInvariant="@BMT_ProportionInvariable.s:ALIGNED_Carpodacus_erythrinus" shape="@BMT_gammaShape.s:ALIGNED_Carpodacus_erythrinus" substModel="@RevJump.s:ALIGNED_Carpodacus_erythrinus">
+                    <parameter id="BMT_mutationRate.s:ALIGNED_Carpodacus_erythrinus" estimate="false" name="mutationRate">1.88757E-8</parameter>
                 </siteModel>
-                <branchRateModel id="StrictClock.c:DnaSP_ND2_Carpodacus_erythrinus" spec="beast.evolution.branchratemodel.StrictClockModel">
-                    <parameter id="clockRate.c:DnaSP_ND2_Carpodacus_erythrinus" estimate="false" name="clock.rate">1.0</parameter>
+                <branchRateModel id="StrictClock.c:ALIGNED_Carpodacus_erythrinus" spec="beast.evolution.branchratemodel.StrictClockModel">
+                    <parameter id="clockRate.c:ALIGNED_Carpodacus_erythrinus" estimate="false" name="clock.rate">1.0</parameter>
                 </branchRateModel>
             </distribution>
         </distribution>
     </distribution>
 
-    <operator id="BMT_ModelTestOperator.s:DnaSP_ND2_Carpodacus_erythrinus" spec="BMTMergeSplitOperator" modelIndicator="@BMT_ModelIndicator.s:DnaSP_ND2_Carpodacus_erythrinus" rates="@BMT_Rates.s:DnaSP_ND2_Carpodacus_erythrinus" substModel="@RevJump.s:DnaSP_ND2_Carpodacus_erythrinus" weight="1.0"/>
+    <operator id="popSizesScaler.t:ALIGNED_Carpodacus_erythrinus" spec="ScaleOperator" parameter="@bPopSizes.t:ALIGNED_Carpodacus_erythrinus" scaleFactor="0.75" weight="15.0"/>
 
-    <operator id="BMT_Ratescaler.s:DnaSP_ND2_Carpodacus_erythrinus" spec="BMTExchangeOperator" delta="0.15" modelIndicator="@BMT_ModelIndicator.s:DnaSP_ND2_Carpodacus_erythrinus" rates="@BMT_Rates.s:DnaSP_ND2_Carpodacus_erythrinus" substModel="@RevJump.s:DnaSP_ND2_Carpodacus_erythrinus" weight="1.0"/>
-
-    <operator id="BMT_gammaShapeScaler.s:DnaSP_ND2_Carpodacus_erythrinus" spec="BMTScaleOperator" count="@hasGammaRates.s:DnaSP_ND2_Carpodacus_erythrinus" parameter="@BMT_gammaShape.s:DnaSP_ND2_Carpodacus_erythrinus" scaleFactor="0.5" weight="0.5"/>
-
-    <operator id="BMT_ProportionInvariableScaler.s:DnaSP_ND2_Carpodacus_erythrinus" spec="BMTScaleOperator" count="@hasInvariableSites.s:DnaSP_ND2_Carpodacus_erythrinus" parameter="@BMT_ProportionInvariable.s:DnaSP_ND2_Carpodacus_erythrinus" scaleFactor="0.5" weight="0.5"/>
-
-    <operator id="BMT_hasGammaRatesFlipper.s:DnaSP_ND2_Carpodacus_erythrinus" spec="BMTBirthDeathOperator" count="@hasGammaRates.s:DnaSP_ND2_Carpodacus_erythrinus" rates="@BMT_gammaShape.s:DnaSP_ND2_Carpodacus_erythrinus" weight="0.1"/>
-
-    <operator id="BMT_hasInvariableSitesFlipper.s:DnaSP_ND2_Carpodacus_erythrinus" spec="BMTBirthDeathOperator" count="@hasInvariableSites.s:DnaSP_ND2_Carpodacus_erythrinus" rates="@BMT_ProportionInvariable.s:DnaSP_ND2_Carpodacus_erythrinus" weight="0.1"/>
-
-    <operator id="BMT_FreqsFlipOperator.s:DnaSP_ND2_Carpodacus_erythrinus" spec="BitFlipOperator" parameter="@hasEqualFreqs.s:DnaSP_ND2_Carpodacus_erythrinus" weight="0.1"/>
-
-    <operator id="BMT_FrequenciesExchanger.s:DnaSP_ND2_Carpodacus_erythrinus" spec="DeltaExchangeOperator" delta="0.01" weight="0.1">
-        <parameter idref="BMT_frequencies.s:DnaSP_ND2_Carpodacus_erythrinus"/>
+    <operator id="groupSizesDelta.t:ALIGNED_Carpodacus_erythrinus" spec="DeltaExchangeOperator" integer="true" weight="6.0">
+        <intparameter idref="bGroupSizes.t:ALIGNED_Carpodacus_erythrinus"/>
     </operator>
 
-    <operator id="BayesianSkylineTreeScaler.t:DnaSP_ND2_Carpodacus_erythrinus" spec="ScaleOperator" scaleFactor="0.5" tree="@Tree.t:DnaSP_ND2_Carpodacus_erythrinus" weight="3.0"/>
+    <operator id="BayesianSkylineTreeScaler.t:ALIGNED_Carpodacus_erythrinus" spec="ScaleOperator" scaleFactor="0.5" tree="@Tree.t:ALIGNED_Carpodacus_erythrinus" weight="3.0"/>
 
-    <operator id="BayesianSkylineTreeRootScaler.t:DnaSP_ND2_Carpodacus_erythrinus" spec="ScaleOperator" rootOnly="true" scaleFactor="0.5" tree="@Tree.t:DnaSP_ND2_Carpodacus_erythrinus" weight="3.0"/>
+    <operator id="BayesianSkylineTreeRootScaler.t:ALIGNED_Carpodacus_erythrinus" spec="ScaleOperator" rootOnly="true" scaleFactor="0.5" tree="@Tree.t:ALIGNED_Carpodacus_erythrinus" weight="3.0"/>
 
-    <operator id="BayesianSkylineUniformOperator.t:DnaSP_ND2_Carpodacus_erythrinus" spec="Uniform" tree="@Tree.t:DnaSP_ND2_Carpodacus_erythrinus" weight="30.0"/>
+    <operator id="BayesianSkylineUniformOperator.t:ALIGNED_Carpodacus_erythrinus" spec="Uniform" tree="@Tree.t:ALIGNED_Carpodacus_erythrinus" weight="30.0"/>
 
-    <operator id="BayesianSkylineSubtreeSlide.t:DnaSP_ND2_Carpodacus_erythrinus" spec="SubtreeSlide" tree="@Tree.t:DnaSP_ND2_Carpodacus_erythrinus" weight="15.0"/>
+    <operator id="BayesianSkylineSubtreeSlide.t:ALIGNED_Carpodacus_erythrinus" spec="SubtreeSlide" tree="@Tree.t:ALIGNED_Carpodacus_erythrinus" weight="15.0"/>
 
-    <operator id="BayesianSkylineNarrow.t:DnaSP_ND2_Carpodacus_erythrinus" spec="Exchange" tree="@Tree.t:DnaSP_ND2_Carpodacus_erythrinus" weight="15.0"/>
+    <operator id="BayesianSkylineNarrow.t:ALIGNED_Carpodacus_erythrinus" spec="Exchange" tree="@Tree.t:ALIGNED_Carpodacus_erythrinus" weight="15.0"/>
 
-    <operator id="BayesianSkylineWide.t:DnaSP_ND2_Carpodacus_erythrinus" spec="Exchange" isNarrow="false" tree="@Tree.t:DnaSP_ND2_Carpodacus_erythrinus" weight="3.0"/>
+    <operator id="BayesianSkylineWide.t:ALIGNED_Carpodacus_erythrinus" spec="Exchange" isNarrow="false" tree="@Tree.t:ALIGNED_Carpodacus_erythrinus" weight="3.0"/>
 
-    <operator id="BayesianSkylineWilsonBalding.t:DnaSP_ND2_Carpodacus_erythrinus" spec="WilsonBalding" tree="@Tree.t:DnaSP_ND2_Carpodacus_erythrinus" weight="3.0"/>
+    <operator id="BayesianSkylineWilsonBalding.t:ALIGNED_Carpodacus_erythrinus" spec="WilsonBalding" tree="@Tree.t:ALIGNED_Carpodacus_erythrinus" weight="3.0"/>
 
-    <operator id="popSizesScaler.t:DnaSP_ND2_Carpodacus_erythrinus" spec="ScaleOperator" parameter="@bPopSizes.t:DnaSP_ND2_Carpodacus_erythrinus" scaleFactor="0.75" weight="15.0"/>
+    <operator id="BMT_ModelTestOperator.s:ALIGNED_Carpodacus_erythrinus" spec="BMTMergeSplitOperator" modelIndicator="@BMT_ModelIndicator.s:ALIGNED_Carpodacus_erythrinus" rates="@BMT_Rates.s:ALIGNED_Carpodacus_erythrinus" substModel="@RevJump.s:ALIGNED_Carpodacus_erythrinus" weight="1.0"/>
 
-    <operator id="groupSizesDelta.t:DnaSP_ND2_Carpodacus_erythrinus" spec="DeltaExchangeOperator" integer="true" weight="6.0">
-        <intparameter idref="bGroupSizes.t:DnaSP_ND2_Carpodacus_erythrinus"/>
+    <operator id="BMT_Ratescaler.s:ALIGNED_Carpodacus_erythrinus" spec="BMTExchangeOperator" delta="0.15" modelIndicator="@BMT_ModelIndicator.s:ALIGNED_Carpodacus_erythrinus" rates="@BMT_Rates.s:ALIGNED_Carpodacus_erythrinus" substModel="@RevJump.s:ALIGNED_Carpodacus_erythrinus" weight="1.0"/>
+
+    <operator id="BMT_gammaShapeScaler.s:ALIGNED_Carpodacus_erythrinus" spec="BMTScaleOperator" count="@hasGammaRates.s:ALIGNED_Carpodacus_erythrinus" parameter="@BMT_gammaShape.s:ALIGNED_Carpodacus_erythrinus" scaleFactor="0.5" weight="0.5"/>
+
+    <operator id="BMT_ProportionInvariableScaler.s:ALIGNED_Carpodacus_erythrinus" spec="BMTScaleOperator" count="@hasInvariableSites.s:ALIGNED_Carpodacus_erythrinus" parameter="@BMT_ProportionInvariable.s:ALIGNED_Carpodacus_erythrinus" scaleFactor="0.5" weight="0.5"/>
+
+    <operator id="BMT_hasGammaRatesFlipper.s:ALIGNED_Carpodacus_erythrinus" spec="BMTBirthDeathOperator" count="@hasGammaRates.s:ALIGNED_Carpodacus_erythrinus" rates="@BMT_gammaShape.s:ALIGNED_Carpodacus_erythrinus" weight="0.1"/>
+
+    <operator id="BMT_hasInvariableSitesFlipper.s:ALIGNED_Carpodacus_erythrinus" spec="BMTBirthDeathOperator" count="@hasInvariableSites.s:ALIGNED_Carpodacus_erythrinus" rates="@BMT_ProportionInvariable.s:ALIGNED_Carpodacus_erythrinus" weight="0.1"/>
+
+    <operator id="BMT_FreqsFlipOperator.s:ALIGNED_Carpodacus_erythrinus" spec="BitFlipOperator" parameter="@hasEqualFreqs.s:ALIGNED_Carpodacus_erythrinus" weight="0.1"/>
+
+    <operator id="BMT_FrequenciesExchanger.s:ALIGNED_Carpodacus_erythrinus" spec="DeltaExchangeOperator" delta="0.01" weight="0.1">
+        <parameter idref="BMT_frequencies.s:ALIGNED_Carpodacus_erythrinus"/>
     </operator>
 
-    <logger id="tracelog" fileName="ND2_Carpodacus_erythrinus1_c4.log" logEvery="30000" model="@posterior" sanitiseHeaders="true" sort="smart">
+    <logger id="tracelog" fileName="BSP_Carpodacus_erythrinus.log" logEvery="15000" model="@posterior" sanitiseHeaders="true" sort="smart">
         <log idref="posterior"/>
         <log idref="likelihood"/>
         <log idref="prior"/>
-        <log idref="treeLikelihood.DnaSP_ND2_Carpodacus_erythrinus"/>
-        <log id="TreeHeight.t:DnaSP_ND2_Carpodacus_erythrinus" spec="beast.evolution.tree.TreeHeightLogger" tree="@Tree.t:DnaSP_ND2_Carpodacus_erythrinus"/>
-        <log idref="RevJump.s:DnaSP_ND2_Carpodacus_erythrinus"/>
-        <log idref="BMT_ModelIndicator.s:DnaSP_ND2_Carpodacus_erythrinus"/>
-        <log idref="BMT_Rates.s:DnaSP_ND2_Carpodacus_erythrinus"/>
-        <log idref="BMT_gammaShape.s:DnaSP_ND2_Carpodacus_erythrinus"/>
-        <log idref="BMT_ProportionInvariable.s:DnaSP_ND2_Carpodacus_erythrinus"/>
-        <log idref="hasGammaRates.s:DnaSP_ND2_Carpodacus_erythrinus"/>
-        <log idref="hasInvariableSites.s:DnaSP_ND2_Carpodacus_erythrinus"/>
-        <log id="ActivePropInvariable.s:DnaSP_ND2_Carpodacus_erythrinus" spec="beast.math.statistic.RPNcalculator" expression="BMT_ProportionInvariable.s:DnaSP_ND2_Carpodacus_erythrinus hasInvariableSites.s:DnaSP_ND2_Carpodacus_erythrinus *">
-            <parameter idref="BMT_ProportionInvariable.s:DnaSP_ND2_Carpodacus_erythrinus"/>
-            <parameter idref="hasInvariableSites.s:DnaSP_ND2_Carpodacus_erythrinus"/>
+        <log idref="treeLikelihood.ALIGNED_Carpodacus_erythrinus"/>
+        <log id="TreeHeight.t:ALIGNED_Carpodacus_erythrinus" spec="beast.evolution.tree.TreeHeightLogger" tree="@Tree.t:ALIGNED_Carpodacus_erythrinus"/>
+        <log idref="BayesianSkyline.t:ALIGNED_Carpodacus_erythrinus"/>
+        <log idref="bPopSizes.t:ALIGNED_Carpodacus_erythrinus"/>
+        <log idref="bGroupSizes.t:ALIGNED_Carpodacus_erythrinus"/>
+        <log idref="RevJump.s:ALIGNED_Carpodacus_erythrinus"/>
+        <log idref="BMT_ModelIndicator.s:ALIGNED_Carpodacus_erythrinus"/>
+        <log idref="BMT_Rates.s:ALIGNED_Carpodacus_erythrinus"/>
+        <log idref="BMT_gammaShape.s:ALIGNED_Carpodacus_erythrinus"/>
+        <log idref="BMT_ProportionInvariable.s:ALIGNED_Carpodacus_erythrinus"/>
+        <log idref="hasGammaRates.s:ALIGNED_Carpodacus_erythrinus"/>
+        <log idref="hasInvariableSites.s:ALIGNED_Carpodacus_erythrinus"/>
+        <log id="ActivePropInvariable.s:ALIGNED_Carpodacus_erythrinus" spec="beast.util.Script" argnames="BMT_ProportionInvariable hasInvariableSites" expression="BMT_ProportionInvariable * hasInvariableSites">
+            <x idref="BMT_ProportionInvariable.s:ALIGNED_Carpodacus_erythrinus"/>
+            <x idref="hasInvariableSites.s:ALIGNED_Carpodacus_erythrinus"/>
         </log>
-        <log id="ActiveGammaShape.s:DnaSP_ND2_Carpodacus_erythrinus" spec="beast.math.statistic.RPNcalculator" expression="BMT_gammaShape.s:DnaSP_ND2_Carpodacus_erythrinus hasGammaRates.s:DnaSP_ND2_Carpodacus_erythrinus *">
-            <parameter idref="BMT_gammaShape.s:DnaSP_ND2_Carpodacus_erythrinus"/>
-            <parameter idref="hasGammaRates.s:DnaSP_ND2_Carpodacus_erythrinus"/>
+        <log id="ActiveGammaShape.s:ALIGNED_Carpodacus_erythrinus" spec="beast.util.Script" argnames="BMT_gammaShape hasGammaRates" expression="BMT_gammaShape * hasGammaRates">
+            <x idref="BMT_gammaShape.s:ALIGNED_Carpodacus_erythrinus"/>
+            <x idref="hasGammaRates.s:ALIGNED_Carpodacus_erythrinus"/>
         </log>
-        <log idref="hasEqualFreqs.s:DnaSP_ND2_Carpodacus_erythrinus"/>
-        <log idref="BMT_frequencies.s:DnaSP_ND2_Carpodacus_erythrinus"/>
-        <log idref="BayesianSkyline.t:DnaSP_ND2_Carpodacus_erythrinus"/>
-        <log idref="bPopSizes.t:DnaSP_ND2_Carpodacus_erythrinus"/>
-        <log idref="bGroupSizes.t:DnaSP_ND2_Carpodacus_erythrinus"/>
+        <log idref="hasEqualFreqs.s:ALIGNED_Carpodacus_erythrinus"/>
+        <log idref="BMT_frequencies.s:ALIGNED_Carpodacus_erythrinus"/>
     </logger>
 
-    <logger id="screenlog" logEvery="30000">
+    <logger id="screenlog" logEvery="15000">
         <log idref="posterior"/>
         <log id="ESS.0" spec="util.ESS" arg="@posterior"/>
         <log idref="likelihood"/>
         <log idref="prior"/>
     </logger>
 
-    <logger id="treelog.t:DnaSP_ND2_Carpodacus_erythrinus" fileName="ND2_Carpodacus_erythrinus1_c4.trees" logEvery="30000" mode="tree">
-        <log id="TreeWithMetaDataLogger.t:DnaSP_ND2_Carpodacus_erythrinus" spec="beast.evolution.tree.TreeWithMetaDataLogger" tree="@Tree.t:DnaSP_ND2_Carpodacus_erythrinus"/>
+    <logger id="treelog.t:ALIGNED_Carpodacus_erythrinus" fileName="$(tree)BSP_Carpodacus_erythrinus.trees" logEvery="15000" mode="tree">
+        <log id="TreeWithMetaDataLogger.t:ALIGNED_Carpodacus_erythrinus" spec="beast.evolution.tree.TreeWithMetaDataLogger" tree="@Tree.t:ALIGNED_Carpodacus_erythrinus"/>
     </logger>
 
 </run>
