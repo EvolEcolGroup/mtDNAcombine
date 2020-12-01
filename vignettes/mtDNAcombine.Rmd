@@ -195,7 +195,7 @@ GB_species <- droplevels(as.data.frame(unique(GB_data$sci_nam)))
 
 At the moment:
 ```{r echo=FALSE}
-print(paste("GB_genes has", nrow(GB_genes), " unique gene names while GB_species has", 
+print(paste("GB_genes has", nrow(GB_genes), "unique gene names while GB_species has", 
             nrow(GB_species), "unique species names"))
 ```
 
@@ -318,9 +318,8 @@ For each species, the sequence data needs to be aligned so that we can capture c
 For efficiency, here we will subset the `alignment_file_list` and run just one of the four datasets.
 
 ```{r align and summarise the sequence data}
-align_and_summarise(alignment_files = alignment_file_list[4], 
+align_and_summarise(alignment_files = alignment_file_list[5], 
                     max_haps_found_together = 2, minbp = 200)
-
 ```
 
 
@@ -366,7 +365,6 @@ Here is an example of a network diagram for data from *Picoides tridactylus*. Pl
 In datasets that include samples from studies which have uploaded a single representative haplotype, instead of creating a new accession for every sample, an aligned sequence output file is not generated.  Instead, the papers associated with the unique haplotypes are listed in a .csv file along with the species name; the file is is written out as "More_info_df.csv". 
 
 For each of the populations recorded in "More_info_df.csv", the `align_and_summarise` function also creates a file containing each accession number and a frequency column.  These files all have the regular pattern "MAGNIFY"" in the file name.  Original published papers must be tracked down to confirm details of sampling frequency, new values can then be recorded in the "freq" column.  Once updated the file needs to be saved in the same format. In cases where sampling frequency data is not available samples must be excluded.
-
 
 
 In this vignette-dataset accessions for *Calidris maritima*, *Motacilla alba*, and *Carpodacus erythrinus* are flagged as needing further investigation. Exploration of the original published papers suggest that data for *Motacilla alba* and *Carpodacus erythrinus* have indeed been uploaded at sampled frequency and this was essentially a "false alarm". Therefore, we don't want to alter this data so the "MAGNIFY_Motacilla_alba.csv" file and "MAGNIFY_Carpodacus_erythrinus.csv" can be left as it is, with a default "freq" column value of "1".
@@ -485,7 +483,7 @@ Once BEAST runs are completed we need to explore convergence, ESS values, and ot
 
 Here we present a pipeline for handling outputs from the software package Tracer.
 
-An example BEAST .xml input file can be found in ./extdata/ND2_Carpodacus_erythrinus_BEASTinput.xml . After running this file in BEAST v2 4.6 we used Tracer v1 to format output data for export.  The resulting file is stored as ./extdata/ND2_Carpodacus_erythrinus_TracerOut.txt
+An example BEAST .xml input file can be found in ./extdata/ND2_Carpodacus_erythrinus_BEASTinput.xml . After running this file in BEAST v2 4.6 we used Tracer v1 to format output data for export.  The resulting file is stored as ./extdata/ND2_Carpodacus_erythrinus_TracerOut
 
 We will use this output file to explore simple plotting/visualisation.
 
@@ -496,7 +494,7 @@ We will use this output file to explore simple plotting/visualisation.
 A quick look at the structure of the output from Tracer taking only complete rows (NAs can occur at the end of the file but cause issues in later processing).
 
 ```{r}
-data <-read.table(system.file("extdata","ND2_Carpodacus_erythrinus_TracerOut.txt", 
+data <-read.table(system.file("extdata","ND2_Carpodacus_erythrinus_TracerOut", 
                                     package = "mtDNAcombine"), skip=1, 
                   header=T, stringsAsFactors = T)
 data<-data[complete.cases(data),]
@@ -509,19 +507,19 @@ A simple coloured plot can now be created using the code below.
 Use the file name as the title
 
 ```{r plotting what}
-file_name <- "ND2_Carpodacus_erythrinus1_TracerOut.txt"
+file_name <- "ND2_Carpodacus_erythrinus_TracerOut"
 plot_title <- "Common rosefinch"
 ```
 
 We want to plot the median (log scale) as well as plotting the HPD interval as a coloured polygon.  
-If analysing data from multiple genes it can be helpful to differentiate the plots on the basis of gene type.  Here this is done by colouring the HPD according to the gene.
+If analysing data from multiple genes it can be helpful to differentiate the plots on the basis of gene type.  Here this is done by colouring the HPD according to the gene identified in the file name.
  
 
-```{r plotting median, fig.align='center', fig.dim=c(5,5)}
-plot(log10(data[,3])~data[,1],type="n",ylim=c(3.5,7.5),xlim=c(0,60000), yaxt="n", 
+```{r plotting median, fig.align='center', fig.dim=c(5.5,5)}
+plot(log10(data[,3])~data[,1],type="n",ylim=c(4.5,8),xlim=c(0,70000), yaxt="n", 
      yaxs="i", ylab = expression("Pop. Size (Log"[10]*")"), xaxs="i", 
      xlab = "Time since present day (yrs)")
-axis(2, at=c(4,5,6,7), labels = c("1.E4","1.E5","1.E6","1.E7"), las=2, adj=1,
+axis(2, at=c(5,6,7,8), labels = c("1.E5","1.E6","1.E7", "1.E8"), las=2, adj=1,
      cex.axis=0.82)
 
 
