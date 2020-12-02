@@ -260,7 +260,7 @@ GB_by_gene <- gene_of_interest(gene = "ND2", data = GB_data)
 
 By simply using the `get_GB_sequence_data` function and the curated accession list, we can download raw sequence data associated with the specific gene of interest.  
 
-Below is a small, 'live', working example of three accessions
+Below is a small, 'live', working example of three accessions.
 
 ```{r get sequence data into dataframe}
 min_examp <- GB_by_gene[1:3,]
