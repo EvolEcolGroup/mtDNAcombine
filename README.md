@@ -122,20 +122,13 @@ GB_data
 ```
 
 ```
-##          sci_nam                    gene_name position_start position_end
-## 1 Motacilla alba NADH dehydrogenase subunit 2              1         1041
-## 2 Motacilla alba                          ND2              1         1041
-## 3 Motacilla alba NADH dehydrogenase subunit 2              1         1041
-## 4 Motacilla alba                          ND2              1         1041
-## 5 Motacilla alba NADH dehydrogenase subunit 2              1         1041
-## 6 Motacilla alba                          ND2              1         1041
-##   accession_version create_date download_date
-## 1        AY681627.1 09-JUL-2005    2020-12-01
-## 2        AY681627.1 09-JUL-2005    2020-12-01
-## 3        AY681608.1 09-JUL-2005    2020-12-01
-## 4        AY681608.1 09-JUL-2005    2020-12-01
-## 5        AY681620.1 09-JUL-2005    2020-12-01
-## 6        AY681620.1 09-JUL-2005    2020-12-01
+##          sci_nam                    gene_name position_start position_end accession_version create_date download_date
+## 1 Motacilla alba NADH dehydrogenase subunit 2              1         1041        AY681627.1 09-JUL-2005    2020-12-02
+## 2 Motacilla alba                          ND2              1         1041        AY681627.1 09-JUL-2005    2020-12-02
+## 3 Motacilla alba NADH dehydrogenase subunit 2              1         1041        AY681608.1 09-JUL-2005    2020-12-02
+## 4 Motacilla alba                          ND2              1         1041        AY681608.1 09-JUL-2005    2020-12-02
+## 5 Motacilla alba NADH dehydrogenase subunit 2              1         1041        AY681620.1 09-JUL-2005    2020-12-02
+## 6 Motacilla alba                          ND2              1         1041        AY681620.1 09-JUL-2005    2020-12-02
 ```
 
 However, it takes a little longer to collect all the information available for >500 accessions, so, for the sake of speed and efficency, we will load a pre-created output from the `build_genbank_df` function using `vignette_accessions.csv`. 
@@ -301,7 +294,7 @@ GB_with_SeqDat <- get_GB_sequence_data(accessions_of_interest = min_examp,
                       gene = "ND2", new_names_file = updated_synyms)
 ```
 
-N.B. For the sake of computational efficency in this vignette we will now load a pre-created file for the full data-set rather than running through another 330 accessions!
+N.B. For the sake of computational efficency in this vignette we will now load a pre-created file for the full data-set rather than running through another 520 accessions!
 
 ```r
 GB_with_SeqDat <-  read.csv(system.file("extdata","GB_with_SeqDat.csv", 
@@ -346,7 +339,7 @@ alignment_file_list <- list.files(pattern="FOR_ALIGNMENT")
 
 For each species, the sequence data needs to be aligned so that we can capture comparable regions of the genome common to each sample.  This is done within the `align_and_summarise` function using the ClustalW algorithm, removing any columns with blanks or ambiguous calls.
 
-For efficiency, here we will subset the `alignment_file_list` and run just one of the four datasets.
+For efficiency, here we will subset the `alignment_file_list` and run just one of the five datasets.
 
 ```r
 align_and_summarise(alignment_files = alignment_file_list[5], 
@@ -438,7 +431,7 @@ The following filtering steps are based on a series of rules built around avian 
 Firstly, we want to drop populations with insufficient sequence data. This includes data with insufficient number of bases, low numbers of haplotypes, low sample size.
 
 ```r
-info_df <- drop_low_sample_size(info_df = info_df, min_sample = 7)
+info_df <- drop_low_sample_size(info_df = info_df, min_sample = 20)
 
 info_df <- drop_low_haplo_number(info_df = info_df, min_haps = 6 )
 
