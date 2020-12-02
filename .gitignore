@@ -4,5 +4,5 @@ doc
 .Rhistory
 .RData
 .Ruserdata
-.ci_dependancies
+.ci_dependencies
 mtdnacombine.Rproj
