@@ -123,12 +123,12 @@ GB_data
 
 ```
 ##          sci_nam                    gene_name position_start position_end accession_version create_date download_date
-## 1 Motacilla alba NADH dehydrogenase subunit 2              1         1041        AY681627.1 09-JUL-2005    2020-12-02
-## 2 Motacilla alba                          ND2              1         1041        AY681627.1 09-JUL-2005    2020-12-02
-## 3 Motacilla alba NADH dehydrogenase subunit 2              1         1041        AY681608.1 09-JUL-2005    2020-12-02
-## 4 Motacilla alba                          ND2              1         1041        AY681608.1 09-JUL-2005    2020-12-02
-## 5 Motacilla alba NADH dehydrogenase subunit 2              1         1041        AY681620.1 09-JUL-2005    2020-12-02
-## 6 Motacilla alba                          ND2              1         1041        AY681620.1 09-JUL-2005    2020-12-02
+## 1 Motacilla alba NADH dehydrogenase subunit 2              1         1041        AY681627.1 09-JUL-2005    2020-12-03
+## 2 Motacilla alba                          ND2              1         1041        AY681627.1 09-JUL-2005    2020-12-03
+## 3 Motacilla alba NADH dehydrogenase subunit 2              1         1041        AY681608.1 09-JUL-2005    2020-12-03
+## 4 Motacilla alba                          ND2              1         1041        AY681608.1 09-JUL-2005    2020-12-03
+## 5 Motacilla alba NADH dehydrogenase subunit 2              1         1041        AY681620.1 09-JUL-2005    2020-12-03
+## 6 Motacilla alba                          ND2              1         1041        AY681620.1 09-JUL-2005    2020-12-03
 ```
 
 However, it takes a little longer to collect all the information available for >500 accessions, so, for the sake of speed and efficency, we will load a pre-created output from the `build_genbank_df` function using `vignette_accessions.csv`. 
@@ -282,7 +282,7 @@ GB_by_gene <- gene_of_interest(gene = "ND2", data = GB_data)
 
 By simply using the `get_GB_sequence_data` function and the curated accession list, we can download raw sequence data associated with the specific gene of interest.  
 
-Below is a small, 'live', working example of three accessions
+Below is an example of code for running a little subset of just three accessions assuming synonyms had been updated (e.g. poss_synyms_updated.csv in the packages extdata file) 
 
 ```r
 min_examp <- GB_by_gene[1:3,]
@@ -294,7 +294,7 @@ GB_with_SeqDat <- get_GB_sequence_data(accessions_of_interest = min_examp,
                       gene = "ND2", new_names_file = updated_synyms)
 ```
 
-N.B. For the sake of computational efficency in this vignette we will now load a pre-created file for the full data-set rather than running through another 520 accessions!
+N.B. For the sake of computational efficency in this vignette we will load a pre-created file for the full data-set rather than running through all the 523 accessions!
 
 ```r
 GB_with_SeqDat <-  read.csv(system.file("extdata","GB_with_SeqDat.csv", 
