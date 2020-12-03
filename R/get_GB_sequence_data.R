@@ -18,7 +18,7 @@
 #' @param gene gene of interest written as character string.
 #' @param new_names_file csv file of species names that have been flagged as
 #' problematic and the replacement name to be used, needed for
-#' `standardise_spp_name` function
+#' `standardise_spp_name` function, default to NULL if not provided
 #'
 #' @export
 
@@ -26,7 +26,7 @@
 
 
 get_GB_sequence_data <-
-    function(accessions_of_interest, gene, new_names_file) {
+    function(accessions_of_interest, gene, new_names_file = NULL) {
         # check type of file being read in
         if (inherits(accessions_of_interest, "data.frame")) {
             checking <- length(colnames(accessions_of_interest))

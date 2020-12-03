@@ -5,14 +5,14 @@
 #' This function gets basic background details of the sample from the xml tree
 #' input
 #'
-#' Function designed to sit within \code{build_GB_dataframe}. In general, the
+#' Function designed to sit within \code{build_genbank_df}. In general, the
 #' full_xmlTree should be provided by earlier stages of the
-#' \code{build_GB_dataframe} function. Extracts details about the accession,
+#' \code{build_genbank_df} function. Extracts details about the accession,
 #' such as species name.
 #'
 #' @param full_xmlTree xml tree downloaded from NCBI website and parsed to R
 #' structure with \code{xmlInternalTreeParse} by earlier stages of the
-#' \code{build_GB_dataframe} function.
+#' \code{build_genbank_df} function.
 #'
 #' @export
 
@@ -55,7 +55,7 @@ get_sample_details <- function(full_xmlTree) {
         accession_version <- XML::getNodeSet(full_xmlTree, "//GBSet/GBSeq")[[1]]
         accession_version <- XML::xmlValue(XML::xpathApply(accession_version,
                                           ".//GBSeq_accession-version")[[1]])
-        # store date data accessed for later indexing/incase of updates etc
+        # store date data accessed for later indexing/in case of updates etc
         download_date <- as.character.Date(Sys.Date())
 
 

@@ -66,7 +66,7 @@ mdInput <- gsub(paste0(foo,"Documents/Projects/mtDNAcombine/inst/extdata/mtDNAco
 mdInput <- gsub(paste0(foo,"Documents/Projects/mtDNAcombine/inst/extdata/hist_Pinicola_enucleator.png"), "./inst/extdata/hist_Pinicola_enucleator.png", mdInput)
 mdInput <- gsub(paste0(foo,"Documents/Projects/mtDNAcombine/inst/extdata/hist_Calidris_maritima.png"), "./inst/extdata/hist_Calidris_maritima.png", mdInput)
 mdInput <- gsub(paste0(foo,"Documents/Projects/mtDNAcombine/inst/extdata/Net_Picoides_tridactylus.png"), "./inst/extdata/Net_Picoides_tridactylus.png", mdInput)
-mdInput <- gsub("figure/plotting median-1.png", "./inst/extdata/plotting_median-1.png", mdInput)
+mdInput <- gsub("figure/plotting median-1.png", "./inst/extdata/common_rosefinch_BSP.png", mdInput)
 
 cat(paste(mdInput,collapse="\n"))
 ```

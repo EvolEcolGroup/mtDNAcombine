@@ -6,5 +6,5 @@
 README.md
 README.Rmd
 ^\.circleci
-^\ci_dependencies\*
-^\deps_checksums\*
+ci_dependencies
+deps_checksum

@@ -12,10 +12,7 @@ vignette: >
   %\VignetteEncoding{UTF-8}
 ---
 
-```{r setup, echo=FALSE}
-knitr::opts_chunk$set(echo=TRUE, cache=FALSE)
-knitr::opts_knit$set(root.dir=tempdir())
-```
+
 
 
 
@@ -27,15 +24,13 @@ This vignette describes the `mtDNAcombine` package, an `R` library designed to s
 
 Below is a flow diagram of the processes and steps in the `mtDNAcombine` pipeline.
 
-```{r echo=FALSE}
-knitr::include_graphics(system.file("extdata", "/mtDNAcombine_flow.png", 
-                                    package="mtDNAcombine"))
-```
+![plot of chunk unnamed-chunk-1](C:/Users/mille/Documents/Projects/mtDNAcombine/inst/extdata/mtDNAcombine_flow.png)
 
 
 If you are running a LINUX operating system you will need to have the following system dependencies installed before attempting to install `mtDNAcombine`. In Ubuntu 18.04, run the below code in your bash shell: 
 
-```{r eval=FALSE}
+
+```r
 sudo apt-get update 
 sudo apt-get install libmagick++-dev libudunits2-dev libgdal-dev 
   build-essential libcurl4-gnutls-dev libxml2-dev libssl-dev
@@ -43,26 +38,30 @@ sudo apt-get install libmagick++-dev libudunits2-dev libgdal-dev
 
 Both in Linux and Windows, you will need to install the `devtools` 'R' package:
 
-```{r install_devtools, eval=FALSE}
+
+```r
 install.packages("devtools")
 library(devtools)
 ```
 
 Then you will need to install `mtDNAcombine`:
 
-```{r install_mtDNAcombine, eval=FALSE}
+
+```r
 devtools::install_github("EvolEcolGroup/mtDNAcombine")
 ```
 
 And finally load it:
 
-```{r load_mtDNAcombine}
+
+```r
 library(mtDNAcombine)
 ```
 
 If you are working in a version of R <v4.0 and have issues with the installation due to `Biostrings` or `mnormt` you may need to manually install these packages (either from their .tar.gz files or via `BiocManager`) first.  This is due to older versions of these packages being removed from CRAN after the R v4.0 release. Once installed using the code below, you should be able to install `mtDNAcombine` as normal.
 
-```{r manual install older deps, eval=FALSE}
+
+```r
 install.packages(c("https://cran.r-project.org/src/contrib/Archive/mnormt/mnormt_1.5-6.tar.gz"), 
                  repos=NULL,type="source")
 
@@ -79,7 +78,8 @@ To start a project comparing mitochondrial DNA from multiple individuals, specie
 
 These accessions can be acquired in multiple ways. A simple method would be to undertake a broad search of GenBank, e.g. open the NCBI webpage with code such as below:
 
-```{r eval=FALSE}
+
+```r
 browseURL( "https://www.ncbi.nlm.nih.gov/nuccore")
 ```
 
@@ -94,12 +94,24 @@ The output produced by GenBank is likely to be a '.seq' file, or, if using a lis
 
 For this vignette we will work with a fixed set of 525 accessions in the file "vignette_accessions.csv" from the package. This file can be accessed from the extdata directory through the 'system.file' command (see below for an example of its usage).
 
-```{r}
+
+```r
 path_to_file <- system.file("extdata","vignette_accessions.csv", 
                             package="mtDNAcombine")
 
 knitr::kable(head(read.csv(path_to_file, header = F, stringsAsFactors = T)))
 ```
+
+
+
+|V1         |
+|:----------|
+|AY681627.1 |
+|AY681608.1 |
+|AY681620.1 |
+|AY681514.1 |
+|AY681560.1 |
+|AY681501.1 |
 
 
 ## An initial sweep of available information 
@@ -109,7 +121,8 @@ Firstly, we build a dataframe that contains information on all the genes / seque
 
 A quick example using the first three accession numbers from `vignette_accessions.csv` would look like this.
 
-```{r build_GB_dataframe_minexamp}
+
+```r
 path_to_file <- system.file("extdata","min_examp_accno.csv", 
                             package="mtDNAcombine")
 
@@ -118,9 +131,20 @@ GB_data <- build_genbank_df(accession_file_name = path_to_file)
 GB_data
 ```
 
+```
+##          sci_nam                    gene_name position_start position_end accession_version create_date download_date
+## 1 Motacilla alba NADH dehydrogenase subunit 2              1         1041        AY681627.1 09-JUL-2005    2020-12-03
+## 2 Motacilla alba                          ND2              1         1041        AY681627.1 09-JUL-2005    2020-12-03
+## 3 Motacilla alba NADH dehydrogenase subunit 2              1         1041        AY681608.1 09-JUL-2005    2020-12-03
+## 4 Motacilla alba                          ND2              1         1041        AY681608.1 09-JUL-2005    2020-12-03
+## 5 Motacilla alba NADH dehydrogenase subunit 2              1         1041        AY681620.1 09-JUL-2005    2020-12-03
+## 6 Motacilla alba                          ND2              1         1041        AY681620.1 09-JUL-2005    2020-12-03
+```
+
 However, it takes a little longer to collect all the information available for >500 accessions, so, for the sake of speed and efficency, we will load a pre-created output from the `build_genbank_df` function using `vignette_accessions.csv`. 
 
-```{r}
+
+```r
 GB_data <- read.csv(system.file("extdata","GB_data.csv", package="mtDNAcombine"), stringsAsFactors = T)
 ```
 
@@ -139,15 +163,21 @@ We must also control for the breadth of possible names used to describe a single
 By default, the `standardise_gene_names` function loads a file containing alternate abbreviations, common misspellings, and other frequent errors for 18 commonly sequenced mitochondrial genes.  The user can upload a custom file by specifying the different file as the second variable in the function: `standardise_gene_names(df_to_update, names_to_replace)`
  
 
-```{r clean up gene names in GB_data}
+
+```r
 GB_data <- standardise_gene_names(df_to_update = GB_data)
 ```
 
 Then we remove the duplicates.
 
-```{r remove CDS / gene duplicates from GB_data}
+
+```r
 GB_data <- remove_duplicates(df_to_update = GB_data)
 nrow(GB_data)
+```
+
+```
+## [1] 690
 ```
 
 We do not expect the number of accessions we're exploring and number of observations to match at this stage. Indeed, in this example we see that, from the original 525 accession numbers in "vignette_accessions.csv", the GB_data data frame now has 690 observations.  This is because the script captures ALL genes associated with each given accession.  Every submission to GenBank receives a unique accession number but these individual submissions can contain data for anything from a single gene through to whole genome data.  
@@ -160,7 +190,8 @@ We do not expect the number of accessions we're exploring and number of observat
 Firstly, for what genes are there data?
 
 
-```{r summary of genes available}
+
+```r
 GB_genes <- droplevels(as.data.frame(unique(GB_data$gene_name)))
 ```
 
@@ -168,7 +199,8 @@ These data are still messy.
 
 We can tidy the data a little by removing some gene names that are unlikely to be useable or comparable with other sequences e.g. removing any names that are just numbers, removing names over a certain length, and/or dropping other common unwanted patterns.
 
-```{r}
+
+```r
 GB_genes <- as.data.frame(GB_genes[grep("[[:alpha:]]", 
                                         GB_genes$`unique(GB_data$gene_name)`), ])
 
@@ -189,22 +221,29 @@ colnames(GB_genes) <- "gene_name"
 Secondly; For what species are there data? 
 
 
-```{r summary of species available}
+
+```r
 GB_species <- droplevels(as.data.frame(unique(GB_data$sci_nam)))
 ```
 
 At the moment:
-```{r echo=FALSE}
-print(paste("GB_genes has", nrow(GB_genes), "unique gene names while GB_species has", 
-            nrow(GB_species), "unique species names"))
+
+```
+## [1] "GB_genes has 13 unique gene names while GB_species has 6 unique species names"
 ```
 
 
 However, looking at these data in more detail shows us that there are still some spurious entries being included. For example, GB_species includes both *Motacilla alba* and *Motacilla alba alboides*, a recognised subspecies but, in this instance, data that we want to group with *Motacilla alba* more broadly.
 
-```{r echo=FALSE}
-colnames(GB_species) <- "Unique Names"
-print(GB_species, row.names=FALSE)
+
+```
+##             Unique Names
+##           Motacilla alba
+##     Picoides tridactylus
+##        Calidris maritima
+##      Pinicola enucleator
+##  Motacilla alba alboides
+##    Carpodacus erythrinus
 ```
 
 
@@ -217,7 +256,8 @@ As stated previously, the amount of freedom in the formatting of descriptive inf
 
 The `check_poss_synyms` function returns a list of scientific names that are longer than 2 words and these names will be outputted as a .csv file; "poss_synyms.csv"
 
-```{r find anything that looks like a synonym}
+
+```r
 poss_synyms <- check_poss_synyms(data = GB_data)
 ```
 
@@ -225,7 +265,8 @@ If, after investigation, any of these species names need updating or altering th
 
 For this example, the edited file has been called "poss_sysnyms_updated.csv".
 
-```{r remove suprious subspecies names}
+
+```r
 GB_data <- standardise_spp_names(data = GB_data, 
               new_names_file = system.file("extdata", "poss_synyms_updated.csv",
                                            package="mtDNAcombine"))
@@ -233,11 +274,14 @@ GB_data <- standardise_spp_names(data = GB_data,
 
 After updating the species names samples for *Motacilla alba alboides* are now labelled as *Motacilla alba* and, therefore, group together for downstream analysis. 
 
-```{r summarise species available after clean up, echo=FALSE}
-GB_species <- droplevels(as.data.frame(unique(GB_data$sci_nam)))
 
-colnames(GB_species) <- "Unique Names"
-print(GB_species, row.names=FALSE)
+```
+##           Unique Names
+##         Motacilla alba
+##   Picoides tridactylus
+##      Calidris maritima
+##    Pinicola enucleator
+##  Carpodacus erythrinus
 ```
 
 
@@ -249,7 +293,8 @@ Different ways of creating the original list of accession numbers result in diff
 
 Here we want to look at the *ND2* gene so we subset the dataframe to include information on the gene of interest
 
-```{r filter df to gene of interest}
+
+```r
 GB_by_gene <- gene_of_interest(gene = "ND2", data = GB_data)
 ```
 
@@ -262,7 +307,8 @@ By simply using the `get_GB_sequence_data` function and the curated accession li
 
 Below is an example of code for running a little subset of just three accessions assuming synonyms had been updated (e.g. poss_synyms_updated.csv in the packages extdata file) 
 
-```{r get sequence data into dataframe, eval=FALSE}
+
+```r
 min_examp <- GB_by_gene[1:3,]
 
 updated_synyms <- system.file("extdata", "poss_synyms_updated.csv", 
@@ -274,16 +320,20 @@ GB_with_SeqDat <- get_GB_sequence_data(accessions_of_interest = min_examp,
 
 N.B. For the sake of computational efficency in this vignette we will load a pre-created file for the full data-set rather than running through all the 523 accessions!
 
-```{r load GB_with_SeqDat}
+
+```r
 GB_with_SeqDat <-  read.csv(system.file("extdata","GB_with_SeqDat.csv", 
                                         package = "mtDNAcombine"), stringsAsFactors = T)
 ```
 
 GB_with_SeqDat file should now be 523 observations with 8 variables. 
 
-```{r collapse=TRUE}
+
+```r
 nrow(GB_with_SeqDat)
+## [1] 523
 ncol(GB_with_SeqDat)
+## [1] 8
 ```
 
 
@@ -293,7 +343,8 @@ ncol(GB_with_SeqDat)
 
 At this stage it might be helpful to store summary details on the data as well as keeping all the raw, unaligned, sequence data for each species / gene combination. The `export_details` function writes summary details to .csv files while the `export_sequences` function writes out individual .fasta files for each dataset.
 
-```{r export summary data and sequence data for each species}
+
+```r
 export_details(data = GB_with_SeqDat)
 
 export_sequences(data = GB_with_SeqDat)
@@ -308,7 +359,8 @@ We have now managed to generate a set of sequences from multiple species coverin
 
 Previously, the  `export_sequences` function wrote out a .fasta file of raw, unaligned, sequence data for each species / gene combination, starting the file name with the regular expression 'FOR_ALIGNMENT'. We exploit this pattern to capture the list of file names to explore. 
 
-```{r find alignment files}
+
+```r
 alignment_file_list <- list.files(pattern="FOR_ALIGNMENT")
 ```
 
@@ -317,9 +369,14 @@ For each species, the sequence data needs to be aligned so that we can capture c
 
 For efficiency, here we will subset the `alignment_file_list` and run just one of the five datasets.
 
-```{r align and summarise the sequence data}
+
+```r
 align_and_summarise(alignment_files = alignment_file_list[5], 
                     max_haps_found_together = 2, minbp = 200)
+```
+
+```
+## use default substitution matrix
 ```
 
 
@@ -332,17 +389,11 @@ Depending on the quality/consistency of the raw sequence data, this step can res
 
 The impact of the alignment/trimming process is summarised in a diagnostic histogram plot, offering a visual way to identify cases where it would be advantageous to look at the raw data in more detail. The histogram bars show frequency and sequence length of raw, unaligned data and the red line shows the length of the aligned sequences after cropping to the longest section common to all samples. 
 
-```{r echo=FALSE}
-knitr::include_graphics(system.file("extdata", "/hist_Pinicola_enucleator.png",
-                                     package="mtDNAcombine"))
-```
+![plot of chunk unnamed-chunk-10](C:/Users/mille/Documents/Projects/mtDNAcombine/inst/extdata/hist_Pinicola_enucleator.png)
 
 Here we see that, in the *Pinicola enucleator* dataset, the majority of samples have been heavily cropped due to the inclusion of one, shorter, sequence. In this instance, it may be worth reviewing the decision to include the single, much shorter, 450 base pair sample. 
 
-```{r echo=FALSE}
-knitr::include_graphics(system.file("extdata", "/hist_Calidris_maritima.png",
-                                     package="mtDNAcombine"))
-```
+![plot of chunk unnamed-chunk-11](C:/Users/mille/Documents/Projects/mtDNAcombine/inst/extdata/hist_Calidris_maritima.png)
 
 Alternatively, the *Calidris maritima* histogram shows that, whilst a few longer sequences have been trimmed by a couple hundred base pairs, the majority of the sequences are being used at nearly full length. This alignment and crop seems good. 
 
@@ -353,10 +404,7 @@ Alternatively, the *Calidris maritima* histogram shows that, whilst a few longer
 The `align_and_summarise` function also produces a haplotype network diagram which helps visualise the level of structure in a population/sample set.  
 
 
-```{r echo=FALSE}
-knitr::include_graphics(system.file("extdata","/Net_Picoides_tridactylus.png",
-                                    package="mtDNAcombine"))
-```
+![plot of chunk unnamed-chunk-12](C:/Users/mille/Documents/Projects/mtDNAcombine/inst/extdata/Net_Picoides_tridactylus.png)
 Here is an example of a network diagram for data from *Picoides tridactylus*. Plots like these help to quickly flag if there are any extreme outliers in the dataset or if the population is heavily structured. 
 
 
@@ -373,7 +421,8 @@ However, exploration of the paper *'A review of the subspecies status of the Ice
 
 For the purposes of this vignette we have created an updated "MAGNIFY_Calidris_maritima.csv" file (found in ../extdata/) which already contains the values for the number of times each haplotype was sampled in the population. The below code simply copies this file to the temporary working directory currently in use.
 
-```{r}
+
+```r
 invisible(file.copy(from = paste0(system.file("extdata", package="mtDNAcombine"),
                         "/MAGNIFY_Calidris_maritima.csv"), 
           to = paste0(getwd(), "/")))
@@ -381,10 +430,15 @@ invisible(file.copy(from = paste0(system.file("extdata", package="mtDNAcombine")
 
 This file is now ready to be used with the `magnify_to_sampled_freq` function, as below.
 
-```{r}
+
+```r
 magnify_file_list <- list.files(pattern="MAGNIFY")
 
 mag_df <- magnify_to_sampled_freq(magnify_file_list = magnify_file_list)
+```
+
+```
+## use default substitution matrix
 ```
 
 After updating the frequency information the sequences are processed as before - haplotype networks are drawn and .fasta files of the aligned sequence data written out.
@@ -392,12 +446,11 @@ After updating the frequency information the sequences are processed as before -
 
 To keep accurate summary information of the datasets available, we now need to combine the original `info_df` and the newly created `mag_df`.  This will give an updated .csv file that contains information on all the data sets we are working with.
 
-```{r, eval=FALSE}
+
+```r
 info_df <- updating_info_df(original_df = "Info_df.csv", new_df = mag_df)
 ```
-```{r read in preexisitng info_df file, echo=FALSE}
-info_df <- read.csv(system.file("extdata","vignette_info_df.csv", package="mtDNAcombine"), stringsAsFactors = T)
-```
+
 
 
 ## Filtering by rules
@@ -409,7 +462,8 @@ The following filtering steps are based on a series of rules built around avian 
 
 Firstly, we want to drop populations with insufficient sequence data. This includes data with insufficient number of bases, low numbers of haplotypes, low sample size.
 
-```{r quality filtering}
+
+```r
 info_df <- drop_low_sample_size(info_df = info_df, min_sample = 20)
 
 info_df <- drop_low_haplo_number(info_df = info_df, min_haps = 6 )
@@ -420,17 +474,21 @@ info_df <- drop_low_sequence_length(info_df = info_df, min_length = 600)
 
 After applying these filters we are left with curated datasets from three species.  We then want to remove any extreme outliers, considered here to be single samples separated from the nearest haplotype with >30 mutations on a branch.  The function `outliers_dropped` writes out an updated version of `info_df` but doesn't return it.  Therefore we need to read in the new version from the working directory.
 
-```{r eval=FALSE}
+
+```r
 what_gets_dropped <- outliers_dropped(max_mutations = 30, info_df = info_df)
 
 info_df <- read.csv("Info_df.csv", stringsAsFactors = T)
 ```
-```{r echo=FALSE}
-what_gets_dropped <- cbind('EU166960.1','new_Motacilla_alba')
-colnames(what_gets_dropped) <- c('outlier_accession', 'spp_name')
-```
-```{r}
+
+
+```r
 what_gets_dropped
+```
+
+```
+##      outlier_accession spp_name            
+## [1,] "EU166960.1"      "new_Motacilla_alba"
 ```
 
 
@@ -451,7 +509,8 @@ We want to use these processed data to set up BEAST runs.  In order to speed up 
 The dataset files have been given the prefix "ALIGNED_", making them easy to find. After editing (e.g. dropping outliers), any new versions of aligned data have been given the tag "new_ALIGNED" and should be used in preference to the original files.
 
 
-```{r eval=FALSE}
+
+```r
 aligned_files <- list.files(pattern="ALIGNED")
 
 
@@ -467,7 +526,8 @@ aligned_files <- aligned_files[!aligned_files%in%superseeded]
 
 ## Build basic xml files 
 
-```{r setup_basic_xml function, eval=FALSE}
+
+```r
 setup_basic_xml(gene_name = "ND2", aligned_files = aligned_files)
 ```
 
@@ -493,7 +553,8 @@ We will use this output file to explore simple plotting/visualisation.
 
 A quick look at the structure of the output from Tracer taking only complete rows (NAs can occur at the end of the file but cause issues in later processing).
 
-```{r}
+
+```r
 data <-read.table(system.file("extdata","ND2_Carpodacus_erythrinus_TracerOut", 
                                     package = "mtDNAcombine"), skip=1, 
                   header=T, stringsAsFactors = T)
@@ -501,12 +562,23 @@ data<-data[complete.cases(data),]
 head(data)
 ```
 
+```
+##        Time     Mean   Median    Upper   Lower
+## 1    0.0000 13089645 11664636 28457111 6432523
+## 2  248.2947 13095090 11672989 28457111 6447513
+## 3  496.5893 13085886 11670082 28374272 6447517
+## 4  744.8840 13084769 11665138 28374272 6481545
+## 5  993.1786 13084428 11669964 28286800 6504897
+## 6 1241.4733 13091217 11674880 28286800 6530679
+```
+
 
 A simple coloured plot can now be created using the code below.
 
 Use the file name as the title
 
-```{r plotting what}
+
+```r
 file_name <- "ND2_Carpodacus_erythrinus_TracerOut"
 plot_title <- "Common rosefinch"
 ```
@@ -515,7 +587,8 @@ We want to plot the median (log scale) as well as plotting the HPD interval as a
 If analysing data from multiple genes it can be helpful to differentiate the plots on the basis of gene type.  Here this is done by colouring the HPD according to the gene identified in the file name.
  
 
-```{r plotting median, fig.align='center', fig.dim=c(5.5,5)}
+
+```r
 plot(log10(data[,3])~data[,1],type="n",ylim=c(4.5,8),xlim=c(0,70000), yaxt="n", 
      yaxs="i", ylab = expression("Pop. Size (Log"[10]*")"), xaxs="i", 
      xlab = "Time since present day (yrs)")
@@ -546,5 +619,7 @@ points(log10(data[,5])~data[,1],type="l")
 
 title(main = plot_title)
 ```
+
+<img src="figure/plotting median-1.png" title="plot of chunk plotting median" alt="plot of chunk plotting median" style="display: block; margin: auto;" />
 
 

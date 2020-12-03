@@ -4,7 +4,7 @@
 \alias{standardise_spp_names}
 \title{Updates any species names user wants to alter}
 \usage{
-standardise_spp_names(data, new_names_file)
+standardise_spp_names(data, new_names_file = NULL)
 }
 \arguments{
 \item{data}{data frame with `$sci_nam` column (expected to be `GB_with_SeqDat`,

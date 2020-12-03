@@ -1,5 +1,6 @@
 spp_name,haplo_number,sequence_length,sample_size,max_step
-Motacilla_alba,57,906,209,32
+Picoides_tridactylus,5,332,30,11
 Pinicola_enucleator,37,444,77,26
 Calidris_maritima,12,744,73,1
-new_Motacilla_alba,56,906,208,7
+Carpodacus_erythrinus,115,1038,190,5
+Motacilla_alba,57,906,209,32

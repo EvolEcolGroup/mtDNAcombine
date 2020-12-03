@@ -5,7 +5,7 @@
 \title{Builds a curated data frame with sample details and sequence data for a
 specified gene given accession numbers.}
 \usage{
-get_GB_sequence_data(accessions_of_interest, gene, new_names_file)
+get_GB_sequence_data(accessions_of_interest, gene, new_names_file = NULL)
 }
 \arguments{
 \item{accessions_of_interest}{user provided file which lists accession numbers.
@@ -15,7 +15,7 @@ Should be a .csv or .txt file without a header.}
 
 \item{new_names_file}{csv file of species names that have been flagged as
 problematic and the replacement name to be used, needed for
-`standardise_spp_name` function}
+`standardise_spp_name` function, default to NULL if not provided}
 }
 \description{
 \code{get_GB_sequence_data}

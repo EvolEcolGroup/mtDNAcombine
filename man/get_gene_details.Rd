@@ -16,7 +16,7 @@ outputs a `freq` value associated with `feature_name` value}
 
 \item{full_xmlTree}{xml tree downloaded from NCBI website and parsed to R
 structure with \code{xmlInternalTreeParse} - should be provided by earlier
-stages of the \code{build_GB_dataframe} function.}
+stages of the \code{build_genbank_df} function.}
 }
 \description{
 \code{get_gene_details}
@@ -25,8 +25,8 @@ stages of the \code{build_GB_dataframe} function.}
 This function extracts details and sequence data of genes available for each
 accession from an XML tree
 
-Function designed to sit within \code{build_GB_dataframe}. In general, the
+Function designed to sit within \code{build_genbank_df}. In general, the
 input files should be provided by earlier stages of the
-\code{build_GB_dataframe} function. Extracts details about the accession being
+\code{build_genbank_df} function. Extracts details about the accession being
 investigated, such as species name.
 }
