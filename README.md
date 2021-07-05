@@ -1,9 +1,6 @@
 
 
-
-
-
-
+`mtDNAcombine` has been published in BMC Bioinformatics [click here](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-021-04048-0) alongside a code and environment capsule [click here](https://codeocean.com/capsule/5228766/tree/v2).  We aim to regularly review and maintain the code in this Git repository, however, if you have any issues with installation/functionality we would recommend running `mtDNAcombine` in the published CodeOcean versioned environment.
 
 
 
